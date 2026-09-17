@@ -1,0 +1,332 @@
+{
+  "clean_source_audio": null,
+  "source_audio": "/home/moshe_mandel/prosodic-noise/data/outputs-video/20260916-131652-490626_phase_prior_video/yann-lecun-3_97b1f6ba__phase-0.5_band-0-0.3_mag-0.8_cfg-8_ref-3__mag-0_phase-0-0.3_cfg-3_seed-42_gain-0.8-0.8_ref-3_phase-weight-0.5-0_phase-band_voice-p226_696debd1/chunk_00000/source.wav",
+  "ref_audio": "/home/moshe_mandel/prosodic-noise/data/outputs-video/20260916-131652-490626_phase_prior_video/yann-lecun-3_97b1f6ba__phase-0.5_band-0-0.3_mag-0.8_cfg-8_ref-3__mag-0_phase-0-0.3_cfg-3_seed-42_gain-0.8-0.8_ref-3_phase-weight-0.5-0_phase-band_voice-p226_696debd1/chunk_00000/reference.wav",
+  "generated_audio": "/home/moshe_mandel/prosodic-noise/data/outputs-video/20260916-131652-490626_phase_prior_video/yann-lecun-3_97b1f6ba__phase-0.5_band-0-0.3_mag-0.8_cfg-8_ref-3__mag-0_phase-0-0.3_cfg-3_seed-42_gain-0.8-0.8_ref-3_phase-weight-0.5-0_phase-band_voice-p226_696debd1/chunk_00000/generated.wav",
+  "transcript": "So, you know, it's not just around the corner. I mean, I've been hearing people for the last 12, 15 years claiming that, you know, AGI is just around the corner and being systematically wrong. And I knew they were wrong when they were saying it. I called their bullshit <laughter>.",
+  "transcript_file": "/home/moshe_mandel/prosodic-noise/data/outputs-video/20260916-131652-490626_phase_prior_video/inputs/yann-lecun-3_97b1f6ba/chunk_00000/transcript.txt",
+  "evaluation": {
+    "status": "complete",
+    "metrics": {
+      "dnsmos_sig": 3.6140066320309794,
+      "speaker_similarity_ref": 0.9832741022109985,
+      "speaker_similarity_source": 0.8362739086151123,
+      "accent_similarity_source": 0.5686761140823364,
+      "accent_accuracy_source": 1,
+      "accent_similarity_ref": 0.8679532408714294,
+      "accent_accuracy_ref": 1,
+      "emotion_similarity": 0.9866049289703369,
+      "emotion_accuracy": 1,
+      "f0_correlation": 0.6533375679390984,
+      "wer": 0.0196078431372549,
+      "cer": 0.0365296803652968,
+      "stress_precision": 0.0,
+      "stress_recall": 0.0,
+      "stress_f1": 0.0,
+      "word_timing": {
+        "num_words": 51,
+        "first_word_onset_delta_seconds": 1.1199999999999999,
+        "relative_word_onset_mae_seconds": 1.105882352941176,
+        "relative_word_offset_mae_seconds": 1.1105882352941172,
+        "word_duration_mae_seconds": 0.05803921568627463,
+        "inter_word_gap_mae_seconds": 0.06399999999999997,
+        "speech_span_ratio": 0.9282296650717702,
+        "mean_word_timing_iou": 0.01304347826086956,
+        "num_word_timing_iou_pairs": 46,
+        "num_excluded_word_timing_iou_pairs": 5
+      },
+      "phoneme_timing": {
+        "num_phonemes": 138,
+        "first_phoneme_onset_delta_seconds": 1.06,
+        "relative_phoneme_onset_mae_seconds": 1.0207246086956523,
+        "relative_phoneme_offset_mae_seconds": 1.0265217173913046,
+        "phoneme_duration_mae_seconds": 0.03521748550724637,
+        "inter_phoneme_gap_mae_seconds": 0.016131386861313893,
+        "speech_span_ratio": 0.9304074651782153,
+        "mean_phoneme_timing_iou": 0.0031746031746031716,
+        "source_num_phonemes": 144,
+        "generated_num_phonemes": 141,
+        "matched_source_phoneme_fraction": 0.9583333333333334
+      }
+    },
+    "source_metrics": {
+      "dnsmos_sig": 3.472241822445216,
+      "wer": 0.0392156862745098,
+      "cer": 0.045662100456621
+    },
+    "details": {
+      "language_context": {
+        "prompt_language": null,
+        "source_language": null,
+        "cross_language": false
+      },
+      "dnsmos": {
+        "SIG": 3.6140066320309794,
+        "BAK": 4.211907636470165,
+        "OVRL": 3.4245980385998176,
+        "SIG_raw": 4.130751609802246,
+        "BAK_raw": 4.581779956817627,
+        "OVRL_raw": 4.0013604164123535,
+        "num_hops": 8,
+        "len_in_sec": 17.333375
+      },
+      "source_dnsmos": {
+        "SIG": 3.472241822445216,
+        "BAK": 4.047924053360957,
+        "OVRL": 3.2006663825997905,
+        "SIG_raw": 3.8707244396209717,
+        "BAK_raw": 4.2165961265563965,
+        "OVRL_raw": 3.6259026527404785,
+        "num_hops": 8,
+        "len_in_sec": 17.333375
+      },
+      "accent": {
+        "source_label": "england",
+        "ref_label": "england",
+        "generated_label": "england"
+      },
+      "emotion": {
+        "source_label": "<unk>",
+        "generated_label": "<unk>"
+      },
+      "asr": {
+        "transcription": "So, you know, it's not just around the corner. I mean, I've been hearing people for the last 12, 15 years claiming that, you know, AGI is just around the corner and being systematically wrong. And I knew they were wrong when they were saying it. I called their bullshit.",
+        "word_edits": 1,
+        "reference_words": 51,
+        "character_edits": 8,
+        "reference_characters": 219
+      },
+      "source_asr": {
+        "transcription": "So, you know, it's not just around the corner. I mean, I've been hearing people for the last 12, 15 years claiming that, you know, AGI is just around the corner and being systematically wrong. And I knew they were wrong when they were saying it. I call their bullshit.",
+        "word_edits": 2,
+        "reference_words": 51,
+        "character_edits": 10,
+        "reference_characters": 219
+      },
+      "stress": {
+        "reference_labels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "predicted_labels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "reference_sequence": [
+          {
+            "word": "So,",
+            "label": 0
+          },
+          {
+            "word": "you",
+            "label": 0
+          },
+          {
+            "word": "know,",
+            "label": 0
+          },
+          {
+            "word": "it's",
+            "label": 0
+          },
+          {
+            "word": "not",
+            "label": 0
+          },
+          {
+            "word": "just",
+            "label": 0
+          },
+          {
+            "word": "around",
+            "label": 0
+          },
+          {
+            "word": "the",
+            "label": 0
+          },
+          {
+            "word": "corner.",
+            "label": 0
+          },
+          {
+            "word": "I",
+            "label": 0
+          },
+          {
+            "word": "mean,",
+            "label": 0
+          },
+          {
+            "word": "I've",
+            "label": 0
+          },
+          {
+            "word": "been",
+            "label": 0
+          },
+          {
+            "word": "hearing",
+            "label": 0
+          },
+          {
+            "word": "people",
+            "label": 0
+          },
+          {
+            "word": "for",
+            "label": 0
+          },
+          {
+            "word": "the",
+            "label": 0
+          },
+          {
+            "word": "last",
+            "label": 0
+          },
+          {
+            "word": "12,",
+            "label": 0
+          },
+          {
+            "word": "15",
+            "label": 0
+          }
+        ],
+        "predicted_sequence": [
+          {
+            "word": "So,",
+            "label": 0
+          },
+          {
+            "word": "you",
+            "label": 0
+          },
+          {
+            "word": "know,",
+            "label": 0
+          },
+          {
+            "word": "it's",
+            "label": 0
+          },
+          {
+            "word": "not",
+            "label": 0
+          },
+          {
+            "word": "just",
+            "label": 0
+          },
+          {
+            "word": "around",
+            "label": 0
+          },
+          {
+            "word": "the",
+            "label": 0
+          },
+          {
+            "word": "corner.",
+            "label": 0
+          },
+          {
+            "word": "I",
+            "label": 0
+          },
+          {
+            "word": "mean,",
+            "label": 0
+          },
+          {
+            "word": "I've",
+            "label": 0
+          },
+          {
+            "word": "been",
+            "label": 0
+          },
+          {
+            "word": "hearing",
+            "label": 1
+          },
+          {
+            "word": "people",
+            "label": 1
+          },
+          {
+            "word": "for",
+            "label": 0
+          },
+          {
+            "word": "the",
+            "label": 0
+          },
+          {
+            "word": "last",
+            "label": 0
+          },
+          {
+            "word": "12,",
+            "label": 0
+          },
+          {
+            "word": "15",
+            "label": 0
+          }
+        ]
+      },
+      "metric_versions": {
+        "word_timing": "positive-duration-pairs-v2",
+        "phoneme_timing": "l2arctic-source-textgrid-v1"
+      }
+    },
+    "errors": {},
+    "skipped": {},
+    "models": {
+      "speaker": "microsoft/wavlm-base-plus-sv",
+      "accent": "Jzuluaga/accent-id-commonaccent_ecapa",
+      "emotion": "iic/emotion2vec_plus_large",
+      "asr": "openai/whisper-large-v3",
+      "word_aligner": "Qwen/Qwen3-ForcedAligner-0.6B",
+      "phoneme_aligner": "MFA 3"
+    }
+  }
+}

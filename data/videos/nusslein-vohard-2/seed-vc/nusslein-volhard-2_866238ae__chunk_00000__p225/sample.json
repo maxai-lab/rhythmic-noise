@@ -1,0 +1,13 @@
+{
+  "name": "nusslein-volhard-2_866238ae__chunk_00000__p225",
+  "source_audio": "/home/moshe_mandel/prosodic-noise/data/processed/video-segments/phase_prior_prepared/inputs/nusslein-volhard-2_866238ae/chunk_00000/source.wav",
+  "reference_audio": "/home/moshe_mandel/prosodic-noise/data/processed/speakers/p225.wav",
+  "text": "You can count segments and you can see, and we had some, and we had a strange rule that every other segment was hit in one class of mutants in different manners, and then we had another class where the segment showed duplicated polarity of the tentacle bands.",
+  "prepared_transcript_file": "/home/moshe_mandel/prosodic-noise/data/processed/video-segments/phase_prior_prepared/inputs/nusslein-volhard-2_866238ae/chunk_00000/transcript.txt",
+  "input_video": "/home/moshe_mandel/prosodic-noise/data/raw/video-segments/nusslein-volhard-2.mp4",
+  "video_name": "nusslein-volhard-2_866238ae",
+  "chunk_name": "chunk_00000",
+  "reference_speaker": "p225",
+  "start_seconds": 0.0,
+  "end_seconds": 18.92
+}

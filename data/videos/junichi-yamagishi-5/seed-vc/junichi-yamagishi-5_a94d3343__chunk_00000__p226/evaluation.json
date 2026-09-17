@@ -1,0 +1,352 @@
+{
+  "clean_source_audio": null,
+  "source_audio": "/home/moshe_mandel/prosodic-noise/data/outputs-seed-vc/video-segments/junichi-yamagishi-5_a94d3343__chunk_00000__p226/source.wav",
+  "ref_audio": "/home/moshe_mandel/prosodic-noise/data/outputs-seed-vc/video-segments/junichi-yamagishi-5_a94d3343__chunk_00000__p226/reference.wav",
+  "generated_audio": "/home/moshe_mandel/prosodic-noise/data/outputs-seed-vc/video-segments/junichi-yamagishi-5_a94d3343__chunk_00000__p226/generated.wav",
+  "transcript": "The theme of Interspeech two thousand twenty six is Speaking Together. That is how this field has always made progress. I hope to see you in Sydney.",
+  "transcript_file": null,
+  "evaluation": {
+    "status": "complete",
+    "metrics": {
+      "dnsmos_sig": 3.665473060941821,
+      "speaker_similarity_ref": 0.9545774459838867,
+      "speaker_similarity_source": 0.7142514586448669,
+      "accent_similarity_source": 0.3192591667175293,
+      "accent_accuracy_source": 0,
+      "accent_similarity_ref": 0.6375160217285156,
+      "accent_accuracy_ref": 0,
+      "emotion_similarity": 0.9943756461143494,
+      "emotion_accuracy": 1,
+      "f0_correlation": 0.41965588646115,
+      "wer": 0.48148148148148145,
+      "cer": 0.2689075630252101,
+      "stress_precision": 1.0,
+      "stress_recall": 0.2857142857142857,
+      "stress_f1": 0.4444444444444445,
+      "word_timing": {
+        "num_words": 27,
+        "first_word_onset_delta_seconds": 0.16000000000000003,
+        "relative_word_onset_mae_seconds": 0.2607407407407407,
+        "relative_word_offset_mae_seconds": 0.29925925925925917,
+        "word_duration_mae_seconds": 0.062222222222222325,
+        "inter_word_gap_mae_seconds": 0.03692307692307714,
+        "speech_span_ratio": 1.050359712230216,
+        "mean_word_timing_iou": 0.2757495590828923,
+        "num_word_timing_iou_pairs": 27,
+        "num_excluded_word_timing_iou_pairs": 0
+      },
+      "phoneme_timing": {
+        "num_phonemes": 78,
+        "first_phoneme_onset_delta_seconds": 0.15000000000000002,
+        "relative_phoneme_onset_mae_seconds": 0.8948717948717952,
+        "relative_phoneme_offset_mae_seconds": 0.9094871794871798,
+        "phoneme_duration_mae_seconds": 0.04846153846153857,
+        "inter_phoneme_gap_mae_seconds": 0.06701298701298702,
+        "speech_span_ratio": 1.097287184284378,
+        "mean_phoneme_timing_iou": 0.051287858593821053,
+        "source_num_phonemes": 82,
+        "generated_num_phonemes": 85,
+        "matched_source_phoneme_fraction": 0.9512195121951219
+      }
+    },
+    "source_metrics": {
+      "dnsmos_sig": 3.561543471694481,
+      "wer": 0.14814814814814814,
+      "cer": 0.16806722689075632
+    },
+    "details": {
+      "language_context": {
+        "prompt_language": null,
+        "source_language": null,
+        "cross_language": false
+      },
+      "dnsmos": {
+        "SIG": 3.665473060941821,
+        "BAK": 4.142784153589293,
+        "OVRL": 3.4343150086051715,
+        "SIG_raw": 4.227279186248779,
+        "BAK_raw": 4.4171061515808105,
+        "OVRL_raw": 4.015786647796631,
+        "num_hops": 3,
+        "len_in_sec": 12.504
+      },
+      "source_dnsmos": {
+        "SIG": 3.561543471694481,
+        "BAK": 4.021280514947158,
+        "OVRL": 3.265643032592333,
+        "SIG_raw": 4.03023624420166,
+        "BAK_raw": 4.163717269897461,
+        "OVRL_raw": 3.7305970191955566,
+        "num_hops": 2,
+        "len_in_sec": 11.9
+      },
+      "accent": {
+        "source_label": "england",
+        "ref_label": "england",
+        "generated_label": "us"
+      },
+      "emotion": {
+        "source_label": "\u4e2d\u7acb/neutral",
+        "generated_label": "\u4e2d\u7acb/neutral"
+      },
+      "asr": {
+        "transcription": "So same old interspecies chooses in 26, it speaking to get us. That is how this feud has always made progress. I hope to see you in Sydney.",
+        "word_edits": 13,
+        "reference_words": 27,
+        "character_edits": 32,
+        "reference_characters": 119
+      },
+      "source_asr": {
+        "transcription": "The theme of Interspeech 2026 is Speaking Together. That is how this field has always made progress. I hope to see you in Sydney.",
+        "word_edits": 4,
+        "reference_words": 27,
+        "character_edits": 20,
+        "reference_characters": 119
+      },
+      "stress": {
+        "reference_labels": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "predicted_labels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "reference_sequence": [
+          {
+            "word": "The",
+            "label": 0
+          },
+          {
+            "word": "theme",
+            "label": 0
+          },
+          {
+            "word": "of",
+            "label": 0
+          },
+          {
+            "word": "Interspeech",
+            "label": 1
+          },
+          {
+            "word": "two",
+            "label": 0
+          },
+          {
+            "word": "thousand",
+            "label": 1
+          },
+          {
+            "word": "twenty",
+            "label": 1
+          },
+          {
+            "word": "six",
+            "label": 1
+          },
+          {
+            "word": "is",
+            "label": 0
+          },
+          {
+            "word": "Speaking",
+            "label": 0
+          },
+          {
+            "word": "Together.",
+            "label": 0
+          },
+          {
+            "word": "That",
+            "label": 1
+          },
+          {
+            "word": "is",
+            "label": 0
+          },
+          {
+            "word": "how",
+            "label": 1
+          },
+          {
+            "word": "this",
+            "label": 0
+          },
+          {
+            "word": "field",
+            "label": 0
+          },
+          {
+            "word": "has",
+            "label": 0
+          },
+          {
+            "word": "always",
+            "label": 0
+          },
+          {
+            "word": "made",
+            "label": 0
+          },
+          {
+            "word": "progress.",
+            "label": 0
+          },
+          {
+            "word": "I",
+            "label": 0
+          },
+          {
+            "word": "hope",
+            "label": 1
+          }
+        ],
+        "predicted_sequence": [
+          {
+            "word": "The",
+            "label": 0
+          },
+          {
+            "word": "theme",
+            "label": 0
+          },
+          {
+            "word": "of",
+            "label": 0
+          },
+          {
+            "word": "Interspeech",
+            "label": 0
+          },
+          {
+            "word": "two",
+            "label": 0
+          },
+          {
+            "word": "thousand",
+            "label": 0
+          },
+          {
+            "word": "twenty",
+            "label": 0
+          },
+          {
+            "word": "six",
+            "label": 1
+          },
+          {
+            "word": "is",
+            "label": 0
+          },
+          {
+            "word": "Speaking",
+            "label": 0
+          },
+          {
+            "word": "Together.",
+            "label": 0
+          },
+          {
+            "word": "That",
+            "label": 0
+          },
+          {
+            "word": "is",
+            "label": 0
+          },
+          {
+            "word": "how",
+            "label": 1
+          },
+          {
+            "word": "this",
+            "label": 0
+          },
+          {
+            "word": "field",
+            "label": 0
+          },
+          {
+            "word": "has",
+            "label": 0
+          },
+          {
+            "word": "always",
+            "label": 0
+          },
+          {
+            "word": "made",
+            "label": 0
+          },
+          {
+            "word": "progress.",
+            "label": 0
+          },
+          {
+            "word": "I",
+            "label": 0
+          },
+          {
+            "word": "hope",
+            "label": 0
+          }
+        ]
+      },
+      "metric_versions": {
+        "word_timing": "positive-duration-pairs-v2",
+        "phoneme_timing": "l2arctic-source-textgrid-v1"
+      }
+    },
+    "errors": {},
+    "skipped": {},
+    "models": {
+      "speaker": "microsoft/wavlm-base-plus-sv",
+      "accent": "Jzuluaga/accent-id-commonaccent_ecapa",
+      "emotion": "iic/emotion2vec_plus_large",
+      "asr": "openai/whisper-large-v3",
+      "word_aligner": "Qwen/Qwen3-ForcedAligner-0.6B",
+      "phoneme_aligner": "MFA 3"
+    }
+  }
+}

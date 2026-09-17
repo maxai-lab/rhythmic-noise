@@ -1,0 +1,382 @@
+{
+  "clean_source_audio": null,
+  "source_audio": "/home/moshe_mandel/prosodic-noise/data/outputs-seed-vc/video-segments/emmanuelle-charpentier-3_61e36d74__chunk_00000__p228/source.wav",
+  "ref_audio": "/home/moshe_mandel/prosodic-noise/data/outputs-seed-vc/video-segments/emmanuelle-charpentier-3_61e36d74__chunk_00000__p228/reference.wav",
+  "generated_audio": "/home/moshe_mandel/prosodic-noise/data/outputs-seed-vc/video-segments/emmanuelle-charpentier-3_61e36d74__chunk_00000__p228/generated.wav",
+  "transcript": "And then when you start to understand the biological world, and specifically when you start to understand the microbial world, you also understand that the microbes work quite much as, you know, you find a lot of sociological aspects in the microbial world that are quite similar to our world.",
+  "transcript_file": null,
+  "evaluation": {
+    "status": "complete",
+    "metrics": {
+      "dnsmos_sig": 3.668571762608469,
+      "speaker_similarity_ref": 0.9784529209136963,
+      "speaker_similarity_source": 0.7948430776596069,
+      "accent_similarity_source": 0.07133403420448303,
+      "accent_accuracy_source": 0,
+      "accent_similarity_ref": 0.7034121751785278,
+      "accent_accuracy_ref": 1,
+      "emotion_similarity": 0.9915415048599243,
+      "emotion_accuracy": 1,
+      "f0_correlation": 0.7495661720255167,
+      "wer": 0.04,
+      "cer": 0.02510460251046025,
+      "stress_precision": 0.8,
+      "stress_recall": 0.8,
+      "stress_f1": 0.8000000000000002,
+      "word_timing": {
+        "num_words": 50,
+        "first_word_onset_delta_seconds": 0.0,
+        "relative_word_onset_mae_seconds": 0.40319999999999995,
+        "relative_word_offset_mae_seconds": 0.40319999999999984,
+        "word_duration_mae_seconds": 0.06400000000000014,
+        "inter_word_gap_mae_seconds": 0.04408163265306131,
+        "speech_span_ratio": 0.9602888086642599,
+        "mean_word_timing_iou": 0.36706898174289476,
+        "num_word_timing_iou_pairs": 46,
+        "num_excluded_word_timing_iou_pairs": 4
+      },
+      "phoneme_timing": {
+        "num_phonemes": 192,
+        "first_phoneme_onset_delta_seconds": 0.04999999999999999,
+        "relative_phoneme_onset_mae_seconds": 0.7371874739583335,
+        "relative_phoneme_offset_mae_seconds": 0.7418750000000002,
+        "phoneme_duration_mae_seconds": 0.03583346354166662,
+        "inter_phoneme_gap_mae_seconds": 0.024607319371727734,
+        "speech_span_ratio": 0.9549142921550946,
+        "mean_phoneme_timing_iou": 0.11597152583634442,
+        "source_num_phonemes": 194,
+        "generated_num_phonemes": 199,
+        "matched_source_phoneme_fraction": 0.9896907216494846
+      }
+    },
+    "source_metrics": {
+      "dnsmos_sig": 3.7205361454271024,
+      "wer": 0.0,
+      "cer": 0.0
+    },
+    "details": {
+      "language_context": {
+        "prompt_language": null,
+        "source_language": null,
+        "cross_language": false
+      },
+      "dnsmos": {
+        "SIG": 3.668571762608469,
+        "BAK": 4.114013170822016,
+        "OVRL": 3.3969426405805447,
+        "SIG_raw": 4.2342047691345215,
+        "BAK_raw": 4.357112407684326,
+        "OVRL_raw": 3.9517734050750732,
+        "num_hops": 12,
+        "len_in_sec": 21.757125
+      },
+      "source_dnsmos": {
+        "SIG": 3.7205361454271024,
+        "BAK": 4.080915392885641,
+        "OVRL": 3.433308693711437,
+        "SIG_raw": 4.337433338165283,
+        "BAK_raw": 4.287222862243652,
+        "OVRL_raw": 4.014683246612549,
+        "num_hops": 13,
+        "len_in_sec": 22.76
+      },
+      "accent": {
+        "source_label": "us",
+        "ref_label": "england",
+        "generated_label": "england"
+      },
+      "emotion": {
+        "source_label": "\u4e2d\u7acb/neutral",
+        "generated_label": "\u4e2d\u7acb/neutral"
+      },
+      "asr": {
+        "transcription": "And then when you start to understand the biological world, and specifically when you start to understand the microbial world, you also understand that the microbes work quite as much as that. You know you find a lot of sociological aspects in the microbial world that are quite similar to our world.",
+        "word_edits": 2,
+        "reference_words": 50,
+        "character_edits": 6,
+        "reference_characters": 239
+      },
+      "source_asr": {
+        "transcription": "And then when you start to understand the biological world, and specifically when you start to understand the microbial world, you also understand that the microbes work quite much as, you know, you find a lot of sociological aspects in the microbial world that are quite similar to our world.",
+        "word_edits": 0,
+        "reference_words": 50,
+        "character_edits": 0,
+        "reference_characters": 239
+      },
+      "stress": {
+        "reference_labels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "predicted_labels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "reference_sequence": [
+          {
+            "word": "And",
+            "label": 0
+          },
+          {
+            "word": "then",
+            "label": 0
+          },
+          {
+            "word": "when",
+            "label": 0
+          },
+          {
+            "word": "you",
+            "label": 0
+          },
+          {
+            "word": "start",
+            "label": 0
+          },
+          {
+            "word": "to",
+            "label": 0
+          },
+          {
+            "word": "understand",
+            "label": 0
+          },
+          {
+            "word": "the",
+            "label": 0
+          },
+          {
+            "word": "biological",
+            "label": 1
+          },
+          {
+            "word": "world,",
+            "label": 1
+          },
+          {
+            "word": "and",
+            "label": 0
+          },
+          {
+            "word": "specifically",
+            "label": 0
+          },
+          {
+            "word": "when",
+            "label": 0
+          },
+          {
+            "word": "you",
+            "label": 0
+          },
+          {
+            "word": "start",
+            "label": 0
+          },
+          {
+            "word": "to",
+            "label": 0
+          },
+          {
+            "word": "understand",
+            "label": 0
+          },
+          {
+            "word": "the",
+            "label": 0
+          },
+          {
+            "word": "microbial",
+            "label": 1
+          },
+          {
+            "word": "world,",
+            "label": 1
+          },
+          {
+            "word": "you",
+            "label": 0
+          },
+          {
+            "word": "also",
+            "label": 1
+          },
+          {
+            "word": "understand",
+            "label": 0
+          },
+          {
+            "word": "that",
+            "label": 0
+          },
+          {
+            "word": "the",
+            "label": 0
+          }
+        ],
+        "predicted_sequence": [
+          {
+            "word": "And",
+            "label": 0
+          },
+          {
+            "word": "then",
+            "label": 0
+          },
+          {
+            "word": "when",
+            "label": 0
+          },
+          {
+            "word": "you",
+            "label": 0
+          },
+          {
+            "word": "start",
+            "label": 0
+          },
+          {
+            "word": "to",
+            "label": 0
+          },
+          {
+            "word": "understand",
+            "label": 1
+          },
+          {
+            "word": "the",
+            "label": 0
+          },
+          {
+            "word": "biological",
+            "label": 1
+          },
+          {
+            "word": "world,",
+            "label": 1
+          },
+          {
+            "word": "and",
+            "label": 0
+          },
+          {
+            "word": "specifically",
+            "label": 0
+          },
+          {
+            "word": "when",
+            "label": 0
+          },
+          {
+            "word": "you",
+            "label": 0
+          },
+          {
+            "word": "start",
+            "label": 0
+          },
+          {
+            "word": "to",
+            "label": 0
+          },
+          {
+            "word": "understand",
+            "label": 0
+          },
+          {
+            "word": "the",
+            "label": 0
+          },
+          {
+            "word": "microbial",
+            "label": 1
+          },
+          {
+            "word": "world,",
+            "label": 0
+          },
+          {
+            "word": "you",
+            "label": 0
+          },
+          {
+            "word": "also",
+            "label": 1
+          },
+          {
+            "word": "understand",
+            "label": 0
+          },
+          {
+            "word": "that",
+            "label": 0
+          },
+          {
+            "word": "the",
+            "label": 0
+          }
+        ]
+      },
+      "metric_versions": {
+        "word_timing": "positive-duration-pairs-v2",
+        "phoneme_timing": "l2arctic-source-textgrid-v1"
+      }
+    },
+    "errors": {},
+    "skipped": {},
+    "models": {
+      "speaker": "microsoft/wavlm-base-plus-sv",
+      "accent": "Jzuluaga/accent-id-commonaccent_ecapa",
+      "emotion": "iic/emotion2vec_plus_large",
+      "asr": "openai/whisper-large-v3",
+      "word_aligner": "Qwen/Qwen3-ForcedAligner-0.6B",
+      "phoneme_aligner": "MFA 3"
+    }
+  }
+}

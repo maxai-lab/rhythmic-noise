@@ -1,0 +1,3 @@
+audio,num_samples,accent_accuracy_source,accent_similarity_source,accent_accuracy_ref,accent_similarity_ref,emotion_accuracy,emotion_similarity,speaker_similarity_source,speaker_similarity_ref,f0_correlation,dnsmos_sig,wer,cer,stress_f1,stress_precision,stress_recall,phoneme_timing.mean_phoneme_timing_iou,word_timing.mean_word_timing_iou
+source,1,,,,,,,,,,3.586609077978824,0.0,0.0,,,,,
+generated,1,0.0,-0.12630756199359894,1.0,0.8633220791816711,1.0,0.9817672967910767,0.7439668774604797,0.9667948484420776,0.7165790290757896,3.563892235983973,0.0,0.0,0.5,0.5,0.5,0.09641969563529139,0.3880952380952373

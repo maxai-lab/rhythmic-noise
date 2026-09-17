@@ -1,0 +1,11 @@
+{
+  "name": "chunk_00000",
+  "text": "Crystallography is the only method that can bring very, very accurate molecular wa, eh, molecular level information.",
+  "source_audio": "/home/moshe_mandel/prosodic-noise/data/outputs-video/20260917-150914-227994_phase_prior_video/inputs/ada-yonath-1_54d1705d/chunk_00000/source.wav",
+  "reference_audio": "/home/moshe_mandel/prosodic-noise/data/outputs-video/20260917-150914-227994_phase_prior_video/reference_voices/b3eaf2b4735adff6/reference_external_first10.wav",
+  "start_sample": 0,
+  "end_sample": 246000,
+  "start_seconds": 0.0,
+  "end_seconds": 10.25,
+  "transcript_file": "/home/moshe_mandel/prosodic-noise/data/outputs-video/20260917-150914-227994_phase_prior_video/inputs/ada-yonath-1_54d1705d/chunk_00000/transcript.txt"
+}

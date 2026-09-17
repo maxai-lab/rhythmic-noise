@@ -1,0 +1,302 @@
+{
+  "clean_source_audio": null,
+  "source_audio": "/home/moshe_mandel/prosodic-noise/data/outputs-video/20260917-150914-227994_phase_prior_video/ada-yonath-1_54d1705d__phase-0.5_band-0-0.3_mag-0.8_cfg-3_ref-3__mag-0_phase-0-0.3_cfg-3_seed-42_gain-0.8-0.8_ref-3_phase-weight-0.5-0_phase-band_voice-p225_b3eaf2b4/chunk_00000/source.wav",
+  "ref_audio": "/home/moshe_mandel/prosodic-noise/data/outputs-video/20260917-150914-227994_phase_prior_video/ada-yonath-1_54d1705d__phase-0.5_band-0-0.3_mag-0.8_cfg-3_ref-3__mag-0_phase-0-0.3_cfg-3_seed-42_gain-0.8-0.8_ref-3_phase-weight-0.5-0_phase-band_voice-p225_b3eaf2b4/chunk_00000/reference.wav",
+  "generated_audio": "/home/moshe_mandel/prosodic-noise/data/outputs-video/20260917-150914-227994_phase_prior_video/ada-yonath-1_54d1705d__phase-0.5_band-0-0.3_mag-0.8_cfg-3_ref-3__mag-0_phase-0-0.3_cfg-3_seed-42_gain-0.8-0.8_ref-3_phase-weight-0.5-0_phase-band_voice-p225_b3eaf2b4/chunk_00000/generated.wav",
+  "transcript": "Crystallography is the only method that can bring very, very accurate molecular wa, eh, molecular level information.",
+  "transcript_file": "/home/moshe_mandel/prosodic-noise/data/outputs-video/20260917-150914-227994_phase_prior_video/inputs/ada-yonath-1_54d1705d/chunk_00000/transcript.txt",
+  "evaluation": {
+    "status": "complete",
+    "metrics": {
+      "dnsmos_sig": 3.6136798081639707,
+      "speaker_similarity_ref": 0.9843916296958923,
+      "speaker_similarity_source": 0.6514873504638672,
+      "accent_similarity_source": 0.2772771418094635,
+      "accent_accuracy_source": 0,
+      "accent_similarity_ref": 0.8865944147109985,
+      "accent_accuracy_ref": 1,
+      "emotion_similarity": 0.9602046608924866,
+      "emotion_accuracy": 1,
+      "f0_correlation": 0.6751800173576553,
+      "wer": 0.17647058823529413,
+      "cer": 0.13541666666666666,
+      "stress_precision": 1.0,
+      "stress_recall": 0.2857142857142857,
+      "stress_f1": 0.4444444444444445,
+      "word_timing": {
+        "num_words": 17,
+        "first_word_onset_delta_seconds": 0.0,
+        "relative_word_onset_mae_seconds": 0.1270588235294119,
+        "relative_word_offset_mae_seconds": 0.12705882352941186,
+        "word_duration_mae_seconds": 0.11294117647058832,
+        "inter_word_gap_mae_seconds": 0.06000000000000004,
+        "speech_span_ratio": 1.0,
+        "mean_word_timing_iou": 0.6625157828282826,
+        "num_word_timing_iou_pairs": 16,
+        "num_excluded_word_timing_iou_pairs": 1
+      },
+      "phoneme_timing": {
+        "num_phonemes": 64,
+        "first_phoneme_onset_delta_seconds": 0.66,
+        "relative_phoneme_onset_mae_seconds": 1.2953124999999996,
+        "relative_phoneme_offset_mae_seconds": 1.29921875,
+        "phoneme_duration_mae_seconds": 0.08359375000000001,
+        "inter_phoneme_gap_mae_seconds": 0.05968253968253968,
+        "speech_span_ratio": 1.0280898876404494,
+        "mean_phoneme_timing_iou": 0.0020380434782608695,
+        "source_num_phonemes": 69,
+        "generated_num_phonemes": 69,
+        "matched_source_phoneme_fraction": 0.927536231884058
+      }
+    },
+    "source_metrics": {
+      "dnsmos_sig": 3.2142407038262024,
+      "wer": 0.17647058823529413,
+      "cer": 0.13541666666666666
+    },
+    "details": {
+      "language_context": {
+        "prompt_language": null,
+        "source_language": null,
+        "cross_language": false
+      },
+      "dnsmos": {
+        "SIG": 3.6136798081639707,
+        "BAK": 4.148877793496575,
+        "OVRL": 3.3720124062683503,
+        "SIG_raw": 4.127504825592041,
+        "BAK_raw": 4.4308013916015625,
+        "OVRL_raw": 3.9082202911376953,
+        "num_hops": 1,
+        "len_in_sec": 10.25
+      },
+      "source_dnsmos": {
+        "SIG": 3.2142407038262024,
+        "BAK": 3.1017651214930977,
+        "OVRL": 2.576831043637251,
+        "SIG_raw": 3.4446818828582764,
+        "BAK_raw": 2.828176736831665,
+        "OVRL_raw": 2.716439962387085,
+        "num_hops": 1,
+        "len_in_sec": 10.25
+      },
+      "accent": {
+        "source_label": "indian",
+        "ref_label": "england",
+        "generated_label": "england"
+      },
+      "emotion": {
+        "source_label": "\u4e2d\u7acb/neutral",
+        "generated_label": "\u4e2d\u7acb/neutral"
+      },
+      "asr": {
+        "transcription": "Crystallography is the only method that can bring very, very accurate molecular level information.",
+        "word_edits": 3,
+        "reference_words": 17,
+        "character_edits": 13,
+        "reference_characters": 96
+      },
+      "source_asr": {
+        "transcription": "Crystallography is the only method that can bring very, very accurate molecular level information.",
+        "word_edits": 3,
+        "reference_words": 17,
+        "character_edits": 13,
+        "reference_characters": 96
+      },
+      "stress": {
+        "reference_labels": [
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          0
+        ],
+        "predicted_labels": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "reference_sequence": [
+          {
+            "word": "Crystallography",
+            "label": 1
+          },
+          {
+            "word": "is",
+            "label": 0
+          },
+          {
+            "word": "the",
+            "label": 0
+          },
+          {
+            "word": "only",
+            "label": 1
+          },
+          {
+            "word": "method",
+            "label": 1
+          },
+          {
+            "word": "that",
+            "label": 0
+          },
+          {
+            "word": "can",
+            "label": 0
+          },
+          {
+            "word": "bring",
+            "label": 0
+          },
+          {
+            "word": "very,",
+            "label": 0
+          },
+          {
+            "word": "very",
+            "label": 0
+          },
+          {
+            "word": "accurate",
+            "label": 0
+          },
+          {
+            "word": "molecular",
+            "label": 0
+          },
+          {
+            "word": "wa,",
+            "label": 1
+          },
+          {
+            "word": "eh,",
+            "label": 1
+          },
+          {
+            "word": "molecular",
+            "label": 1
+          },
+          {
+            "word": "level",
+            "label": 1
+          },
+          {
+            "word": "information.",
+            "label": 0
+          }
+        ],
+        "predicted_sequence": [
+          {
+            "word": "Crystallography",
+            "label": 0
+          },
+          {
+            "word": "is",
+            "label": 0
+          },
+          {
+            "word": "the",
+            "label": 0
+          },
+          {
+            "word": "only",
+            "label": 1
+          },
+          {
+            "word": "method",
+            "label": 0
+          },
+          {
+            "word": "that",
+            "label": 0
+          },
+          {
+            "word": "can",
+            "label": 0
+          },
+          {
+            "word": "bring",
+            "label": 0
+          },
+          {
+            "word": "very,",
+            "label": 0
+          },
+          {
+            "word": "very",
+            "label": 0
+          },
+          {
+            "word": "accurate",
+            "label": 0
+          },
+          {
+            "word": "molecular",
+            "label": 0
+          },
+          {
+            "word": "wa,",
+            "label": 1
+          },
+          {
+            "word": "eh,",
+            "label": 0
+          },
+          {
+            "word": "molecular",
+            "label": 0
+          },
+          {
+            "word": "level",
+            "label": 0
+          },
+          {
+            "word": "information.",
+            "label": 0
+          }
+        ]
+      },
+      "metric_versions": {
+        "word_timing": "positive-duration-pairs-v2",
+        "phoneme_timing": "l2arctic-source-textgrid-v1"
+      }
+    },
+    "errors": {},
+    "skipped": {},
+    "models": {
+      "speaker": "microsoft/wavlm-base-plus-sv",
+      "accent": "Jzuluaga/accent-id-commonaccent_ecapa",
+      "emotion": "iic/emotion2vec_plus_large",
+      "asr": "openai/whisper-large-v3",
+      "word_aligner": "Qwen/Qwen3-ForcedAligner-0.6B",
+      "phoneme_aligner": "MFA 3"
+    }
+  }
+}

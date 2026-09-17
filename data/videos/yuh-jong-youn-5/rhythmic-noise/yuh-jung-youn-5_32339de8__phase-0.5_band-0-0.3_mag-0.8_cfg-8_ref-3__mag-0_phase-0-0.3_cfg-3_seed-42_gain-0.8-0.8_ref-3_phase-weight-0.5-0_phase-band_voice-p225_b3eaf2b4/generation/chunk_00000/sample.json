@@ -1,0 +1,11 @@
+{
+  "name": "chunk_00000",
+  "text": "Very difficult for me. I'm pure Korean. I couldn't speak English, so",
+  "source_audio": "/home/moshe_mandel/prosodic-noise/data/outputs-video/20260916-131652-490626_phase_prior_video/inputs/yuh-jung-youn-5_32339de8/chunk_00000/source.wav",
+  "reference_audio": "/home/moshe_mandel/prosodic-noise/data/outputs-video/20260916-131652-490626_phase_prior_video/reference_voices/b3eaf2b4735adff6/reference_external_first10.wav",
+  "start_sample": 0,
+  "end_sample": 160961,
+  "start_seconds": 0.0,
+  "end_seconds": 6.706708333333333,
+  "transcript_file": "/home/moshe_mandel/prosodic-noise/data/outputs-video/20260916-131652-490626_phase_prior_video/inputs/yuh-jung-youn-5_32339de8/chunk_00000/transcript.txt"
+}

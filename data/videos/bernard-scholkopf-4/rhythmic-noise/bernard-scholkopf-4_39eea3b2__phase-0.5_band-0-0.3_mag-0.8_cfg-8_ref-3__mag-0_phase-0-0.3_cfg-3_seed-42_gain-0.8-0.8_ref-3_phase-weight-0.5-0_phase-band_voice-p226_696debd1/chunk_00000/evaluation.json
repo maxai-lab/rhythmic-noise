@@ -1,0 +1,402 @@
+{
+  "clean_source_audio": null,
+  "source_audio": "/home/moshe_mandel/prosodic-noise/data/outputs-video/20260916-131652-490626_phase_prior_video/bernard-scholkopf-4_39eea3b2__phase-0.5_band-0-0.3_mag-0.8_cfg-8_ref-3__mag-0_phase-0-0.3_cfg-3_seed-42_gain-0.8-0.8_ref-3_phase-weight-0.5-0_phase-band_voice-p226_696debd1/chunk_00000/source.wav",
+  "ref_audio": "/home/moshe_mandel/prosodic-noise/data/outputs-video/20260916-131652-490626_phase_prior_video/bernard-scholkopf-4_39eea3b2__phase-0.5_band-0-0.3_mag-0.8_cfg-8_ref-3__mag-0_phase-0-0.3_cfg-3_seed-42_gain-0.8-0.8_ref-3_phase-weight-0.5-0_phase-band_voice-p226_696debd1/chunk_00000/reference.wav",
+  "generated_audio": "/home/moshe_mandel/prosodic-noise/data/outputs-video/20260916-131652-490626_phase_prior_video/bernard-scholkopf-4_39eea3b2__phase-0.5_band-0-0.3_mag-0.8_cfg-8_ref-3__mag-0_phase-0-0.3_cfg-3_seed-42_gain-0.8-0.8_ref-3_phase-weight-0.5-0_phase-band_voice-p226_696debd1/chunk_00000/generated.wav",
+  "transcript": "And then just by a strike of luck last September it turned out one of those planets made the news because others found out that this was the very first planet in the habitable zone around its star, meaning in the right distance such that water could be liquid.",
+  "transcript_file": "/home/moshe_mandel/prosodic-noise/data/outputs-video/20260916-131652-490626_phase_prior_video/inputs/bernard-scholkopf-4_39eea3b2/chunk_00000/transcript.txt",
+  "evaluation": {
+    "status": "complete",
+    "metrics": {
+      "dnsmos_sig": 3.6725225802667842,
+      "speaker_similarity_ref": 0.9877489805221558,
+      "speaker_similarity_source": 0.8122054934501648,
+      "accent_similarity_source": 0.23629631102085114,
+      "accent_accuracy_source": 0,
+      "accent_similarity_ref": 0.8895220160484314,
+      "accent_accuracy_ref": 1,
+      "emotion_similarity": 0.993008553981781,
+      "emotion_accuracy": 1,
+      "f0_correlation": 0.6787945652959302,
+      "wer": 0.0,
+      "cer": 0.0,
+      "stress_precision": 0.6666666666666666,
+      "stress_recall": 0.6666666666666666,
+      "stress_f1": 0.6666666666666666,
+      "word_timing": {
+        "num_words": 49,
+        "first_word_onset_delta_seconds": 0.0,
+        "relative_word_onset_mae_seconds": 0.07020408163265307,
+        "relative_word_offset_mae_seconds": 0.07673469387755101,
+        "word_duration_mae_seconds": 0.06857142857142857,
+        "inter_word_gap_mae_seconds": 0.02166666666666668,
+        "speech_span_ratio": 0.9948453608247423,
+        "mean_word_timing_iou": 0.6896932854379665,
+        "num_word_timing_iou_pairs": 47,
+        "num_excluded_word_timing_iou_pairs": 2
+      },
+      "phoneme_timing": {
+        "num_phonemes": 163,
+        "first_phoneme_onset_delta_seconds": 0.009999999999999981,
+        "relative_phoneme_onset_mae_seconds": 0.07779141104294549,
+        "relative_phoneme_offset_mae_seconds": 0.07705521472392712,
+        "phoneme_duration_mae_seconds": 0.024539877300613643,
+        "inter_phoneme_gap_mae_seconds": 0.006913580246913566,
+        "speech_span_ratio": 0.9961414790996783,
+        "mean_phoneme_timing_iou": 0.34745956907342634,
+        "source_num_phonemes": 170,
+        "generated_num_phonemes": 168,
+        "matched_source_phoneme_fraction": 0.9588235294117647
+      }
+    },
+    "source_metrics": {
+      "dnsmos_sig": 3.5169375104056266,
+      "wer": 0.0,
+      "cer": 0.0
+    },
+    "details": {
+      "language_context": {
+        "prompt_language": null,
+        "source_language": null,
+        "cross_language": false
+      },
+      "dnsmos": {
+        "SIG": 3.6725225802667842,
+        "BAK": 4.21429339123032,
+        "OVRL": 3.4711672545754353,
+        "SIG_raw": 4.241580009460449,
+        "BAK_raw": 4.585960388183594,
+        "OVRL_raw": 4.0810441970825195,
+        "num_hops": 7,
+        "len_in_sec": 16.12
+      },
+      "source_dnsmos": {
+        "SIG": 3.5169375104056266,
+        "BAK": 3.470139754583952,
+        "OVRL": 2.987172430163073,
+        "SIG_raw": 3.949699640274048,
+        "BAK_raw": 3.2943360805511475,
+        "OVRL_raw": 3.2962658405303955,
+        "num_hops": 7,
+        "len_in_sec": 16.12
+      },
+      "accent": {
+        "source_label": "us",
+        "ref_label": "england",
+        "generated_label": "england"
+      },
+      "emotion": {
+        "source_label": "\u4e2d\u7acb/neutral",
+        "generated_label": "\u4e2d\u7acb/neutral"
+      },
+      "asr": {
+        "transcription": "And then just by a strike of luck last September, it turned out one of those planets made the news because others found out that this was the very first planet in the habitable zone around its star, meaning in the right distance such that water could be liquid.",
+        "word_edits": 0,
+        "reference_words": 49,
+        "character_edits": 0,
+        "reference_characters": 210
+      },
+      "source_asr": {
+        "transcription": "And then just by a strike of luck last September it turned out one of those planets made the news because others found out that this was the very first planet in the habitable zone around its star, meaning in the right distance such that water could be liquid.",
+        "word_edits": 0,
+        "reference_words": 49,
+        "character_edits": 0,
+        "reference_characters": 210
+      },
+      "stress": {
+        "reference_labels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "predicted_labels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "reference_sequence": [
+          {
+            "word": "And",
+            "label": 0
+          },
+          {
+            "word": "then",
+            "label": 0
+          },
+          {
+            "word": "just",
+            "label": 0
+          },
+          {
+            "word": "by",
+            "label": 0
+          },
+          {
+            "word": "a",
+            "label": 0
+          },
+          {
+            "word": "strike",
+            "label": 1
+          },
+          {
+            "word": "of",
+            "label": 0
+          },
+          {
+            "word": "luck",
+            "label": 1
+          },
+          {
+            "word": "last",
+            "label": 0
+          },
+          {
+            "word": "September",
+            "label": 0
+          },
+          {
+            "word": "it",
+            "label": 0
+          },
+          {
+            "word": "turned",
+            "label": 0
+          },
+          {
+            "word": "out",
+            "label": 0
+          },
+          {
+            "word": "one",
+            "label": 0
+          },
+          {
+            "word": "of",
+            "label": 0
+          },
+          {
+            "word": "those",
+            "label": 0
+          },
+          {
+            "word": "planets",
+            "label": 0
+          },
+          {
+            "word": "made",
+            "label": 0
+          },
+          {
+            "word": "the",
+            "label": 0
+          },
+          {
+            "word": "news",
+            "label": 0
+          },
+          {
+            "word": "because",
+            "label": 0
+          },
+          {
+            "word": "others",
+            "label": 1
+          },
+          {
+            "word": "found",
+            "label": 0
+          },
+          {
+            "word": "out",
+            "label": 0
+          },
+          {
+            "word": "that",
+            "label": 0
+          },
+          {
+            "word": "this",
+            "label": 0
+          },
+          {
+            "word": "was",
+            "label": 0
+          }
+        ],
+        "predicted_sequence": [
+          {
+            "word": "And",
+            "label": 0
+          },
+          {
+            "word": "then",
+            "label": 0
+          },
+          {
+            "word": "just",
+            "label": 0
+          },
+          {
+            "word": "by",
+            "label": 0
+          },
+          {
+            "word": "a",
+            "label": 0
+          },
+          {
+            "word": "strike",
+            "label": 0
+          },
+          {
+            "word": "of",
+            "label": 0
+          },
+          {
+            "word": "luck",
+            "label": 1
+          },
+          {
+            "word": "last",
+            "label": 0
+          },
+          {
+            "word": "September",
+            "label": 0
+          },
+          {
+            "word": "it",
+            "label": 0
+          },
+          {
+            "word": "turned",
+            "label": 0
+          },
+          {
+            "word": "out",
+            "label": 0
+          },
+          {
+            "word": "one",
+            "label": 0
+          },
+          {
+            "word": "of",
+            "label": 0
+          },
+          {
+            "word": "those",
+            "label": 0
+          },
+          {
+            "word": "planets",
+            "label": 0
+          },
+          {
+            "word": "made",
+            "label": 0
+          },
+          {
+            "word": "the",
+            "label": 0
+          },
+          {
+            "word": "news",
+            "label": 1
+          },
+          {
+            "word": "because",
+            "label": 0
+          },
+          {
+            "word": "others",
+            "label": 1
+          },
+          {
+            "word": "found",
+            "label": 0
+          },
+          {
+            "word": "out",
+            "label": 0
+          },
+          {
+            "word": "that",
+            "label": 0
+          },
+          {
+            "word": "this",
+            "label": 0
+          },
+          {
+            "word": "was",
+            "label": 0
+          }
+        ]
+      },
+      "metric_versions": {
+        "word_timing": "positive-duration-pairs-v2",
+        "phoneme_timing": "l2arctic-source-textgrid-v1"
+      }
+    },
+    "errors": {},
+    "skipped": {},
+    "models": {
+      "speaker": "microsoft/wavlm-base-plus-sv",
+      "accent": "Jzuluaga/accent-id-commonaccent_ecapa",
+      "emotion": "iic/emotion2vec_plus_large",
+      "asr": "openai/whisper-large-v3",
+      "word_aligner": "Qwen/Qwen3-ForcedAligner-0.6B",
+      "phoneme_aligner": "MFA 3"
+    }
+  }
+}

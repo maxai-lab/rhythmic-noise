@@ -1,0 +1,262 @@
+{
+  "clean_source_audio": null,
+  "source_audio": "/home/moshe_mandel/prosodic-noise/data/outputs-seed-vc/video-segments/han-kang-1_7477bb9c__chunk_00000__p228/source.wav",
+  "ref_audio": "/home/moshe_mandel/prosodic-noise/data/outputs-seed-vc/video-segments/han-kang-1_7477bb9c__chunk_00000__p228/reference.wav",
+  "generated_audio": "/home/moshe_mandel/prosodic-noise/data/outputs-seed-vc/video-segments/han-kang-1_7477bb9c__chunk_00000__p228/generated.wav",
+  "transcript": "it was not just writer's block it was like I couldn't read fiction",
+  "transcript_file": null,
+  "evaluation": {
+    "status": "complete",
+    "metrics": {
+      "dnsmos_sig": 3.695504289189122,
+      "speaker_similarity_ref": 0.9841193556785583,
+      "speaker_similarity_source": 0.9172022342681885,
+      "accent_similarity_source": 0.41690564155578613,
+      "accent_accuracy_source": 0,
+      "accent_similarity_ref": 0.6205363869667053,
+      "accent_accuracy_ref": 1,
+      "emotion_similarity": 0.9853693842887878,
+      "emotion_accuracy": 1,
+      "f0_correlation": 0.5665963672486677,
+      "wer": 0.07692307692307693,
+      "cer": 0.037037037037037035,
+      "stress_precision": 0.0,
+      "stress_recall": 0.0,
+      "stress_f1": 0.0,
+      "word_timing": {
+        "num_words": 13,
+        "first_word_onset_delta_seconds": -0.15999999999999992,
+        "relative_word_onset_mae_seconds": 0.15999999999999995,
+        "relative_word_offset_mae_seconds": 0.24000000000000007,
+        "word_duration_mae_seconds": 0.10461538461538485,
+        "inter_word_gap_mae_seconds": 0.19333333333333305,
+        "speech_span_ratio": 0.9672131147540981,
+        "mean_word_timing_iou": 0.466600529100529,
+        "num_word_timing_iou_pairs": 12,
+        "num_excluded_word_timing_iou_pairs": 1
+      },
+      "phoneme_timing": {
+        "num_phonemes": 38,
+        "first_phoneme_onset_delta_seconds": -0.08000000000000007,
+        "relative_phoneme_onset_mae_seconds": 1.591842105263158,
+        "relative_phoneme_offset_mae_seconds": 1.658157894736842,
+        "phoneme_duration_mae_seconds": 0.11105263157894729,
+        "inter_phoneme_gap_mae_seconds": 0.0483783783783784,
+        "speech_span_ratio": 1.6382608695652174,
+        "mean_phoneme_timing_iou": 0.024145591250854387,
+        "source_num_phonemes": 42,
+        "generated_num_phonemes": 43,
+        "matched_source_phoneme_fraction": 0.9047619047619048
+      }
+    },
+    "source_metrics": {
+      "dnsmos_sig": 3.3359462766932304,
+      "wer": 0.0,
+      "cer": 0.0
+    },
+    "details": {
+      "language_context": {
+        "prompt_language": null,
+        "source_language": null,
+        "cross_language": false
+      },
+      "dnsmos": {
+        "SIG": 3.695504289189122,
+        "BAK": 4.200254218564526,
+        "OVRL": 3.481049769758833,
+        "SIG_raw": 4.286712646484375,
+        "BAK_raw": 4.551491737365723,
+        "OVRL_raw": 4.098450183868408,
+        "num_hops": 2,
+        "len_in_sec": 11.726125
+      },
+      "source_dnsmos": {
+        "SIG": 3.3359462766932304,
+        "BAK": 3.147300809729236,
+        "OVRL": 2.660753537314124,
+        "SIG_raw": 3.639120101928711,
+        "BAK_raw": 2.881364107131958,
+        "OVRL_raw": 2.829988479614258,
+        "num_hops": 3,
+        "len_in_sec": 12.12
+      },
+      "accent": {
+        "source_label": "australia",
+        "ref_label": "england",
+        "generated_label": "england"
+      },
+      "emotion": {
+        "source_label": "\u4e2d\u7acb/neutral",
+        "generated_label": "\u4e2d\u7acb/neutral"
+      },
+      "asr": {
+        "transcription": "It was not just writer's blog. It was like I couldn't read fiction.",
+        "word_edits": 1,
+        "reference_words": 13,
+        "character_edits": 2,
+        "reference_characters": 54
+      },
+      "source_asr": {
+        "transcription": "it was not just writer's block it was like I couldn't read fiction",
+        "word_edits": 0,
+        "reference_words": 13,
+        "character_edits": 0,
+        "reference_characters": 54
+      },
+      "stress": {
+        "reference_labels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        "predicted_labels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "reference_sequence": [
+          {
+            "word": "it",
+            "label": 0
+          },
+          {
+            "word": "was",
+            "label": 0
+          },
+          {
+            "word": "not",
+            "label": 0
+          },
+          {
+            "word": "just",
+            "label": 0
+          },
+          {
+            "word": "writer's",
+            "label": 0
+          },
+          {
+            "word": "block",
+            "label": 0
+          },
+          {
+            "word": "it",
+            "label": 0
+          },
+          {
+            "word": "was",
+            "label": 0
+          },
+          {
+            "word": "like",
+            "label": 0
+          },
+          {
+            "word": "I",
+            "label": 0
+          },
+          {
+            "word": "couldn't",
+            "label": 1
+          },
+          {
+            "word": "read",
+            "label": 1
+          },
+          {
+            "word": "fiction",
+            "label": 1
+          }
+        ],
+        "predicted_sequence": [
+          {
+            "word": "it",
+            "label": 0
+          },
+          {
+            "word": "was",
+            "label": 0
+          },
+          {
+            "word": "not",
+            "label": 0
+          },
+          {
+            "word": "just",
+            "label": 0
+          },
+          {
+            "word": "writer's",
+            "label": 0
+          },
+          {
+            "word": "block",
+            "label": 0
+          },
+          {
+            "word": "it",
+            "label": 0
+          },
+          {
+            "word": "was",
+            "label": 0
+          },
+          {
+            "word": "like",
+            "label": 0
+          },
+          {
+            "word": "I",
+            "label": 0
+          },
+          {
+            "word": "couldn't",
+            "label": 0
+          },
+          {
+            "word": "read",
+            "label": 0
+          },
+          {
+            "word": "fiction",
+            "label": 0
+          }
+        ]
+      },
+      "metric_versions": {
+        "word_timing": "positive-duration-pairs-v2",
+        "phoneme_timing": "l2arctic-source-textgrid-v1"
+      }
+    },
+    "errors": {},
+    "skipped": {},
+    "models": {
+      "speaker": "microsoft/wavlm-base-plus-sv",
+      "accent": "Jzuluaga/accent-id-commonaccent_ecapa",
+      "emotion": "iic/emotion2vec_plus_large",
+      "asr": "openai/whisper-large-v3",
+      "word_aligner": "Qwen/Qwen3-ForcedAligner-0.6B",
+      "phoneme_aligner": "MFA 3"
+    }
+  }
+}

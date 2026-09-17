@@ -1,0 +1,252 @@
+{
+  "clean_source_audio": null,
+  "source_audio": "/home/moshe_mandel/prosodic-noise/data/outputs-seed-vc/video-segments/yuh-jung-youn-5_32339de8__chunk_00000__p225/source.wav",
+  "ref_audio": "/home/moshe_mandel/prosodic-noise/data/outputs-seed-vc/video-segments/yuh-jung-youn-5_32339de8__chunk_00000__p225/reference.wav",
+  "generated_audio": "/home/moshe_mandel/prosodic-noise/data/outputs-seed-vc/video-segments/yuh-jung-youn-5_32339de8__chunk_00000__p225/generated.wav",
+  "transcript": "Very difficult for me. I'm pure Korean. I couldn't speak English, so",
+  "transcript_file": null,
+  "evaluation": {
+    "status": "complete",
+    "metrics": {
+      "dnsmos_sig": 3.479953877123735,
+      "speaker_similarity_ref": 0.9326333999633789,
+      "speaker_similarity_source": 0.6402695178985596,
+      "accent_similarity_source": 0.07999008893966675,
+      "accent_accuracy_source": 0,
+      "accent_similarity_ref": 0.7953169345855713,
+      "accent_accuracy_ref": 1,
+      "emotion_similarity": 0.9952794313430786,
+      "emotion_accuracy": 1,
+      "f0_correlation": 0.7461028735363862,
+      "wer": 0.08333333333333333,
+      "cer": 0.037037037037037035,
+      "stress_precision": 0.0,
+      "stress_recall": 0.0,
+      "stress_f1": 0.0,
+      "word_timing": {
+        "num_words": 12,
+        "first_word_onset_delta_seconds": 0.07999999999999999,
+        "relative_word_onset_mae_seconds": 0.24666666666666673,
+        "relative_word_offset_mae_seconds": 0.3,
+        "word_duration_mae_seconds": 0.09333333333333355,
+        "inter_word_gap_mae_seconds": 0.021818181818181837,
+        "speech_span_ratio": 0.9382716049382717,
+        "mean_word_timing_iou": 0.232260101010101,
+        "num_word_timing_iou_pairs": 12,
+        "num_excluded_word_timing_iou_pairs": 0
+      },
+      "phoneme_timing": {
+        "num_phonemes": 45,
+        "first_phoneme_onset_delta_seconds": 0.04000000000000001,
+        "relative_phoneme_onset_mae_seconds": 1.1846666666666668,
+        "relative_phoneme_offset_mae_seconds": 1.2268888888888891,
+        "phoneme_duration_mae_seconds": 0.0644444444444444,
+        "inter_phoneme_gap_mae_seconds": 0.09,
+        "speech_span_ratio": 0.9470404984423676,
+        "mean_phoneme_timing_iou": 0.10124047158360874,
+        "source_num_phonemes": 45,
+        "generated_num_phonemes": 46,
+        "matched_source_phoneme_fraction": 1.0
+      }
+    },
+    "source_metrics": {
+      "dnsmos_sig": 3.6203080840308255,
+      "wer": 0.08333333333333333,
+      "cer": 0.037037037037037035
+    },
+    "details": {
+      "language_context": {
+        "prompt_language": null,
+        "source_language": null,
+        "cross_language": false
+      },
+      "dnsmos": {
+        "SIG": 3.479953877123735,
+        "BAK": 3.933641330791969,
+        "OVRL": 3.1429156767303645,
+        "SIG_raw": 3.884247064590454,
+        "BAK_raw": 4.001279830932617,
+        "OVRL_raw": 3.5348212718963623,
+        "num_hops": 3,
+        "len_in_sec": 6.4551875
+      },
+      "source_dnsmos": {
+        "SIG": 3.6203080840308255,
+        "BAK": 3.9131170607244803,
+        "OVRL": 3.261084355440758,
+        "SIG_raw": 4.140209197998047,
+        "BAK_raw": 3.9662153720855713,
+        "OVRL_raw": 3.723653554916382,
+        "num_hops": 4,
+        "len_in_sec": 6.70675
+      },
+      "accent": {
+        "source_label": "scotland",
+        "ref_label": "england",
+        "generated_label": "england"
+      },
+      "emotion": {
+        "source_label": "\u96be\u8fc7/sad",
+        "generated_label": "\u96be\u8fc7/sad"
+      },
+      "asr": {
+        "transcription": "Very difficult for me in pure Korean. I couldn't speak English, so...",
+        "word_edits": 1,
+        "reference_words": 12,
+        "character_edits": 2,
+        "reference_characters": 54
+      },
+      "source_asr": {
+        "transcription": "Very difficult for me. I'm pure Korean. I couldn't speak English.",
+        "word_edits": 1,
+        "reference_words": 12,
+        "character_edits": 2,
+        "reference_characters": 54
+      },
+      "stress": {
+        "reference_labels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "predicted_labels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "reference_sequence": [
+          {
+            "word": "Very",
+            "label": 0
+          },
+          {
+            "word": "difficult",
+            "label": 0
+          },
+          {
+            "word": "for",
+            "label": 0
+          },
+          {
+            "word": "me.",
+            "label": 0
+          },
+          {
+            "word": "I'm",
+            "label": 0
+          },
+          {
+            "word": "pure",
+            "label": 0
+          },
+          {
+            "word": "Korean.",
+            "label": 0
+          },
+          {
+            "word": "I",
+            "label": 0
+          },
+          {
+            "word": "couldn't",
+            "label": 0
+          },
+          {
+            "word": "speak",
+            "label": 0
+          },
+          {
+            "word": "English,",
+            "label": 1
+          },
+          {
+            "word": "so",
+            "label": 0
+          }
+        ],
+        "predicted_sequence": [
+          {
+            "word": "Very",
+            "label": 0
+          },
+          {
+            "word": "difficult",
+            "label": 0
+          },
+          {
+            "word": "for",
+            "label": 0
+          },
+          {
+            "word": "me.",
+            "label": 0
+          },
+          {
+            "word": "I'm",
+            "label": 0
+          },
+          {
+            "word": "pure",
+            "label": 0
+          },
+          {
+            "word": "Korean.",
+            "label": 0
+          },
+          {
+            "word": "I",
+            "label": 0
+          },
+          {
+            "word": "couldn't",
+            "label": 0
+          },
+          {
+            "word": "speak",
+            "label": 0
+          },
+          {
+            "word": "English,",
+            "label": 0
+          },
+          {
+            "word": "so",
+            "label": 0
+          }
+        ]
+      },
+      "metric_versions": {
+        "word_timing": "positive-duration-pairs-v2",
+        "phoneme_timing": "l2arctic-source-textgrid-v1"
+      }
+    },
+    "errors": {},
+    "skipped": {},
+    "models": {
+      "speaker": "microsoft/wavlm-base-plus-sv",
+      "accent": "Jzuluaga/accent-id-commonaccent_ecapa",
+      "emotion": "iic/emotion2vec_plus_large",
+      "asr": "openai/whisper-large-v3",
+      "word_aligner": "Qwen/Qwen3-ForcedAligner-0.6B",
+      "phoneme_aligner": "MFA 3"
+    }
+  }
+}

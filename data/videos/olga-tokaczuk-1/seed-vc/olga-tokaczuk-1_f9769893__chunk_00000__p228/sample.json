@@ -1,0 +1,13 @@
+{
+  "name": "olga-tokaczuk-1_f9769893__chunk_00000__p228",
+  "source_audio": "/home/moshe_mandel/prosodic-noise/data/processed/video-segments/phase_prior_prepared/inputs/olga-tokaczuk-1_f9769893/chunk_00000/source.wav",
+  "reference_audio": "/home/moshe_mandel/prosodic-noise/data/processed/speakers/p228.wav",
+  "text": "Designed to catch our attention, but they are not working as a process. As the human minds are accustomed to be in process all the time.",
+  "prepared_transcript_file": "/home/moshe_mandel/prosodic-noise/data/processed/video-segments/phase_prior_prepared/inputs/olga-tokaczuk-1_f9769893/chunk_00000/transcript.txt",
+  "input_video": "/home/moshe_mandel/prosodic-noise/data/raw/video-segments/olga-tokaczuk-1.mp4",
+  "video_name": "olga-tokaczuk-1_f9769893",
+  "chunk_name": "chunk_00000",
+  "reference_speaker": "p228",
+  "start_seconds": 0.0,
+  "end_seconds": 10.92
+}

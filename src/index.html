@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f8f9f6">
+    <meta name="description" content="Rhythmic Noise: source-guided speech generation with DramaBox. Phase-injection results and video comparisons.">
+    <title>Rhythmic Noise — Audio & video demos</title>
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <link rel="stylesheet" href="styles.css">
+    <script src="data.js" defer></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="#" aria-label="Rhythmic Noise home">
+          <svg class="brand-mark" viewBox="0 0 30 28" fill="none" aria-hidden="true"><path d="M3 11v6m6-12v18m6-21v24m6-19v14m6-10v6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+          <span>rhythmic noise<span class="brand-period">.</span></span>
+        </a>
+        <nav aria-label="Main navigation"><a href="#experiment">Experiment</a><a href="#samples">Samples</a></nav>
+      </div>
+    </header>
+
+    <main id="main" class="page-width">
+      <section class="hero" aria-labelledby="page-title">
+        <h1 id="page-title">Rhythmic Noise</h1>
+        <p class="hero-description">Speech generation guided by source phase in the initial noise.</p>
+      </section>
+
+      <section id="experiment" class="experiment-section" aria-labelledby="experiment-title">
+        <div class="section-heading">
+          <div class="heading-title"><span class="section-number">01</span><h2 id="experiment-title">Phase injection</h2></div>
+        </div>
+
+        <div class="experiment-panel">
+          <div class="diagram" role="group" aria-label="Source audio phase is injected into DramaBox's initial noise to generate speech with seeds 42 and 1235.">
+            <div class="diagram-source">
+              <p class="diagram-label"><span>01</span> Source audio</p>
+              <div id="source-spectrogram"></div>
+            </div>
+            <div class="connector connector-in" aria-hidden="true"><span></span><svg viewBox="0 0 7 12"><path d="m1 1 5 5-5 5"/></svg></div>
+            <div class="engine-stage">
+              <p class="injection-label">Inject source phase</p>
+              <div class="engine">
+                <svg class="engine-wave" viewBox="0 0 120 48" fill="none" aria-hidden="true">
+                  <path d="M0 24c10 0 10-17 20-17s10 34 20 34S50 7 60 7s10 34 20 34S90 7 100 7s10 17 20 17" stroke="#2d836b" stroke-width="2"/>
+                  <path d="M0 24c10 0 10 12 20 12S30 12 40 12s10 24 20 24S70 12 80 12s10 24 20 24 10-12 20-12" stroke="#2d836b" stroke-width="1.5" opacity=".3"/>
+                </svg>
+                <h3>DramaBox</h3><p>Text-to-speech engine</p>
+                <span class="engine-tag">Phase-guided noise</span>
+              </div>
+            </div>
+            <div class="connector connector-out" aria-hidden="true"><span class="branch-trunk"></span><span class="branch-top"></span><span class="branch-bottom"></span><svg class="arrow-top" viewBox="0 0 7 12"><path d="m1 1 5 5-5 5"/></svg><svg class="arrow-bottom" viewBox="0 0 7 12"><path d="m1 1 5 5-5 5"/></svg></div>
+            <div class="diagram-results">
+              <p class="diagram-label"><span>02</span> Generated speech</p>
+              <div id="result-spectrograms" class="result-stack"></div>
+            </div>
+          </div>
+          <div class="experiment-transcript"><span class="text-label">Shared transcript</span><p id="experiment-transcript"></p></div>
+        </div>
+        <p class="method-note"><span class="note-mark" aria-hidden="true">↳</span><span>We inject source-latent phase into the low-frequency <strong>30% of the noise phase spectrum</strong>. Phase is computed along the time axis, independently for each channel and frequency.</span></p>
+      </section>
+
+      <section id="rhythm-control" class="explanation-section" aria-labelledby="rhythm-control-title">
+        <div class="section-heading">
+          <div class="heading-title"><span class="section-number">02</span><h2 id="rhythm-control-title">Rhythm control for accent conversion</h2></div>
+        </div>
+        <div class="explanation-copy">
+          <p>TTS engines generate natural, intelligible speech from text, but typically offer limited control over word timing and pauses. Voice and accent conversion systems preserve source timing more directly, but can retain source characteristics such as accent. They can also introduce word insertions or substitutions, reducing intelligibility and increasing word error rate (WER).</p>
+          <p>Rhythmic Noise bridges this gap by using the source rhythm to give a TTS engine temporal control. The samples below demonstrate accent conversion while preserving intelligibility and temporal fidelity to the source.</p>
+        </div>
+      </section>
+
+      <section id="samples" class="samples-section" aria-labelledby="samples-title">
+        <div class="section-heading">
+          <div class="heading-title"><span class="section-number">03</span><h2 id="samples-title">Samples</h2><span class="count-badge" id="total-samples"></span></div>
+        </div>
+        <div id="gallery" class="gallery"></div>
+        <noscript><p>JavaScript is required to display the audio and video samples.</p></noscript>
+      </section>
+    </main>
+
+  </body>
+</html>

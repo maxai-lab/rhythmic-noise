@@ -1,0 +1,372 @@
+{
+  "clean_source_audio": null,
+  "source_audio": "/home/moshe_mandel/prosodic-noise/data/outputs-seed-vc/video-segments/olga-tokaczuk-1_f9769893__chunk_00000__p228/source.wav",
+  "ref_audio": "/home/moshe_mandel/prosodic-noise/data/outputs-seed-vc/video-segments/olga-tokaczuk-1_f9769893__chunk_00000__p228/reference.wav",
+  "generated_audio": "/home/moshe_mandel/prosodic-noise/data/outputs-seed-vc/video-segments/olga-tokaczuk-1_f9769893__chunk_00000__p228/generated.wav",
+  "transcript": "Designed to catch our attention, but they are not working as a process. As the human minds are accustomed to be in process all the time.",
+  "transcript_file": null,
+  "evaluation": {
+    "status": "complete",
+    "metrics": {
+      "dnsmos_sig": 3.72366242900796,
+      "speaker_similarity_ref": 0.9520422220230103,
+      "speaker_similarity_source": 0.8073157072067261,
+      "accent_similarity_source": 0.3320007622241974,
+      "accent_accuracy_source": 1,
+      "accent_similarity_ref": 0.5509541630744934,
+      "accent_accuracy_ref": 0,
+      "emotion_similarity": 0.9520511031150818,
+      "emotion_accuracy": 1,
+      "f0_correlation": 0.5426657605053705,
+      "wer": 0.0,
+      "cer": 0.0,
+      "stress_precision": 1.0,
+      "stress_recall": 1.0,
+      "stress_f1": 1.0,
+      "word_timing": {
+        "num_words": 26,
+        "first_word_onset_delta_seconds": 0.0,
+        "relative_word_onset_mae_seconds": 0.35692307692307684,
+        "relative_word_offset_mae_seconds": 0.32307692307692293,
+        "word_duration_mae_seconds": 0.1323076923076922,
+        "inter_word_gap_mae_seconds": 0.10559999999999999,
+        "speech_span_ratio": 1.0300751879699246,
+        "mean_word_timing_iou": 0.23235653235653234,
+        "num_word_timing_iou_pairs": 21,
+        "num_excluded_word_timing_iou_pairs": 5
+      },
+      "phoneme_timing": {
+        "num_phonemes": 82,
+        "first_phoneme_onset_delta_seconds": 0.0,
+        "relative_phoneme_onset_mae_seconds": 0.23304878048780478,
+        "relative_phoneme_offset_mae_seconds": 0.23182926829268286,
+        "phoneme_duration_mae_seconds": 0.037317073170731824,
+        "inter_phoneme_gap_mae_seconds": 0.010000000000000056,
+        "speech_span_ratio": 1.025233644859813,
+        "mean_phoneme_timing_iou": 0.07555115585987345,
+        "source_num_phonemes": 87,
+        "generated_num_phonemes": 86,
+        "matched_source_phoneme_fraction": 0.9425287356321839
+      }
+    },
+    "source_metrics": {
+      "dnsmos_sig": 3.3420617165026862,
+      "wer": 0.038461538461538464,
+      "cer": 0.018518518518518517
+    },
+    "details": {
+      "language_context": {
+        "prompt_language": null,
+        "source_language": null,
+        "cross_language": false
+      },
+      "dnsmos": {
+        "SIG": 3.72366242900796,
+        "BAK": 4.2142088524471255,
+        "OVRL": 3.5160179499808875,
+        "SIG_raw": 4.343451499938965,
+        "BAK_raw": 4.585671901702881,
+        "OVRL_raw": 4.161127090454102,
+        "num_hops": 2,
+        "len_in_sec": 11.226875
+      },
+      "source_dnsmos": {
+        "SIG": 3.3420617165026862,
+        "BAK": 2.8825315189197975,
+        "OVRL": 2.483911901763934,
+        "SIG_raw": 3.64914608001709,
+        "BAK_raw": 2.583656072616577,
+        "OVRL_raw": 2.593559503555298,
+        "num_hops": 1,
+        "len_in_sec": 10.92
+      },
+      "accent": {
+        "source_label": "us",
+        "ref_label": "england",
+        "generated_label": "us"
+      },
+      "emotion": {
+        "source_label": "\u4e2d\u7acb/neutral",
+        "generated_label": "\u4e2d\u7acb/neutral"
+      },
+      "asr": {
+        "transcription": "designed to catch our attention, but they are not working as a process, as the human minds are accustomed to be in process all the time.",
+        "word_edits": 0,
+        "reference_words": 26,
+        "character_edits": 0,
+        "reference_characters": 108
+      },
+      "source_asr": {
+        "transcription": "Design to catch our attention, but they are not working as a process. As the human minds are accustomed to be in process all the time.",
+        "word_edits": 1,
+        "reference_words": 26,
+        "character_edits": 2,
+        "reference_characters": 108
+      },
+      "stress": {
+        "reference_labels": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "predicted_labels": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "reference_sequence": [
+          {
+            "word": "Designed",
+            "label": 1
+          },
+          {
+            "word": "to",
+            "label": 0
+          },
+          {
+            "word": "catch",
+            "label": 0
+          },
+          {
+            "word": "our",
+            "label": 0
+          },
+          {
+            "word": "attention,",
+            "label": 0
+          },
+          {
+            "word": "but",
+            "label": 0
+          },
+          {
+            "word": "they",
+            "label": 0
+          },
+          {
+            "word": "are",
+            "label": 0
+          },
+          {
+            "word": "not",
+            "label": 0
+          },
+          {
+            "word": "working",
+            "label": 0
+          },
+          {
+            "word": "as",
+            "label": 0
+          },
+          {
+            "word": "a",
+            "label": 0
+          },
+          {
+            "word": "process.",
+            "label": 0
+          },
+          {
+            "word": "As",
+            "label": 0
+          },
+          {
+            "word": "the",
+            "label": 0
+          },
+          {
+            "word": "human",
+            "label": 0
+          },
+          {
+            "word": "minds",
+            "label": 0
+          },
+          {
+            "word": "are",
+            "label": 0
+          },
+          {
+            "word": "accustomed",
+            "label": 0
+          },
+          {
+            "word": "to",
+            "label": 0
+          },
+          {
+            "word": "be",
+            "label": 0
+          },
+          {
+            "word": "in",
+            "label": 0
+          },
+          {
+            "word": "process",
+            "label": 0
+          },
+          {
+            "word": "all",
+            "label": 0
+          }
+        ],
+        "predicted_sequence": [
+          {
+            "word": "Designed",
+            "label": 1
+          },
+          {
+            "word": "to",
+            "label": 0
+          },
+          {
+            "word": "catch",
+            "label": 0
+          },
+          {
+            "word": "our",
+            "label": 0
+          },
+          {
+            "word": "attention,",
+            "label": 0
+          },
+          {
+            "word": "but",
+            "label": 0
+          },
+          {
+            "word": "they",
+            "label": 0
+          },
+          {
+            "word": "are",
+            "label": 0
+          },
+          {
+            "word": "not",
+            "label": 0
+          },
+          {
+            "word": "working",
+            "label": 0
+          },
+          {
+            "word": "as",
+            "label": 0
+          },
+          {
+            "word": "a",
+            "label": 0
+          },
+          {
+            "word": "process.",
+            "label": 0
+          },
+          {
+            "word": "As",
+            "label": 0
+          },
+          {
+            "word": "the",
+            "label": 0
+          },
+          {
+            "word": "human",
+            "label": 0
+          },
+          {
+            "word": "minds",
+            "label": 0
+          },
+          {
+            "word": "are",
+            "label": 0
+          },
+          {
+            "word": "accustomed",
+            "label": 0
+          },
+          {
+            "word": "to",
+            "label": 0
+          },
+          {
+            "word": "be",
+            "label": 0
+          },
+          {
+            "word": "in",
+            "label": 0
+          },
+          {
+            "word": "process",
+            "label": 0
+          },
+          {
+            "word": "all",
+            "label": 0
+          }
+        ]
+      },
+      "metric_versions": {
+        "word_timing": "positive-duration-pairs-v2",
+        "phoneme_timing": "l2arctic-source-textgrid-v1"
+      }
+    },
+    "errors": {},
+    "skipped": {},
+    "models": {
+      "speaker": "microsoft/wavlm-base-plus-sv",
+      "accent": "Jzuluaga/accent-id-commonaccent_ecapa",
+      "emotion": "iic/emotion2vec_plus_large",
+      "asr": "openai/whisper-large-v3",
+      "word_aligner": "Qwen/Qwen3-ForcedAligner-0.6B",
+      "phoneme_aligner": "MFA 3"
+    }
+  }
+}

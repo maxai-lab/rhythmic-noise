@@ -1,0 +1,13 @@
+{
+  "name": "emmanuelle-charpentier-3_61e36d74__chunk_00000__p228",
+  "source_audio": "/home/moshe_mandel/prosodic-noise/data/processed/video-segments/phase_prior_prepared/inputs/emmanuelle-charpentier-3_61e36d74/chunk_00000/source.wav",
+  "reference_audio": "/home/moshe_mandel/prosodic-noise/data/processed/speakers/p228.wav",
+  "text": "And then when you start to understand the biological world, and specifically when you start to understand the microbial world, you also understand that the microbes work quite much as, you know, you find a lot of sociological aspects in the microbial world that are quite similar to our world.",
+  "prepared_transcript_file": "/home/moshe_mandel/prosodic-noise/data/processed/video-segments/phase_prior_prepared/inputs/emmanuelle-charpentier-3_61e36d74/chunk_00000/transcript.txt",
+  "input_video": "/home/moshe_mandel/prosodic-noise/data/raw/video-segments/emmanuelle-charpentier-3.mp4",
+  "video_name": "emmanuelle-charpentier-3_61e36d74",
+  "chunk_name": "chunk_00000",
+  "reference_speaker": "p228",
+  "start_seconds": 0.0,
+  "end_seconds": 22.76
+}

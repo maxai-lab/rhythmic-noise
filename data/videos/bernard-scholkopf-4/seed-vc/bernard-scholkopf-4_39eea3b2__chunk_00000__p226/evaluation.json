@@ -1,0 +1,402 @@
+{
+  "clean_source_audio": null,
+  "source_audio": "/home/moshe_mandel/prosodic-noise/data/outputs-seed-vc/video-segments/bernard-scholkopf-4_39eea3b2__chunk_00000__p226/source.wav",
+  "ref_audio": "/home/moshe_mandel/prosodic-noise/data/outputs-seed-vc/video-segments/bernard-scholkopf-4_39eea3b2__chunk_00000__p226/reference.wav",
+  "generated_audio": "/home/moshe_mandel/prosodic-noise/data/outputs-seed-vc/video-segments/bernard-scholkopf-4_39eea3b2__chunk_00000__p226/generated.wav",
+  "transcript": "And then just by a strike of luck last September it turned out one of those planets made the news because others found out that this was the very first planet in the habitable zone around its star, meaning in the right distance such that water could be liquid.",
+  "transcript_file": null,
+  "evaluation": {
+    "status": "complete",
+    "metrics": {
+      "dnsmos_sig": 3.4899726011115697,
+      "speaker_similarity_ref": 0.9714260697364807,
+      "speaker_similarity_source": 0.841391921043396,
+      "accent_similarity_source": 0.3313242197036743,
+      "accent_accuracy_source": 0,
+      "accent_similarity_ref": 0.7467731833457947,
+      "accent_accuracy_ref": 1,
+      "emotion_similarity": 0.9803906679153442,
+      "emotion_accuracy": 0,
+      "f0_correlation": 0.36981854775252937,
+      "wer": 0.6122448979591837,
+      "cer": 0.4857142857142857,
+      "stress_precision": 0.0,
+      "stress_recall": 0.0,
+      "stress_f1": 0.0,
+      "word_timing": {
+        "num_words": 49,
+        "first_word_onset_delta_seconds": 5.279999999999999,
+        "relative_word_onset_mae_seconds": 2.6040816326530605,
+        "relative_word_offset_mae_seconds": 2.7199999999999993,
+        "word_duration_mae_seconds": 0.20081632653061235,
+        "inter_word_gap_mae_seconds": 0.08500000000000002,
+        "speech_span_ratio": 0.654639175257732,
+        "mean_word_timing_iou": 0.017241379310344838,
+        "num_word_timing_iou_pairs": 29,
+        "num_excluded_word_timing_iou_pairs": 20
+      },
+      "phoneme_timing": {
+        "num_phonemes": 149,
+        "first_phoneme_onset_delta_seconds": -0.35,
+        "relative_phoneme_onset_mae_seconds": 2.6984563758389273,
+        "relative_phoneme_offset_mae_seconds": 2.680402684563759,
+        "phoneme_duration_mae_seconds": 0.03590604026845641,
+        "inter_phoneme_gap_mae_seconds": 0.06108108108108101,
+        "speech_span_ratio": 1.0188679245283019,
+        "mean_phoneme_timing_iou": 0.005033557046979868,
+        "source_num_phonemes": 170,
+        "generated_num_phonemes": 156,
+        "matched_source_phoneme_fraction": 0.8764705882352941
+      }
+    },
+    "source_metrics": {
+      "dnsmos_sig": 3.5169375104056266,
+      "wer": 0.0,
+      "cer": 0.0
+    },
+    "details": {
+      "language_context": {
+        "prompt_language": null,
+        "source_language": null,
+        "cross_language": false
+      },
+      "dnsmos": {
+        "SIG": 3.4899726011115697,
+        "BAK": 4.119029407467503,
+        "OVRL": 3.245604792256213,
+        "SIG_raw": 3.9028377532958984,
+        "BAK_raw": 4.366189479827881,
+        "OVRL_raw": 3.6986305713653564,
+        "num_hops": 7,
+        "len_in_sec": 16.079875
+      },
+      "source_dnsmos": {
+        "SIG": 3.5169375104056266,
+        "BAK": 3.470139754583952,
+        "OVRL": 2.987172430163073,
+        "SIG_raw": 3.949699640274048,
+        "BAK_raw": 3.2943360805511475,
+        "OVRL_raw": 3.2962658405303955,
+        "num_hops": 7,
+        "len_in_sec": 16.12
+      },
+      "accent": {
+        "source_label": "us",
+        "ref_label": "england",
+        "generated_label": "england"
+      },
+      "emotion": {
+        "source_label": "\u4e2d\u7acb/neutral",
+        "generated_label": "<unk>"
+      },
+      "asr": {
+        "transcription": "A strike of last, Deptemort. On one of those planets, mate not us, mate not yous. Others found out that this was in the rappageable, are on the ermine, in the haunt. What it could be liquid.",
+        "word_edits": 30,
+        "reference_words": 49,
+        "character_edits": 102,
+        "reference_characters": 210
+      },
+      "source_asr": {
+        "transcription": "And then just by a strike of luck last September it turned out one of those planets made the news because others found out that this was the very first planet in the habitable zone around its star, meaning in the right distance such that water could be liquid.",
+        "word_edits": 0,
+        "reference_words": 49,
+        "character_edits": 0,
+        "reference_characters": 210
+      },
+      "stress": {
+        "reference_labels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "predicted_labels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "reference_sequence": [
+          {
+            "word": "And",
+            "label": 0
+          },
+          {
+            "word": "then",
+            "label": 0
+          },
+          {
+            "word": "just",
+            "label": 0
+          },
+          {
+            "word": "by",
+            "label": 0
+          },
+          {
+            "word": "a",
+            "label": 0
+          },
+          {
+            "word": "strike",
+            "label": 1
+          },
+          {
+            "word": "of",
+            "label": 0
+          },
+          {
+            "word": "luck",
+            "label": 1
+          },
+          {
+            "word": "last",
+            "label": 0
+          },
+          {
+            "word": "September",
+            "label": 0
+          },
+          {
+            "word": "it",
+            "label": 0
+          },
+          {
+            "word": "turned",
+            "label": 0
+          },
+          {
+            "word": "out",
+            "label": 0
+          },
+          {
+            "word": "one",
+            "label": 0
+          },
+          {
+            "word": "of",
+            "label": 0
+          },
+          {
+            "word": "those",
+            "label": 0
+          },
+          {
+            "word": "planets",
+            "label": 0
+          },
+          {
+            "word": "made",
+            "label": 0
+          },
+          {
+            "word": "the",
+            "label": 0
+          },
+          {
+            "word": "news",
+            "label": 0
+          },
+          {
+            "word": "because",
+            "label": 0
+          },
+          {
+            "word": "others",
+            "label": 1
+          },
+          {
+            "word": "found",
+            "label": 0
+          },
+          {
+            "word": "out",
+            "label": 0
+          },
+          {
+            "word": "that",
+            "label": 0
+          },
+          {
+            "word": "this",
+            "label": 0
+          },
+          {
+            "word": "was",
+            "label": 0
+          }
+        ],
+        "predicted_sequence": [
+          {
+            "word": "And",
+            "label": 0
+          },
+          {
+            "word": "then",
+            "label": 0
+          },
+          {
+            "word": "just",
+            "label": 0
+          },
+          {
+            "word": "by",
+            "label": 0
+          },
+          {
+            "word": "a",
+            "label": 0
+          },
+          {
+            "word": "strike",
+            "label": 0
+          },
+          {
+            "word": "of",
+            "label": 0
+          },
+          {
+            "word": "luck",
+            "label": 0
+          },
+          {
+            "word": "last",
+            "label": 0
+          },
+          {
+            "word": "September",
+            "label": 0
+          },
+          {
+            "word": "it",
+            "label": 0
+          },
+          {
+            "word": "turned",
+            "label": 0
+          },
+          {
+            "word": "out",
+            "label": 0
+          },
+          {
+            "word": "one",
+            "label": 0
+          },
+          {
+            "word": "of",
+            "label": 0
+          },
+          {
+            "word": "those",
+            "label": 0
+          },
+          {
+            "word": "planets",
+            "label": 0
+          },
+          {
+            "word": "made",
+            "label": 0
+          },
+          {
+            "word": "the",
+            "label": 1
+          },
+          {
+            "word": "news",
+            "label": 0
+          },
+          {
+            "word": "because",
+            "label": 0
+          },
+          {
+            "word": "others",
+            "label": 0
+          },
+          {
+            "word": "found",
+            "label": 0
+          },
+          {
+            "word": "out",
+            "label": 0
+          },
+          {
+            "word": "that",
+            "label": 0
+          },
+          {
+            "word": "this",
+            "label": 0
+          },
+          {
+            "word": "was",
+            "label": 0
+          }
+        ]
+      },
+      "metric_versions": {
+        "word_timing": "positive-duration-pairs-v2",
+        "phoneme_timing": "l2arctic-source-textgrid-v1"
+      }
+    },
+    "errors": {},
+    "skipped": {},
+    "models": {
+      "speaker": "microsoft/wavlm-base-plus-sv",
+      "accent": "Jzuluaga/accent-id-commonaccent_ecapa",
+      "emotion": "iic/emotion2vec_plus_large",
+      "asr": "openai/whisper-large-v3",
+      "word_aligner": "Qwen/Qwen3-ForcedAligner-0.6B",
+      "phoneme_aligner": "MFA 3"
+    }
+  }
+}

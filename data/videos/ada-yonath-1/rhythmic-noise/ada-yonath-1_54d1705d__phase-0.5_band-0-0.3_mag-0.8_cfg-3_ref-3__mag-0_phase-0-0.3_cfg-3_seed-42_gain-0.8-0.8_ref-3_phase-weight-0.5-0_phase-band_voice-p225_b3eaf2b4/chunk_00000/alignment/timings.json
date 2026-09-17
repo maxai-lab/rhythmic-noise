@@ -1,0 +1,874 @@
+{
+  "source": {
+    "words": [
+      {
+        "label": "Crystallography",
+        "start": 0.0,
+        "end": 0.8
+      },
+      {
+        "label": "is",
+        "start": 0.8,
+        "end": 1.12
+      },
+      {
+        "label": "the",
+        "start": 1.12,
+        "end": 1.28
+      },
+      {
+        "label": "only",
+        "start": 1.36,
+        "end": 1.92
+      },
+      {
+        "label": "method",
+        "start": 2.88,
+        "end": 3.52
+      },
+      {
+        "label": "that",
+        "start": 4.0,
+        "end": 4.16
+      },
+      {
+        "label": "can",
+        "start": 4.16,
+        "end": 4.48
+      },
+      {
+        "label": "bring",
+        "start": 4.48,
+        "end": 4.8
+      },
+      {
+        "label": "very",
+        "start": 4.88,
+        "end": 5.6
+      },
+      {
+        "label": "very",
+        "start": 5.68,
+        "end": 6.16
+      },
+      {
+        "label": "accurate",
+        "start": 6.16,
+        "end": 6.88
+      },
+      {
+        "label": "molecular",
+        "start": 6.88,
+        "end": 7.76
+      },
+      {
+        "label": "wa",
+        "start": 7.76,
+        "end": 7.76
+      },
+      {
+        "label": "eh",
+        "start": 7.76,
+        "end": 8.0
+      },
+      {
+        "label": "molecular",
+        "start": 8.0,
+        "end": 8.64
+      },
+      {
+        "label": "level",
+        "start": 8.64,
+        "end": 9.12
+      },
+      {
+        "label": "information",
+        "start": 9.36,
+        "end": 10.08
+      }
+    ],
+    "phonemes": [
+      {
+        "label": "\u026a",
+        "start": 0.12,
+        "end": 0.15
+      },
+      {
+        "label": "z",
+        "start": 0.15,
+        "end": 0.24
+      },
+      {
+        "label": "d\u032a",
+        "start": 0.24,
+        "end": 0.3
+      },
+      {
+        "label": "\u0259",
+        "start": 0.3,
+        "end": 0.43
+      },
+      {
+        "label": "ow",
+        "start": 0.43,
+        "end": 0.47
+      },
+      {
+        "label": "\u0272",
+        "start": 0.47,
+        "end": 0.5
+      },
+      {
+        "label": "\u028e",
+        "start": 0.5,
+        "end": 0.53
+      },
+      {
+        "label": "i",
+        "start": 0.53,
+        "end": 0.56
+      },
+      {
+        "label": "m",
+        "start": 0.56,
+        "end": 0.59
+      },
+      {
+        "label": "\u025b",
+        "start": 0.59,
+        "end": 0.62
+      },
+      {
+        "label": "\u03b8",
+        "start": 0.62,
+        "end": 0.72
+      },
+      {
+        "label": "\u0259",
+        "start": 0.72,
+        "end": 0.82
+      },
+      {
+        "label": "d",
+        "start": 0.82,
+        "end": 0.88
+      },
+      {
+        "label": "\u00f0",
+        "start": 0.88,
+        "end": 1.2
+      },
+      {
+        "label": "\u00e6",
+        "start": 1.2,
+        "end": 1.25
+      },
+      {
+        "label": "t",
+        "start": 1.25,
+        "end": 1.35
+      },
+      {
+        "label": "k",
+        "start": 1.35,
+        "end": 1.38
+      },
+      {
+        "label": "\u0259",
+        "start": 1.38,
+        "end": 1.49
+      },
+      {
+        "label": "n",
+        "start": 1.49,
+        "end": 1.52
+      },
+      {
+        "label": "b",
+        "start": 1.52,
+        "end": 1.55
+      },
+      {
+        "label": "\u0279",
+        "start": 1.55,
+        "end": 1.58
+      },
+      {
+        "label": "\u026a",
+        "start": 1.58,
+        "end": 1.81
+      },
+      {
+        "label": "n",
+        "start": 1.81,
+        "end": 1.86
+      },
+      {
+        "label": "v",
+        "start": 2.88,
+        "end": 3.05
+      },
+      {
+        "label": "\u025b",
+        "start": 3.05,
+        "end": 3.09
+      },
+      {
+        "label": "\u0279",
+        "start": 3.09,
+        "end": 3.12
+      },
+      {
+        "label": "i",
+        "start": 3.12,
+        "end": 3.15
+      },
+      {
+        "label": "v",
+        "start": 3.15,
+        "end": 3.29
+      },
+      {
+        "label": "\u025b",
+        "start": 3.29,
+        "end": 3.34
+      },
+      {
+        "label": "\u0279",
+        "start": 3.34,
+        "end": 3.37
+      },
+      {
+        "label": "i",
+        "start": 3.37,
+        "end": 3.44
+      },
+      {
+        "label": "\u00e6",
+        "start": 4.0,
+        "end": 4.06
+      },
+      {
+        "label": "c",
+        "start": 4.06,
+        "end": 4.24
+      },
+      {
+        "label": "\u0259",
+        "start": 4.24,
+        "end": 4.4
+      },
+      {
+        "label": "\u0279",
+        "start": 4.4,
+        "end": 4.52
+      },
+      {
+        "label": "\u026a",
+        "start": 4.52,
+        "end": 4.62
+      },
+      {
+        "label": "t",
+        "start": 4.62,
+        "end": 5.04
+      },
+      {
+        "label": "m",
+        "start": 5.04,
+        "end": 5.09
+      },
+      {
+        "label": "\u0259",
+        "start": 5.09,
+        "end": 5.12
+      },
+      {
+        "label": "l",
+        "start": 5.12,
+        "end": 5.19
+      },
+      {
+        "label": "\u025b",
+        "start": 5.19,
+        "end": 5.23
+      },
+      {
+        "label": "c",
+        "start": 5.23,
+        "end": 5.26
+      },
+      {
+        "label": "\u0259",
+        "start": 5.26,
+        "end": 5.29
+      },
+      {
+        "label": "l",
+        "start": 5.29,
+        "end": 5.32
+      },
+      {
+        "label": "\u025a",
+        "start": 5.32,
+        "end": 5.4
+      },
+      {
+        "label": "w",
+        "start": 5.4,
+        "end": 5.43
+      },
+      {
+        "label": "\u0251",
+        "start": 5.43,
+        "end": 5.46
+      },
+      {
+        "label": "\u025b",
+        "start": 5.46,
+        "end": 5.5
+      },
+      {
+        "label": "m",
+        "start": 5.65,
+        "end": 5.81
+      },
+      {
+        "label": "\u0259",
+        "start": 5.81,
+        "end": 6.01
+      },
+      {
+        "label": "l",
+        "start": 6.01,
+        "end": 6.05
+      },
+      {
+        "label": "\u025b",
+        "start": 6.05,
+        "end": 6.09
+      },
+      {
+        "label": "c",
+        "start": 6.09,
+        "end": 6.44
+      },
+      {
+        "label": "\u0259",
+        "start": 6.44,
+        "end": 6.53
+      },
+      {
+        "label": "l",
+        "start": 6.53,
+        "end": 6.59
+      },
+      {
+        "label": "\u025a",
+        "start": 6.59,
+        "end": 6.75
+      },
+      {
+        "label": "l",
+        "start": 6.91,
+        "end": 7.18
+      },
+      {
+        "label": "\u025b",
+        "start": 7.18,
+        "end": 7.22
+      },
+      {
+        "label": "v",
+        "start": 7.22,
+        "end": 7.34
+      },
+      {
+        "label": "\u0259",
+        "start": 7.34,
+        "end": 7.61
+      },
+      {
+        "label": "\u026b",
+        "start": 7.61,
+        "end": 7.71
+      },
+      {
+        "label": "\u026a",
+        "start": 7.71,
+        "end": 8.01
+      },
+      {
+        "label": "n",
+        "start": 8.01,
+        "end": 8.43
+      },
+      {
+        "label": "f",
+        "start": 8.43,
+        "end": 8.47
+      },
+      {
+        "label": "\u025a",
+        "start": 8.47,
+        "end": 8.87
+      },
+      {
+        "label": "m",
+        "start": 8.87,
+        "end": 8.95
+      },
+      {
+        "label": "ej",
+        "start": 8.95,
+        "end": 8.99
+      },
+      {
+        "label": "\u0283",
+        "start": 8.99,
+        "end": 9.02
+      },
+      {
+        "label": "n\u0329",
+        "start": 9.02,
+        "end": 9.13
+      }
+    ]
+  },
+  "generated": {
+    "words": [
+      {
+        "label": "Crystallography",
+        "start": 0.0,
+        "end": 0.96
+      },
+      {
+        "label": "is",
+        "start": 0.96,
+        "end": 1.12
+      },
+      {
+        "label": "the",
+        "start": 1.12,
+        "end": 1.28
+      },
+      {
+        "label": "only",
+        "start": 1.28,
+        "end": 1.84
+      },
+      {
+        "label": "method",
+        "start": 2.88,
+        "end": 3.52
+      },
+      {
+        "label": "that",
+        "start": 4.0,
+        "end": 4.16
+      },
+      {
+        "label": "can",
+        "start": 4.16,
+        "end": 4.4
+      },
+      {
+        "label": "bring",
+        "start": 4.4,
+        "end": 4.88
+      },
+      {
+        "label": "very",
+        "start": 5.04,
+        "end": 5.52
+      },
+      {
+        "label": "very",
+        "start": 5.52,
+        "end": 6.08
+      },
+      {
+        "label": "accurate",
+        "start": 6.08,
+        "end": 6.72
+      },
+      {
+        "label": "molecular",
+        "start": 6.96,
+        "end": 7.52
+      },
+      {
+        "label": "wa",
+        "start": 7.52,
+        "end": 8.0
+      },
+      {
+        "label": "eh",
+        "start": 8.16,
+        "end": 8.4
+      },
+      {
+        "label": "molecular",
+        "start": 8.4,
+        "end": 8.96
+      },
+      {
+        "label": "level",
+        "start": 8.96,
+        "end": 9.36
+      },
+      {
+        "label": "information",
+        "start": 9.36,
+        "end": 10.08
+      }
+    ],
+    "phonemes": [
+      {
+        "label": "\u026a",
+        "start": 0.78,
+        "end": 1.01
+      },
+      {
+        "label": "z",
+        "start": 1.01,
+        "end": 1.09
+      },
+      {
+        "label": "d\u032a",
+        "start": 1.09,
+        "end": 1.13
+      },
+      {
+        "label": "i\u02d0",
+        "start": 1.13,
+        "end": 1.25
+      },
+      {
+        "label": "ow",
+        "start": 1.25,
+        "end": 1.35
+      },
+      {
+        "label": "\u0272",
+        "start": 1.35,
+        "end": 1.55
+      },
+      {
+        "label": "\u028e",
+        "start": 1.55,
+        "end": 1.58
+      },
+      {
+        "label": "i",
+        "start": 1.58,
+        "end": 1.84
+      },
+      {
+        "label": "m",
+        "start": 2.93,
+        "end": 3.04
+      },
+      {
+        "label": "\u025b",
+        "start": 3.04,
+        "end": 3.13
+      },
+      {
+        "label": "\u03b8",
+        "start": 3.13,
+        "end": 3.26
+      },
+      {
+        "label": "\u0259",
+        "start": 3.26,
+        "end": 3.39
+      },
+      {
+        "label": "d",
+        "start": 3.39,
+        "end": 3.47
+      },
+      {
+        "label": "\u00f0",
+        "start": 3.98,
+        "end": 4.05
+      },
+      {
+        "label": "\u00e6",
+        "start": 4.05,
+        "end": 4.12
+      },
+      {
+        "label": "t",
+        "start": 4.12,
+        "end": 4.18
+      },
+      {
+        "label": "k",
+        "start": 4.18,
+        "end": 4.26
+      },
+      {
+        "label": "\u0259",
+        "start": 4.26,
+        "end": 4.29
+      },
+      {
+        "label": "n",
+        "start": 4.29,
+        "end": 4.39
+      },
+      {
+        "label": "b",
+        "start": 4.39,
+        "end": 4.46
+      },
+      {
+        "label": "\u0279",
+        "start": 4.46,
+        "end": 4.53
+      },
+      {
+        "label": "\u026a",
+        "start": 4.53,
+        "end": 4.64
+      },
+      {
+        "label": "\u014b",
+        "start": 4.64,
+        "end": 4.85
+      },
+      {
+        "label": "v",
+        "start": 5.04,
+        "end": 5.13
+      },
+      {
+        "label": "\u025b",
+        "start": 5.13,
+        "end": 5.24
+      },
+      {
+        "label": "\u0279",
+        "start": 5.24,
+        "end": 5.34
+      },
+      {
+        "label": "i",
+        "start": 5.34,
+        "end": 5.54
+      },
+      {
+        "label": "v",
+        "start": 5.58,
+        "end": 5.73
+      },
+      {
+        "label": "\u025b",
+        "start": 5.73,
+        "end": 5.84
+      },
+      {
+        "label": "\u0279",
+        "start": 5.84,
+        "end": 5.96
+      },
+      {
+        "label": "i",
+        "start": 5.96,
+        "end": 6.08
+      },
+      {
+        "label": "\u00e6",
+        "start": 6.08,
+        "end": 6.22
+      },
+      {
+        "label": "c",
+        "start": 6.22,
+        "end": 6.43
+      },
+      {
+        "label": "\u0259",
+        "start": 6.43,
+        "end": 6.48
+      },
+      {
+        "label": "\u0279",
+        "start": 6.48,
+        "end": 6.55
+      },
+      {
+        "label": "\u026a",
+        "start": 6.55,
+        "end": 6.66
+      },
+      {
+        "label": "t",
+        "start": 6.66,
+        "end": 6.69
+      },
+      {
+        "label": "m",
+        "start": 6.93,
+        "end": 7.02
+      },
+      {
+        "label": "\u0259",
+        "start": 7.02,
+        "end": 7.06
+      },
+      {
+        "label": "l",
+        "start": 7.06,
+        "end": 7.11
+      },
+      {
+        "label": "\u025b",
+        "start": 7.11,
+        "end": 7.24
+      },
+      {
+        "label": "c",
+        "start": 7.24,
+        "end": 7.37
+      },
+      {
+        "label": "\u0259",
+        "start": 7.37,
+        "end": 7.42
+      },
+      {
+        "label": "l",
+        "start": 7.42,
+        "end": 7.47
+      },
+      {
+        "label": "\u025a",
+        "start": 7.47,
+        "end": 7.54
+      },
+      {
+        "label": "w",
+        "start": 7.54,
+        "end": 7.67
+      },
+      {
+        "label": "\u0251",
+        "start": 7.67,
+        "end": 7.7
+      },
+      {
+        "label": "\u025b",
+        "start": 7.7,
+        "end": 7.81
+      },
+      {
+        "label": "m",
+        "start": 7.81,
+        "end": 7.92
+      },
+      {
+        "label": "\u0259",
+        "start": 7.92,
+        "end": 7.95
+      },
+      {
+        "label": "l",
+        "start": 7.95,
+        "end": 7.98
+      },
+      {
+        "label": "\u025b",
+        "start": 7.98,
+        "end": 8.01
+      },
+      {
+        "label": "c",
+        "start": 8.01,
+        "end": 8.17
+      },
+      {
+        "label": "\u0259",
+        "start": 8.17,
+        "end": 8.2
+      },
+      {
+        "label": "l",
+        "start": 8.2,
+        "end": 8.23
+      },
+      {
+        "label": "\u025a",
+        "start": 8.23,
+        "end": 8.42
+      },
+      {
+        "label": "l",
+        "start": 8.42,
+        "end": 8.6
+      },
+      {
+        "label": "\u025b",
+        "start": 8.6,
+        "end": 8.67
+      },
+      {
+        "label": "v",
+        "start": 8.67,
+        "end": 8.83
+      },
+      {
+        "label": "\u026b\u0329",
+        "start": 8.83,
+        "end": 8.87
+      },
+      {
+        "label": "\u026a",
+        "start": 8.87,
+        "end": 9.46
+      },
+      {
+        "label": "n",
+        "start": 9.46,
+        "end": 9.51
+      },
+      {
+        "label": "f",
+        "start": 9.51,
+        "end": 9.6
+      },
+      {
+        "label": "\u025a",
+        "start": 9.6,
+        "end": 9.64
+      },
+      {
+        "label": "m",
+        "start": 9.64,
+        "end": 9.69
+      },
+      {
+        "label": "ej",
+        "start": 9.69,
+        "end": 9.8
+      },
+      {
+        "label": "\u0283",
+        "start": 9.8,
+        "end": 9.93
+      },
+      {
+        "label": "\u0259",
+        "start": 9.93,
+        "end": 9.98
+      },
+      {
+        "label": "n",
+        "start": 9.98,
+        "end": 10.11
+      }
+    ]
+  }
+}

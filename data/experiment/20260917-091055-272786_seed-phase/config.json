@@ -1,0 +1,41 @@
+{
+  "source_audio": "/home/moshe_mandel/prosodic-noise/src/experiments/cross-analysis/data/hello/recorded.wav",
+  "transcript": "/home/moshe_mandel/prosodic-noise/src/experiments/cross-analysis/data/hello/transcript.txt",
+  "voice_ref": "/home/moshe_mandel/prosodic-noise/src/experiments/cross-analysis/data/2.wav",
+  "seeds": [
+    42,
+    43,
+    73,
+    74,
+    1234,
+    1235
+  ],
+  "device": "cuda:0",
+  "output_dir": "/home/moshe_mandel/prosodic-noise/src/experiments/cross-analysis/seed-phase-2/output",
+  "dramabox_root": "/home/moshe_mandel/colorful-noise-audio-sandbox/DramaBox-clean",
+  "dry_run": false,
+  "phase_core_fraction": 0.0,
+  "phase_cutoff_fraction": 0.3,
+  "phase_low_scale": 0.5,
+  "phase_high_scale": 0.0,
+  "phase_strength": 1.0,
+  "noise_scale": 0.8,
+  "cfg_scale": 3.0,
+  "reference_guidance_scale": 3.0,
+  "replacement_timestep": 1.0,
+  "prompt_template": "\"{text}\"",
+  "text": "Hello, how are you today? <laughter> It is so good to see you!",
+  "prompt": "\"Hello, how are you today? <laughter> It is so good to see you!\"",
+  "source_duration": 9.504,
+  "model_duration": 9.6,
+  "frames": 241,
+  "magnitude_fraction": 0.0,
+  "prior_mode": "continuous",
+  "phase_weight_mode": "band",
+  "dtype": "bfloat16",
+  "model_paths": {
+    "transformer": "/home/moshe_mandel/.cache/dramabox/models--ResembleAI--Dramabox/snapshots/404f967f653fa1170dc15a9d1ddd3fdb9a0a842d/dramabox-dit-v1.safetensors",
+    "audio_components": "/home/moshe_mandel/.cache/dramabox/models--ResembleAI--Dramabox/snapshots/404f967f653fa1170dc15a9d1ddd3fdb9a0a842d/dramabox-audio-components.safetensors",
+    "gemma_root": "/home/moshe_mandel/.cache/dramabox/models--unsloth--gemma-3-12b-it-bnb-4bit/snapshots/826e729dbaeea4ecb143738eed2bcf3539ebf7bf"
+  }
+}

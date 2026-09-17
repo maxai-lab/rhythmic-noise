@@ -1,0 +1,392 @@
+{
+  "clean_source_audio": null,
+  "source_audio": "/home/moshe_mandel/prosodic-noise/data/outputs-video/20260916-131652-490626_phase_prior_video/shing-tung-yau-1_950cc787__phase-0.5_band-0-0.3_mag-0.8_cfg-8_ref-3__mag-0_phase-0-0.3_cfg-3_seed-42_gain-0.8-0.8_ref-3_phase-weight-0.5-0_phase-band_voice-p226_696debd1/chunk_00000/source.wav",
+  "ref_audio": "/home/moshe_mandel/prosodic-noise/data/outputs-video/20260916-131652-490626_phase_prior_video/shing-tung-yau-1_950cc787__phase-0.5_band-0-0.3_mag-0.8_cfg-8_ref-3__mag-0_phase-0-0.3_cfg-3_seed-42_gain-0.8-0.8_ref-3_phase-weight-0.5-0_phase-band_voice-p226_696debd1/chunk_00000/reference.wav",
+  "generated_audio": "/home/moshe_mandel/prosodic-noise/data/outputs-video/20260916-131652-490626_phase_prior_video/shing-tung-yau-1_950cc787__phase-0.5_band-0-0.3_mag-0.8_cfg-8_ref-3__mag-0_phase-0-0.3_cfg-3_seed-42_gain-0.8-0.8_ref-3_phase-weight-0.5-0_phase-band_voice-p226_696debd1/chunk_00000/generated.wav",
+  "transcript": "As long as you come up with something I feel I can do better than you, I can find new idea or new direction or new method, I can be better than you.",
+  "transcript_file": "/home/moshe_mandel/prosodic-noise/data/outputs-video/20260916-131652-490626_phase_prior_video/inputs/shing-tung-yau-1_950cc787/chunk_00000/transcript.txt",
+  "evaluation": {
+    "status": "complete",
+    "metrics": {
+      "dnsmos_sig": 3.6609782565560423,
+      "speaker_similarity_ref": 0.9860638976097107,
+      "speaker_similarity_source": 0.5084495544433594,
+      "accent_similarity_source": 0.3713631331920624,
+      "accent_accuracy_source": 1,
+      "accent_similarity_ref": 0.887139618396759,
+      "accent_accuracy_ref": 1,
+      "emotion_similarity": 0.9856818318367004,
+      "emotion_accuracy": 1,
+      "f0_correlation": 0.9742790777771975,
+      "wer": 0.0,
+      "cer": 0.0,
+      "stress_precision": 0.5,
+      "stress_recall": 1.0,
+      "stress_f1": 0.6666666666666666,
+      "word_timing": {
+        "num_words": 33,
+        "first_word_onset_delta_seconds": 0.32,
+        "relative_word_onset_mae_seconds": 0.3296969696969697,
+        "relative_word_offset_mae_seconds": 0.35151515151515156,
+        "word_duration_mae_seconds": 0.05090909090909096,
+        "inter_word_gap_mae_seconds": 0.027499999999999938,
+        "speech_span_ratio": 0.9746835443037974,
+        "mean_word_timing_iou": 0.05243695698241159,
+        "num_word_timing_iou_pairs": 33,
+        "num_excluded_word_timing_iou_pairs": 0
+      },
+      "phoneme_timing": {
+        "num_phonemes": 82,
+        "first_phoneme_onset_delta_seconds": 0.27999999999999997,
+        "relative_phoneme_onset_mae_seconds": 0.305731707317073,
+        "relative_phoneme_offset_mae_seconds": 0.31341463414634124,
+        "phoneme_duration_mae_seconds": 0.03475609756097566,
+        "inter_phoneme_gap_mae_seconds": 0.011851851851851837,
+        "speech_span_ratio": 0.9785884218873911,
+        "mean_phoneme_timing_iou": 0.00399928263988521,
+        "source_num_phonemes": 90,
+        "generated_num_phonemes": 91,
+        "matched_source_phoneme_fraction": 0.9111111111111111
+      }
+    },
+    "source_metrics": {
+      "dnsmos_sig": 3.668753337077178,
+      "wer": 0.0,
+      "cer": 0.0
+    },
+    "details": {
+      "language_context": {
+        "prompt_language": null,
+        "source_language": null,
+        "cross_language": false
+      },
+      "dnsmos": {
+        "SIG": 3.6609782565560423,
+        "BAK": 4.215816154825557,
+        "OVRL": 3.444572185741743,
+        "SIG_raw": 4.2188310623168945,
+        "BAK_raw": 4.5896525382995605,
+        "OVRL_raw": 4.033943176269531,
+        "num_hops": 4,
+        "len_in_sec": 13.24
+      },
+      "source_dnsmos": {
+        "SIG": 3.668753337077178,
+        "BAK": 3.801820860921621,
+        "OVRL": 3.252913755033112,
+        "SIG_raw": 4.23388147354126,
+        "BAK_raw": 3.7748184204101562,
+        "OVRL_raw": 3.7097339630126953,
+        "num_hops": 4,
+        "len_in_sec": 13.24
+      },
+      "accent": {
+        "source_label": "england",
+        "ref_label": "england",
+        "generated_label": "england"
+      },
+      "emotion": {
+        "source_label": "\u5f00\u5fc3/happy",
+        "generated_label": "\u5f00\u5fc3/happy"
+      },
+      "asr": {
+        "transcription": "As long as you come up with something I feel I can do better than you. I can find new idea or new direction or new method. I can be better than you.",
+        "word_edits": 0,
+        "reference_words": 33,
+        "character_edits": 0,
+        "reference_characters": 113
+      },
+      "source_asr": {
+        "transcription": "As long as you come up with something I feel I can do better than you, I can find new idea or new direction or new method, I can be better than you.",
+        "word_edits": 0,
+        "reference_words": 33,
+        "character_edits": 0,
+        "reference_characters": 113
+      },
+      "stress": {
+        "reference_labels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "predicted_labels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "reference_sequence": [
+          {
+            "word": "As",
+            "label": 0
+          },
+          {
+            "word": "long",
+            "label": 0
+          },
+          {
+            "word": "as",
+            "label": 0
+          },
+          {
+            "word": "you",
+            "label": 0
+          },
+          {
+            "word": "come",
+            "label": 0
+          },
+          {
+            "word": "up",
+            "label": 0
+          },
+          {
+            "word": "with",
+            "label": 0
+          },
+          {
+            "word": "something",
+            "label": 0
+          },
+          {
+            "word": "I",
+            "label": 0
+          },
+          {
+            "word": "feel",
+            "label": 0
+          },
+          {
+            "word": "I",
+            "label": 0
+          },
+          {
+            "word": "can",
+            "label": 0
+          },
+          {
+            "word": "do",
+            "label": 0
+          },
+          {
+            "word": "better",
+            "label": 0
+          },
+          {
+            "word": "than",
+            "label": 0
+          },
+          {
+            "word": "you,",
+            "label": 0
+          },
+          {
+            "word": "I",
+            "label": 0
+          },
+          {
+            "word": "can",
+            "label": 0
+          },
+          {
+            "word": "find",
+            "label": 0
+          },
+          {
+            "word": "new",
+            "label": 1
+          },
+          {
+            "word": "idea",
+            "label": 0
+          },
+          {
+            "word": "or",
+            "label": 0
+          },
+          {
+            "word": "new",
+            "label": 0
+          },
+          {
+            "word": "direction",
+            "label": 0
+          },
+          {
+            "word": "or",
+            "label": 0
+          },
+          {
+            "word": "new",
+            "label": 0
+          }
+        ],
+        "predicted_sequence": [
+          {
+            "word": "As",
+            "label": 0
+          },
+          {
+            "word": "long",
+            "label": 0
+          },
+          {
+            "word": "as",
+            "label": 0
+          },
+          {
+            "word": "you",
+            "label": 0
+          },
+          {
+            "word": "come",
+            "label": 0
+          },
+          {
+            "word": "up",
+            "label": 0
+          },
+          {
+            "word": "with",
+            "label": 0
+          },
+          {
+            "word": "something",
+            "label": 0
+          },
+          {
+            "word": "I",
+            "label": 0
+          },
+          {
+            "word": "feel",
+            "label": 1
+          },
+          {
+            "word": "I",
+            "label": 0
+          },
+          {
+            "word": "can",
+            "label": 0
+          },
+          {
+            "word": "do",
+            "label": 0
+          },
+          {
+            "word": "better",
+            "label": 0
+          },
+          {
+            "word": "than",
+            "label": 0
+          },
+          {
+            "word": "you,",
+            "label": 0
+          },
+          {
+            "word": "I",
+            "label": 0
+          },
+          {
+            "word": "can",
+            "label": 0
+          },
+          {
+            "word": "find",
+            "label": 0
+          },
+          {
+            "word": "new",
+            "label": 1
+          },
+          {
+            "word": "idea",
+            "label": 0
+          },
+          {
+            "word": "or",
+            "label": 0
+          },
+          {
+            "word": "new",
+            "label": 0
+          },
+          {
+            "word": "direction",
+            "label": 0
+          },
+          {
+            "word": "or",
+            "label": 0
+          },
+          {
+            "word": "new",
+            "label": 0
+          }
+        ]
+      },
+      "metric_versions": {
+        "word_timing": "positive-duration-pairs-v2",
+        "phoneme_timing": "l2arctic-source-textgrid-v1"
+      }
+    },
+    "errors": {},
+    "skipped": {},
+    "models": {
+      "speaker": "microsoft/wavlm-base-plus-sv",
+      "accent": "Jzuluaga/accent-id-commonaccent_ecapa",
+      "emotion": "iic/emotion2vec_plus_large",
+      "asr": "openai/whisper-large-v3",
+      "word_aligner": "Qwen/Qwen3-ForcedAligner-0.6B",
+      "phoneme_aligner": "MFA 3"
+    }
+  }
+}

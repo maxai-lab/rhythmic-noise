@@ -1,0 +1,15 @@
+{
+  "samples": [
+    {
+      "name": "chunk_00000",
+      "text": "The theme of Interspeech two thousand twenty six is Speaking Together. That is how this field has always made progress. I hope to see you in Sydney.",
+      "source_audio": "/home/moshe_mandel/prosodic-noise/data/outputs-video/20260916-131652-490626_phase_prior_video/inputs/junichi-yamagishi-5_a94d3343/chunk_00000/source.wav",
+      "reference_audio": "/home/moshe_mandel/prosodic-noise/data/outputs-video/20260916-131652-490626_phase_prior_video/reference_voices/696debd16cf1cb0b/reference_external_first10.wav",
+      "start_sample": 0,
+      "end_sample": 285600,
+      "start_seconds": 0.0,
+      "end_seconds": 11.9,
+      "transcript_file": "/home/moshe_mandel/prosodic-noise/data/outputs-video/20260916-131652-490626_phase_prior_video/inputs/junichi-yamagishi-5_a94d3343/chunk_00000/transcript.txt"
+    }
+  ]
+}

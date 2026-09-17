@@ -1,0 +1,332 @@
+{
+  "clean_source_audio": null,
+  "source_audio": "/home/moshe_mandel/prosodic-noise/data/outputs-seed-vc/video-segments/yann-lecun-3_97b1f6ba__chunk_00000__p226/source.wav",
+  "ref_audio": "/home/moshe_mandel/prosodic-noise/data/outputs-seed-vc/video-segments/yann-lecun-3_97b1f6ba__chunk_00000__p226/reference.wav",
+  "generated_audio": "/home/moshe_mandel/prosodic-noise/data/outputs-seed-vc/video-segments/yann-lecun-3_97b1f6ba__chunk_00000__p226/generated.wav",
+  "transcript": "So, you know, it's not just around the corner. I mean, I've been hearing people for the last 12, 15 years claiming that, you know, AGI is just around the corner and being systematically wrong. And I knew they were wrong when they were saying it. I called their bullshit <laughter>.",
+  "transcript_file": null,
+  "evaluation": {
+    "status": "complete",
+    "metrics": {
+      "dnsmos_sig": 3.6518218986404496,
+      "speaker_similarity_ref": 0.917942225933075,
+      "speaker_similarity_source": 0.9267483949661255,
+      "accent_similarity_source": 0.5934441089630127,
+      "accent_accuracy_source": 0,
+      "accent_similarity_ref": 0.6658458113670349,
+      "accent_accuracy_ref": 0,
+      "emotion_similarity": 0.9948293566703796,
+      "emotion_accuracy": 0,
+      "f0_correlation": 0.7181857734118812,
+      "wer": 0.37254901960784315,
+      "cer": 0.3242009132420091,
+      "stress_precision": 0.0,
+      "stress_recall": 0.0,
+      "stress_f1": 0.0,
+      "word_timing": {
+        "num_words": 51,
+        "first_word_onset_delta_seconds": 0.0,
+        "relative_word_onset_mae_seconds": 0.3733333333333333,
+        "relative_word_offset_mae_seconds": 0.3796078431372549,
+        "word_duration_mae_seconds": 0.16941176470588237,
+        "inter_word_gap_mae_seconds": 0.08960000000000008,
+        "speech_span_ratio": 0.9425837320574161,
+        "mean_word_timing_iou": 0.24012345679012365,
+        "num_word_timing_iou_pairs": 36,
+        "num_excluded_word_timing_iou_pairs": 15
+      },
+      "phoneme_timing": {
+        "num_phonemes": 132,
+        "first_phoneme_onset_delta_seconds": 1.0699999999999998,
+        "relative_phoneme_onset_mae_seconds": 1.0999242348484852,
+        "relative_phoneme_offset_mae_seconds": 1.115378787878788,
+        "phoneme_duration_mae_seconds": 0.03666671969696974,
+        "inter_phoneme_gap_mae_seconds": 0.02816793893129768,
+        "speech_span_ratio": 0.8626958706773749,
+        "mean_phoneme_timing_iou": 0.021609198881926143,
+        "source_num_phonemes": 144,
+        "generated_num_phonemes": 145,
+        "matched_source_phoneme_fraction": 0.9166666666666666
+      }
+    },
+    "source_metrics": {
+      "dnsmos_sig": 3.472241822445216,
+      "wer": 0.0392156862745098,
+      "cer": 0.045662100456621
+    },
+    "details": {
+      "language_context": {
+        "prompt_language": null,
+        "source_language": null,
+        "cross_language": false
+      },
+      "dnsmos": {
+        "SIG": 3.6518218986404496,
+        "BAK": 4.186742158447072,
+        "OVRL": 3.4491058703596154,
+        "SIG_raw": 4.201100826263428,
+        "BAK_raw": 4.519256114959717,
+        "OVRL_raw": 4.04209041595459,
+        "num_hops": 7,
+        "len_in_sec": 16.3004375
+      },
+      "source_dnsmos": {
+        "SIG": 3.472241822445216,
+        "BAK": 4.047924053360957,
+        "OVRL": 3.2006663825997905,
+        "SIG_raw": 3.8707244396209717,
+        "BAK_raw": 4.2165961265563965,
+        "OVRL_raw": 3.6259026527404785,
+        "num_hops": 8,
+        "len_in_sec": 17.333375
+      },
+      "accent": {
+        "source_label": "england",
+        "ref_label": "england",
+        "generated_label": "us"
+      },
+      "emotion": {
+        "source_label": "<unk>",
+        "generated_label": "\u4e2d\u7acb/neutral"
+      },
+      "asr": {
+        "transcription": "So, you know, it's not just some on the corner. I mean, I've been hearing people for the last 12, 15 years claiming that, you know, edgy eyes are some on the corner. Seize the money wrong. And I knew they were one. I call that bullshit. Yeah.",
+        "word_edits": 19,
+        "reference_words": 51,
+        "character_edits": 71,
+        "reference_characters": 219
+      },
+      "source_asr": {
+        "transcription": "So, you know, it's not just around the corner. I mean, I've been hearing people for the last 12, 15 years claiming that, you know, AGI is just around the corner and being systematically wrong. And I knew they were wrong when they were saying it. I call their bullshit.",
+        "word_edits": 2,
+        "reference_words": 51,
+        "character_edits": 10,
+        "reference_characters": 219
+      },
+      "stress": {
+        "reference_labels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "predicted_labels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "reference_sequence": [
+          {
+            "word": "So,",
+            "label": 0
+          },
+          {
+            "word": "you",
+            "label": 0
+          },
+          {
+            "word": "know,",
+            "label": 0
+          },
+          {
+            "word": "it's",
+            "label": 0
+          },
+          {
+            "word": "not",
+            "label": 0
+          },
+          {
+            "word": "just",
+            "label": 0
+          },
+          {
+            "word": "around",
+            "label": 0
+          },
+          {
+            "word": "the",
+            "label": 0
+          },
+          {
+            "word": "corner.",
+            "label": 0
+          },
+          {
+            "word": "I",
+            "label": 0
+          },
+          {
+            "word": "mean,",
+            "label": 0
+          },
+          {
+            "word": "I've",
+            "label": 0
+          },
+          {
+            "word": "been",
+            "label": 0
+          },
+          {
+            "word": "hearing",
+            "label": 0
+          },
+          {
+            "word": "people",
+            "label": 0
+          },
+          {
+            "word": "for",
+            "label": 0
+          },
+          {
+            "word": "the",
+            "label": 0
+          },
+          {
+            "word": "last",
+            "label": 0
+          },
+          {
+            "word": "12,",
+            "label": 0
+          },
+          {
+            "word": "15",
+            "label": 0
+          }
+        ],
+        "predicted_sequence": [
+          {
+            "word": "So,",
+            "label": 0
+          },
+          {
+            "word": "you",
+            "label": 0
+          },
+          {
+            "word": "know,",
+            "label": 0
+          },
+          {
+            "word": "it's",
+            "label": 0
+          },
+          {
+            "word": "not",
+            "label": 0
+          },
+          {
+            "word": "just",
+            "label": 0
+          },
+          {
+            "word": "around",
+            "label": 0
+          },
+          {
+            "word": "the",
+            "label": 0
+          },
+          {
+            "word": "corner.",
+            "label": 0
+          },
+          {
+            "word": "I",
+            "label": 0
+          },
+          {
+            "word": "mean,",
+            "label": 0
+          },
+          {
+            "word": "I've",
+            "label": 0
+          },
+          {
+            "word": "been",
+            "label": 0
+          },
+          {
+            "word": "hearing",
+            "label": 0
+          },
+          {
+            "word": "people",
+            "label": 0
+          },
+          {
+            "word": "for",
+            "label": 0
+          },
+          {
+            "word": "the",
+            "label": 0
+          },
+          {
+            "word": "last",
+            "label": 0
+          },
+          {
+            "word": "12,",
+            "label": 0
+          },
+          {
+            "word": "15",
+            "label": 0
+          }
+        ]
+      },
+      "metric_versions": {
+        "word_timing": "positive-duration-pairs-v2",
+        "phoneme_timing": "l2arctic-source-textgrid-v1"
+      }
+    },
+    "errors": {},
+    "skipped": {},
+    "models": {
+      "speaker": "microsoft/wavlm-base-plus-sv",
+      "accent": "Jzuluaga/accent-id-commonaccent_ecapa",
+      "emotion": "iic/emotion2vec_plus_large",
+      "asr": "openai/whisper-large-v3",
+      "word_aligner": "Qwen/Qwen3-ForcedAligner-0.6B",
+      "phoneme_aligner": "MFA 3"
+    }
+  }
+}

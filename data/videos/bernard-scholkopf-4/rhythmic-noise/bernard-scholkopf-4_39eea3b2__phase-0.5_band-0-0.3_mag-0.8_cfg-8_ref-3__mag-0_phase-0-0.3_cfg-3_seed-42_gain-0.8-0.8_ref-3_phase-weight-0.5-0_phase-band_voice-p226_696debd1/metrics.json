@@ -1,0 +1,267 @@
+{
+  "num_samples": 1,
+  "metrics": {
+    "accent_accuracy_ref": 1.0,
+    "accent_accuracy_source": 0.0,
+    "accent_similarity_ref": 0.8895220160484314,
+    "accent_similarity_source": 0.23629631102085114,
+    "cer": 0.0,
+    "dnsmos_sig": 3.6725225802667842,
+    "emotion_accuracy": 1.0,
+    "emotion_similarity": 0.993008553981781,
+    "f0_correlation": 0.6787945652959302,
+    "phoneme_timing.first_phoneme_onset_delta_seconds": 0.009999999999999981,
+    "phoneme_timing.generated_num_phonemes": 168.0,
+    "phoneme_timing.inter_phoneme_gap_mae_seconds": 0.006913580246913566,
+    "phoneme_timing.matched_source_phoneme_fraction": 0.9588235294117647,
+    "phoneme_timing.mean_phoneme_timing_iou": 0.34745956907342634,
+    "phoneme_timing.num_phonemes": 163.0,
+    "phoneme_timing.phoneme_duration_mae_seconds": 0.024539877300613643,
+    "phoneme_timing.relative_phoneme_offset_mae_seconds": 0.07705521472392712,
+    "phoneme_timing.relative_phoneme_onset_mae_seconds": 0.07779141104294549,
+    "phoneme_timing.source_num_phonemes": 170.0,
+    "phoneme_timing.speech_span_ratio": 0.9961414790996783,
+    "speaker_similarity_ref": 0.9877489805221558,
+    "speaker_similarity_source": 0.8122054934501648,
+    "stress_f1": 0.6666666666666666,
+    "stress_precision": 0.6666666666666666,
+    "stress_recall": 0.6666666666666666,
+    "wer": 0.0,
+    "word_timing.first_word_onset_delta_seconds": 0.0,
+    "word_timing.inter_word_gap_mae_seconds": 0.02166666666666668,
+    "word_timing.mean_word_timing_iou": 0.6896932854379665,
+    "word_timing.num_excluded_word_timing_iou_pairs": 2.0,
+    "word_timing.num_word_timing_iou_pairs": 47.0,
+    "word_timing.num_words": 49.0,
+    "word_timing.relative_word_offset_mae_seconds": 0.07673469387755101,
+    "word_timing.relative_word_onset_mae_seconds": 0.07020408163265307,
+    "word_timing.speech_span_ratio": 0.9948453608247423,
+    "word_timing.word_duration_mae_seconds": 0.06857142857142857
+  },
+  "statistics": {
+    "accent_accuracy_ref": {
+      "mean": 1.0,
+      "std": 0.0,
+      "min": 1.0,
+      "max": 1.0
+    },
+    "accent_accuracy_source": {
+      "mean": 0.0,
+      "std": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "accent_similarity_ref": {
+      "mean": 0.8895220160484314,
+      "std": 0.0,
+      "min": 0.8895220160484314,
+      "max": 0.8895220160484314
+    },
+    "accent_similarity_source": {
+      "mean": 0.23629631102085114,
+      "std": 0.0,
+      "min": 0.23629631102085114,
+      "max": 0.23629631102085114
+    },
+    "cer": {
+      "mean": 0.0,
+      "std": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "dnsmos_sig": {
+      "mean": 3.6725225802667842,
+      "std": 0.0,
+      "min": 3.6725225802667842,
+      "max": 3.6725225802667842
+    },
+    "emotion_accuracy": {
+      "mean": 1.0,
+      "std": 0.0,
+      "min": 1.0,
+      "max": 1.0
+    },
+    "emotion_similarity": {
+      "mean": 0.993008553981781,
+      "std": 0.0,
+      "min": 0.993008553981781,
+      "max": 0.993008553981781
+    },
+    "f0_correlation": {
+      "mean": 0.6787945652959302,
+      "std": 0.0,
+      "min": 0.6787945652959302,
+      "max": 0.6787945652959302
+    },
+    "phoneme_timing.first_phoneme_onset_delta_seconds": {
+      "mean": 0.009999999999999981,
+      "std": 0.0,
+      "min": 0.009999999999999981,
+      "max": 0.009999999999999981
+    },
+    "phoneme_timing.generated_num_phonemes": {
+      "mean": 168.0,
+      "std": 0.0,
+      "min": 168.0,
+      "max": 168.0
+    },
+    "phoneme_timing.inter_phoneme_gap_mae_seconds": {
+      "mean": 0.006913580246913566,
+      "std": 0.0,
+      "min": 0.006913580246913566,
+      "max": 0.006913580246913566
+    },
+    "phoneme_timing.matched_source_phoneme_fraction": {
+      "mean": 0.9588235294117647,
+      "std": 0.0,
+      "min": 0.9588235294117647,
+      "max": 0.9588235294117647
+    },
+    "phoneme_timing.mean_phoneme_timing_iou": {
+      "mean": 0.34745956907342634,
+      "std": 0.0,
+      "min": 0.34745956907342634,
+      "max": 0.34745956907342634
+    },
+    "phoneme_timing.num_phonemes": {
+      "mean": 163.0,
+      "std": 0.0,
+      "min": 163.0,
+      "max": 163.0
+    },
+    "phoneme_timing.phoneme_duration_mae_seconds": {
+      "mean": 0.024539877300613643,
+      "std": 0.0,
+      "min": 0.024539877300613643,
+      "max": 0.024539877300613643
+    },
+    "phoneme_timing.relative_phoneme_offset_mae_seconds": {
+      "mean": 0.07705521472392712,
+      "std": 0.0,
+      "min": 0.07705521472392712,
+      "max": 0.07705521472392712
+    },
+    "phoneme_timing.relative_phoneme_onset_mae_seconds": {
+      "mean": 0.07779141104294549,
+      "std": 0.0,
+      "min": 0.07779141104294549,
+      "max": 0.07779141104294549
+    },
+    "phoneme_timing.source_num_phonemes": {
+      "mean": 170.0,
+      "std": 0.0,
+      "min": 170.0,
+      "max": 170.0
+    },
+    "phoneme_timing.speech_span_ratio": {
+      "mean": 0.9961414790996783,
+      "std": 0.0,
+      "min": 0.9961414790996783,
+      "max": 0.9961414790996783
+    },
+    "speaker_similarity_ref": {
+      "mean": 0.9877489805221558,
+      "std": 0.0,
+      "min": 0.9877489805221558,
+      "max": 0.9877489805221558
+    },
+    "speaker_similarity_source": {
+      "mean": 0.8122054934501648,
+      "std": 0.0,
+      "min": 0.8122054934501648,
+      "max": 0.8122054934501648
+    },
+    "stress_f1": {
+      "mean": 0.6666666666666666,
+      "std": 0.0,
+      "min": 0.6666666666666666,
+      "max": 0.6666666666666666
+    },
+    "stress_precision": {
+      "mean": 0.6666666666666666,
+      "std": 0.0,
+      "min": 0.6666666666666666,
+      "max": 0.6666666666666666
+    },
+    "stress_recall": {
+      "mean": 0.6666666666666666,
+      "std": 0.0,
+      "min": 0.6666666666666666,
+      "max": 0.6666666666666666
+    },
+    "wer": {
+      "mean": 0.0,
+      "std": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "word_timing.first_word_onset_delta_seconds": {
+      "mean": 0.0,
+      "std": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "word_timing.inter_word_gap_mae_seconds": {
+      "mean": 0.02166666666666668,
+      "std": 0.0,
+      "min": 0.02166666666666668,
+      "max": 0.02166666666666668
+    },
+    "word_timing.mean_word_timing_iou": {
+      "mean": 0.6896932854379665,
+      "std": 0.0,
+      "min": 0.6896932854379665,
+      "max": 0.6896932854379665
+    },
+    "word_timing.num_excluded_word_timing_iou_pairs": {
+      "mean": 2.0,
+      "std": 0.0,
+      "min": 2.0,
+      "max": 2.0
+    },
+    "word_timing.num_word_timing_iou_pairs": {
+      "mean": 47.0,
+      "std": 0.0,
+      "min": 47.0,
+      "max": 47.0
+    },
+    "word_timing.num_words": {
+      "mean": 49.0,
+      "std": 0.0,
+      "min": 49.0,
+      "max": 49.0
+    },
+    "word_timing.relative_word_offset_mae_seconds": {
+      "mean": 0.07673469387755101,
+      "std": 0.0,
+      "min": 0.07673469387755101,
+      "max": 0.07673469387755101
+    },
+    "word_timing.relative_word_onset_mae_seconds": {
+      "mean": 0.07020408163265307,
+      "std": 0.0,
+      "min": 0.07020408163265307,
+      "max": 0.07020408163265307
+    },
+    "word_timing.speech_span_ratio": {
+      "mean": 0.9948453608247423,
+      "std": 0.0,
+      "min": 0.9948453608247423,
+      "max": 0.9948453608247423
+    },
+    "word_timing.word_duration_mae_seconds": {
+      "mean": 0.06857142857142857,
+      "std": 0.0,
+      "min": 0.06857142857142857,
+      "max": 0.06857142857142857
+    }
+  },
+  "num_complete_samples": 1,
+  "num_partial_samples": 0,
+  "num_failed_samples": 0,
+  "source_metrics": {
+    "dnsmos_sig": 3.5169375104056266,
+    "wer": 0.0,
+    "cer": 0.0
+  }
+}

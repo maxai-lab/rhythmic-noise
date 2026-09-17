@@ -1,0 +1,372 @@
+{
+  "clean_source_audio": null,
+  "source_audio": "/home/moshe_mandel/prosodic-noise/data/outputs-video/20260917-151807-119561_phase_prior_video/emmanuelle-charpentier-3_61e36d74__phase-0.5_band-0-0.3_mag-0.8_cfg-3_ref-3__mag-0_phase-0-0.3_cfg-3_seed-42_gain-0.8-0.8_ref-3_phase-weight-0.5-0_phase-band_voice-p228_0a067b03/chunk_00000/source.wav",
+  "ref_audio": "/home/moshe_mandel/prosodic-noise/data/outputs-video/20260917-151807-119561_phase_prior_video/emmanuelle-charpentier-3_61e36d74__phase-0.5_band-0-0.3_mag-0.8_cfg-3_ref-3__mag-0_phase-0-0.3_cfg-3_seed-42_gain-0.8-0.8_ref-3_phase-weight-0.5-0_phase-band_voice-p228_0a067b03/chunk_00000/reference.wav",
+  "generated_audio": "/home/moshe_mandel/prosodic-noise/data/outputs-video/20260917-151807-119561_phase_prior_video/emmanuelle-charpentier-3_61e36d74__phase-0.5_band-0-0.3_mag-0.8_cfg-3_ref-3__mag-0_phase-0-0.3_cfg-3_seed-42_gain-0.8-0.8_ref-3_phase-weight-0.5-0_phase-band_voice-p228_0a067b03/chunk_00000/generated.wav",
+  "transcript": "And then when you, when you start to understand the biological world, and specifically when you start to understand the microbial world, you also understand that the microbes work quite much as, you know, you find a lot of sociological aspects in the microbial world that are quite similar to our world.",
+  "transcript_file": "/home/moshe_mandel/prosodic-noise/data/outputs-video/20260917-151807-119561_phase_prior_video/inputs/emmanuelle-charpentier-3_61e36d74/chunk_00000/transcript.txt",
+  "evaluation": {
+    "status": "complete",
+    "metrics": {
+      "dnsmos_sig": 3.632352441307555,
+      "speaker_similarity_ref": 0.9915645122528076,
+      "speaker_similarity_source": 0.7269169092178345,
+      "accent_similarity_source": 0.18827921152114868,
+      "accent_accuracy_source": 0,
+      "accent_similarity_ref": 0.7966403365135193,
+      "accent_accuracy_ref": 1,
+      "emotion_similarity": 0.9981757998466492,
+      "emotion_accuracy": 1,
+      "f0_correlation": 0.8392864890422723,
+      "wer": 0.038461538461538464,
+      "cer": 0.028455284552845527,
+      "stress_precision": 1.0,
+      "stress_recall": 0.8571428571428571,
+      "stress_f1": 0.923076923076923,
+      "word_timing": {
+        "num_words": 52,
+        "first_word_onset_delta_seconds": 0.0,
+        "relative_word_onset_mae_seconds": 0.05538461538461527,
+        "relative_word_offset_mae_seconds": 0.06153846153846154,
+        "word_duration_mae_seconds": 0.06461538461538453,
+        "inter_word_gap_mae_seconds": 0.056470588235294196,
+        "speech_span_ratio": 1.0,
+        "mean_word_timing_iou": 0.7615542669890497,
+        "num_word_timing_iou_pairs": 46,
+        "num_excluded_word_timing_iou_pairs": 6
+      },
+      "phoneme_timing": {
+        "num_phonemes": 196,
+        "first_phoneme_onset_delta_seconds": -0.010000000000000009,
+        "relative_phoneme_onset_mae_seconds": 0.04015305612244883,
+        "relative_phoneme_offset_mae_seconds": 0.03744896428571416,
+        "phoneme_duration_mae_seconds": 0.031173581632653043,
+        "inter_phoneme_gap_mae_seconds": 0.006871794871794863,
+        "speech_span_ratio": 1.0013525698827774,
+        "mean_phoneme_timing_iou": 0.44068809513886387,
+        "source_num_phonemes": 201,
+        "generated_num_phonemes": 203,
+        "matched_source_phoneme_fraction": 0.9751243781094527
+      }
+    },
+    "source_metrics": {
+      "dnsmos_sig": 3.7205361454271024,
+      "wer": 0.038461538461538464,
+      "cer": 0.028455284552845527
+    },
+    "details": {
+      "language_context": {
+        "prompt_language": null,
+        "source_language": null,
+        "cross_language": false
+      },
+      "dnsmos": {
+        "SIG": 3.632352441307555,
+        "BAK": 4.191048680559232,
+        "OVRL": 3.4235332749445186,
+        "SIG_raw": 4.163754463195801,
+        "BAK_raw": 4.5293426513671875,
+        "OVRL_raw": 3.9975078105926514,
+        "num_hops": 13,
+        "len_in_sec": 22.76
+      },
+      "source_dnsmos": {
+        "SIG": 3.7205361454271024,
+        "BAK": 4.080915392885641,
+        "OVRL": 3.433308693711437,
+        "SIG_raw": 4.337433338165283,
+        "BAK_raw": 4.287222862243652,
+        "OVRL_raw": 4.014683246612549,
+        "num_hops": 13,
+        "len_in_sec": 22.76
+      },
+      "accent": {
+        "source_label": "us",
+        "ref_label": "england",
+        "generated_label": "england"
+      },
+      "emotion": {
+        "source_label": "\u4e2d\u7acb/neutral",
+        "generated_label": "\u4e2d\u7acb/neutral"
+      },
+      "asr": {
+        "transcription": "And then when you start to understand the biological world, and specifically when you start to understand the microbial world, you also understand that the microbes work quite much as, you know, you find a lot of sociological aspects in the microbial world that are quite similar to our world.",
+        "word_edits": 2,
+        "reference_words": 52,
+        "character_edits": 7,
+        "reference_characters": 246
+      },
+      "source_asr": {
+        "transcription": "And then when you start to understand the biological world, and specifically when you start to understand the microbial world, you also understand that the microbes work quite much as, you know, you find a lot of sociological aspects in the microbial world that are quite similar to our world.",
+        "word_edits": 2,
+        "reference_words": 52,
+        "character_edits": 7,
+        "reference_characters": 246
+      },
+      "stress": {
+        "reference_labels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1
+        ],
+        "predicted_labels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1
+        ],
+        "reference_sequence": [
+          {
+            "word": "And",
+            "label": 0
+          },
+          {
+            "word": "then",
+            "label": 0
+          },
+          {
+            "word": "when",
+            "label": 0
+          },
+          {
+            "word": "you,",
+            "label": 0
+          },
+          {
+            "word": "when",
+            "label": 0
+          },
+          {
+            "word": "you",
+            "label": 0
+          },
+          {
+            "word": "start",
+            "label": 0
+          },
+          {
+            "word": "to",
+            "label": 0
+          },
+          {
+            "word": "understand",
+            "label": 1
+          },
+          {
+            "word": "the",
+            "label": 0
+          },
+          {
+            "word": "biological",
+            "label": 1
+          },
+          {
+            "word": "world,",
+            "label": 1
+          },
+          {
+            "word": "and",
+            "label": 0
+          },
+          {
+            "word": "specifically",
+            "label": 1
+          },
+          {
+            "word": "when",
+            "label": 0
+          },
+          {
+            "word": "you",
+            "label": 0
+          },
+          {
+            "word": "start",
+            "label": 0
+          },
+          {
+            "word": "to",
+            "label": 0
+          },
+          {
+            "word": "understand",
+            "label": 0
+          },
+          {
+            "word": "the",
+            "label": 0
+          },
+          {
+            "word": "microbial",
+            "label": 1
+          },
+          {
+            "word": "world,",
+            "label": 1
+          },
+          {
+            "word": "you",
+            "label": 0
+          },
+          {
+            "word": "also",
+            "label": 1
+          }
+        ],
+        "predicted_sequence": [
+          {
+            "word": "And",
+            "label": 0
+          },
+          {
+            "word": "then",
+            "label": 0
+          },
+          {
+            "word": "when",
+            "label": 0
+          },
+          {
+            "word": "you,",
+            "label": 0
+          },
+          {
+            "word": "when",
+            "label": 0
+          },
+          {
+            "word": "you",
+            "label": 0
+          },
+          {
+            "word": "start",
+            "label": 0
+          },
+          {
+            "word": "to",
+            "label": 0
+          },
+          {
+            "word": "understand",
+            "label": 0
+          },
+          {
+            "word": "the",
+            "label": 0
+          },
+          {
+            "word": "biological",
+            "label": 1
+          },
+          {
+            "word": "world,",
+            "label": 1
+          },
+          {
+            "word": "and",
+            "label": 0
+          },
+          {
+            "word": "specifically",
+            "label": 1
+          },
+          {
+            "word": "when",
+            "label": 0
+          },
+          {
+            "word": "you",
+            "label": 0
+          },
+          {
+            "word": "start",
+            "label": 0
+          },
+          {
+            "word": "to",
+            "label": 0
+          },
+          {
+            "word": "understand",
+            "label": 0
+          },
+          {
+            "word": "the",
+            "label": 0
+          },
+          {
+            "word": "microbial",
+            "label": 1
+          },
+          {
+            "word": "world,",
+            "label": 1
+          },
+          {
+            "word": "you",
+            "label": 0
+          },
+          {
+            "word": "also",
+            "label": 1
+          }
+        ]
+      },
+      "metric_versions": {
+        "word_timing": "positive-duration-pairs-v2",
+        "phoneme_timing": "l2arctic-source-textgrid-v1"
+      }
+    },
+    "errors": {},
+    "skipped": {},
+    "models": {
+      "speaker": "microsoft/wavlm-base-plus-sv",
+      "accent": "Jzuluaga/accent-id-commonaccent_ecapa",
+      "emotion": "iic/emotion2vec_plus_large",
+      "asr": "openai/whisper-large-v3",
+      "word_aligner": "Qwen/Qwen3-ForcedAligner-0.6B",
+      "phoneme_aligner": "MFA 3"
+    }
+  }
+}

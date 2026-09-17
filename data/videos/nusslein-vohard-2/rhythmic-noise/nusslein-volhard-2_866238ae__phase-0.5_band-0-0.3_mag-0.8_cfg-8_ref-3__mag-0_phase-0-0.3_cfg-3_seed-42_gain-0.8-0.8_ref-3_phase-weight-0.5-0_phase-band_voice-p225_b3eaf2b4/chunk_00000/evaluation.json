@@ -1,0 +1,382 @@
+{
+  "clean_source_audio": null,
+  "source_audio": "/home/moshe_mandel/prosodic-noise/data/outputs-video/20260916-131652-490626_phase_prior_video/nusslein-volhard-2_866238ae__phase-0.5_band-0-0.3_mag-0.8_cfg-8_ref-3__mag-0_phase-0-0.3_cfg-3_seed-42_gain-0.8-0.8_ref-3_phase-weight-0.5-0_phase-band_voice-p225_b3eaf2b4/chunk_00000/source.wav",
+  "ref_audio": "/home/moshe_mandel/prosodic-noise/data/outputs-video/20260916-131652-490626_phase_prior_video/nusslein-volhard-2_866238ae__phase-0.5_band-0-0.3_mag-0.8_cfg-8_ref-3__mag-0_phase-0-0.3_cfg-3_seed-42_gain-0.8-0.8_ref-3_phase-weight-0.5-0_phase-band_voice-p225_b3eaf2b4/chunk_00000/reference.wav",
+  "generated_audio": "/home/moshe_mandel/prosodic-noise/data/outputs-video/20260916-131652-490626_phase_prior_video/nusslein-volhard-2_866238ae__phase-0.5_band-0-0.3_mag-0.8_cfg-8_ref-3__mag-0_phase-0-0.3_cfg-3_seed-42_gain-0.8-0.8_ref-3_phase-weight-0.5-0_phase-band_voice-p225_b3eaf2b4/chunk_00000/generated.wav",
+  "transcript": "You can count segments and you can see, and we had some, and we had a strange rule that every other segment was hit in one class of mutants in different manners, and then we had another class where the segment showed duplicated polarity of the tentacle bands.",
+  "transcript_file": "/home/moshe_mandel/prosodic-noise/data/outputs-video/20260916-131652-490626_phase_prior_video/inputs/nusslein-volhard-2_866238ae/chunk_00000/transcript.txt",
+  "evaluation": {
+    "status": "complete",
+    "metrics": {
+      "dnsmos_sig": 3.563892235983973,
+      "speaker_similarity_ref": 0.9667948484420776,
+      "speaker_similarity_source": 0.7439668774604797,
+      "accent_similarity_source": -0.12630756199359894,
+      "accent_accuracy_source": 0,
+      "accent_similarity_ref": 0.8633220791816711,
+      "accent_accuracy_ref": 1,
+      "emotion_similarity": 0.9817672967910767,
+      "emotion_accuracy": 1,
+      "f0_correlation": 0.7165790290757896,
+      "wer": 0.0,
+      "cer": 0.0,
+      "stress_precision": 0.5,
+      "stress_recall": 0.5,
+      "stress_f1": 0.5,
+      "word_timing": {
+        "num_words": 48,
+        "first_word_onset_delta_seconds": 0.08,
+        "relative_word_onset_mae_seconds": 0.1433333333333333,
+        "relative_word_offset_mae_seconds": 0.11833333333333351,
+        "word_duration_mae_seconds": 0.06833333333333333,
+        "inter_word_gap_mae_seconds": 0.08,
+        "speech_span_ratio": 0.9999999999999998,
+        "mean_word_timing_iou": 0.3880952380952373,
+        "num_word_timing_iou_pairs": 47,
+        "num_excluded_word_timing_iou_pairs": 1
+      },
+      "phoneme_timing": {
+        "num_phonemes": 159,
+        "first_phoneme_onset_delta_seconds": 0.020000000000000004,
+        "relative_phoneme_onset_mae_seconds": 0.8596855660377353,
+        "relative_phoneme_offset_mae_seconds": 0.8549056855345907,
+        "phoneme_duration_mae_seconds": 0.055345981132075305,
+        "inter_phoneme_gap_mae_seconds": 0.03702530379746839,
+        "speech_span_ratio": 0.9962506161622595,
+        "mean_phoneme_timing_iou": 0.09641969563529139,
+        "source_num_phonemes": 174,
+        "generated_num_phonemes": 171,
+        "matched_source_phoneme_fraction": 0.9137931034482759
+      }
+    },
+    "source_metrics": {
+      "dnsmos_sig": 3.586609077978824,
+      "wer": 0.0,
+      "cer": 0.0
+    },
+    "details": {
+      "language_context": {
+        "prompt_language": null,
+        "source_language": null,
+        "cross_language": false
+      },
+      "dnsmos": {
+        "SIG": 3.563892235983973,
+        "BAK": 4.1616015950766005,
+        "OVRL": 3.3290557811194192,
+        "SIG_raw": 4.035927772521973,
+        "BAK_raw": 4.461316108703613,
+        "OVRL_raw": 3.8368215560913086,
+        "num_hops": 9,
+        "len_in_sec": 18.92
+      },
+      "source_dnsmos": {
+        "SIG": 3.586609077978824,
+        "BAK": 3.9305617726204622,
+        "OVRL": 3.221311399924387,
+        "SIG_raw": 4.077668190002441,
+        "BAK_raw": 3.9981396198272705,
+        "OVRL_raw": 3.6600189208984375,
+        "num_hops": 9,
+        "len_in_sec": 18.92
+      },
+      "accent": {
+        "source_label": "indian",
+        "ref_label": "england",
+        "generated_label": "england"
+      },
+      "emotion": {
+        "source_label": "\u96be\u8fc7/sad",
+        "generated_label": "\u96be\u8fc7/sad"
+      },
+      "asr": {
+        "transcription": "You can count segments and you can see, and we had some, and we had a strange rule that every other segment was hit in one class of mutants in different manners. And then we had another class where the segment showed duplicated polarity of the tentacle bands.",
+        "word_edits": 0,
+        "reference_words": 48,
+        "character_edits": 0,
+        "reference_characters": 208
+      },
+      "source_asr": {
+        "transcription": "You can count segments and you can see, and we had some, and we had a strange rule that every other segment was hit in one class of mutants in different manners, and then we had another class where the segment showed duplicated polarity of the tentacle bands.",
+        "word_edits": 0,
+        "reference_words": 48,
+        "character_edits": 0,
+        "reference_characters": 208
+      },
+      "stress": {
+        "reference_labels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "predicted_labels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        "reference_sequence": [
+          {
+            "word": "You",
+            "label": 0
+          },
+          {
+            "word": "can",
+            "label": 0
+          },
+          {
+            "word": "count",
+            "label": 0
+          },
+          {
+            "word": "segments",
+            "label": 0
+          },
+          {
+            "word": "and",
+            "label": 0
+          },
+          {
+            "word": "you",
+            "label": 0
+          },
+          {
+            "word": "can",
+            "label": 0
+          },
+          {
+            "word": "see,",
+            "label": 0
+          },
+          {
+            "word": "and",
+            "label": 0
+          },
+          {
+            "word": "we",
+            "label": 0
+          },
+          {
+            "word": "had",
+            "label": 0
+          },
+          {
+            "word": "some,",
+            "label": 0
+          },
+          {
+            "word": "and",
+            "label": 0
+          },
+          {
+            "word": "we",
+            "label": 0
+          },
+          {
+            "word": "had",
+            "label": 0
+          },
+          {
+            "word": "a",
+            "label": 0
+          },
+          {
+            "word": "strange",
+            "label": 1
+          },
+          {
+            "word": "rule",
+            "label": 0
+          },
+          {
+            "word": "that",
+            "label": 0
+          },
+          {
+            "word": "every",
+            "label": 0
+          },
+          {
+            "word": "other",
+            "label": 1
+          },
+          {
+            "word": "segment",
+            "label": 0
+          },
+          {
+            "word": "was",
+            "label": 0
+          },
+          {
+            "word": "hit",
+            "label": 0
+          },
+          {
+            "word": "in",
+            "label": 0
+          }
+        ],
+        "predicted_sequence": [
+          {
+            "word": "You",
+            "label": 0
+          },
+          {
+            "word": "can",
+            "label": 0
+          },
+          {
+            "word": "count",
+            "label": 0
+          },
+          {
+            "word": "segments",
+            "label": 0
+          },
+          {
+            "word": "and",
+            "label": 0
+          },
+          {
+            "word": "you",
+            "label": 0
+          },
+          {
+            "word": "can",
+            "label": 0
+          },
+          {
+            "word": "see,",
+            "label": 0
+          },
+          {
+            "word": "and",
+            "label": 0
+          },
+          {
+            "word": "we",
+            "label": 0
+          },
+          {
+            "word": "had",
+            "label": 0
+          },
+          {
+            "word": "some,",
+            "label": 0
+          },
+          {
+            "word": "and",
+            "label": 0
+          },
+          {
+            "word": "we",
+            "label": 0
+          },
+          {
+            "word": "had",
+            "label": 0
+          },
+          {
+            "word": "a",
+            "label": 0
+          },
+          {
+            "word": "strange",
+            "label": 0
+          },
+          {
+            "word": "rule",
+            "label": 0
+          },
+          {
+            "word": "that",
+            "label": 0
+          },
+          {
+            "word": "every",
+            "label": 0
+          },
+          {
+            "word": "other",
+            "label": 1
+          },
+          {
+            "word": "segment",
+            "label": 0
+          },
+          {
+            "word": "was",
+            "label": 0
+          },
+          {
+            "word": "hit",
+            "label": 1
+          },
+          {
+            "word": "in",
+            "label": 0
+          }
+        ]
+      },
+      "metric_versions": {
+        "word_timing": "positive-duration-pairs-v2",
+        "phoneme_timing": "l2arctic-source-textgrid-v1"
+      }
+    },
+    "errors": {},
+    "skipped": {},
+    "models": {
+      "speaker": "microsoft/wavlm-base-plus-sv",
+      "accent": "Jzuluaga/accent-id-commonaccent_ecapa",
+      "emotion": "iic/emotion2vec_plus_large",
+      "asr": "openai/whisper-large-v3",
+      "word_aligner": "Qwen/Qwen3-ForcedAligner-0.6B",
+      "phoneme_aligner": "MFA 3"
+    }
+  }
+}

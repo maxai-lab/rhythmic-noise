@@ -1,0 +1,1124 @@
+{
+  "source": {
+    "words": [
+      {
+        "label": "The",
+        "start": 0.48,
+        "end": 0.56
+      },
+      {
+        "label": "theme",
+        "start": 0.56,
+        "end": 0.8
+      },
+      {
+        "label": "of",
+        "start": 0.8,
+        "end": 0.96
+      },
+      {
+        "label": "Interspeech",
+        "start": 0.96,
+        "end": 1.6
+      },
+      {
+        "label": "two",
+        "start": 1.6,
+        "end": 1.68
+      },
+      {
+        "label": "thousand",
+        "start": 1.68,
+        "end": 2.08
+      },
+      {
+        "label": "twenty",
+        "start": 2.08,
+        "end": 2.48
+      },
+      {
+        "label": "six",
+        "start": 2.48,
+        "end": 2.56
+      },
+      {
+        "label": "is",
+        "start": 3.28,
+        "end": 3.44
+      },
+      {
+        "label": "Speaking",
+        "start": 3.52,
+        "end": 4.0
+      },
+      {
+        "label": "Together",
+        "start": 4.0,
+        "end": 4.4
+      },
+      {
+        "label": "That",
+        "start": 5.36,
+        "end": 5.6
+      },
+      {
+        "label": "is",
+        "start": 5.76,
+        "end": 6.0
+      },
+      {
+        "label": "how",
+        "start": 6.16,
+        "end": 6.72
+      },
+      {
+        "label": "this",
+        "start": 7.04,
+        "end": 7.12
+      },
+      {
+        "label": "field",
+        "start": 7.12,
+        "end": 7.44
+      },
+      {
+        "label": "has",
+        "start": 7.44,
+        "end": 7.68
+      },
+      {
+        "label": "always",
+        "start": 7.68,
+        "end": 8.08
+      },
+      {
+        "label": "made",
+        "start": 8.08,
+        "end": 8.32
+      },
+      {
+        "label": "progress",
+        "start": 8.32,
+        "end": 8.8
+      },
+      {
+        "label": "I",
+        "start": 9.52,
+        "end": 9.68
+      },
+      {
+        "label": "hope",
+        "start": 9.68,
+        "end": 10.16
+      },
+      {
+        "label": "to",
+        "start": 10.4,
+        "end": 10.48
+      },
+      {
+        "label": "see",
+        "start": 10.48,
+        "end": 10.72
+      },
+      {
+        "label": "you",
+        "start": 10.72,
+        "end": 10.96
+      },
+      {
+        "label": "in",
+        "start": 11.04,
+        "end": 11.2
+      },
+      {
+        "label": "Sydney",
+        "start": 11.2,
+        "end": 11.6
+      }
+    ],
+    "phonemes": [
+      {
+        "label": "d\u032a",
+        "start": 0.47,
+        "end": 0.51
+      },
+      {
+        "label": "\u0259",
+        "start": 0.51,
+        "end": 0.54
+      },
+      {
+        "label": "t\u032a",
+        "start": 0.54,
+        "end": 0.64
+      },
+      {
+        "label": "i\u02d0",
+        "start": 0.64,
+        "end": 0.72
+      },
+      {
+        "label": "m",
+        "start": 0.72,
+        "end": 0.78
+      },
+      {
+        "label": "\u0259",
+        "start": 0.78,
+        "end": 0.89
+      },
+      {
+        "label": "t\u02b0",
+        "start": 1.53,
+        "end": 1.64
+      },
+      {
+        "label": "\u0289\u02d0",
+        "start": 1.64,
+        "end": 1.71
+      },
+      {
+        "label": "\u03b8",
+        "start": 1.71,
+        "end": 1.75
+      },
+      {
+        "label": "aw",
+        "start": 1.75,
+        "end": 1.85
+      },
+      {
+        "label": "z",
+        "start": 1.85,
+        "end": 1.9
+      },
+      {
+        "label": "\u0259",
+        "start": 1.9,
+        "end": 1.99
+      },
+      {
+        "label": "n",
+        "start": 1.99,
+        "end": 2.07
+      },
+      {
+        "label": "t\u02b7",
+        "start": 2.07,
+        "end": 2.17
+      },
+      {
+        "label": "\u025b",
+        "start": 2.17,
+        "end": 2.23
+      },
+      {
+        "label": "n",
+        "start": 2.23,
+        "end": 2.3
+      },
+      {
+        "label": "t\u02b2",
+        "start": 2.3,
+        "end": 2.38
+      },
+      {
+        "label": "i",
+        "start": 2.38,
+        "end": 2.47
+      },
+      {
+        "label": "s",
+        "start": 2.47,
+        "end": 2.61
+      },
+      {
+        "label": "\u026a",
+        "start": 2.61,
+        "end": 2.68
+      },
+      {
+        "label": "k",
+        "start": 2.68,
+        "end": 2.86
+      },
+      {
+        "label": "s",
+        "start": 2.86,
+        "end": 3.05
+      },
+      {
+        "label": "\u026a",
+        "start": 3.25,
+        "end": 3.38
+      },
+      {
+        "label": "z",
+        "start": 3.38,
+        "end": 3.41
+      },
+      {
+        "label": "s",
+        "start": 3.5,
+        "end": 3.62
+      },
+      {
+        "label": "p\u02b2",
+        "start": 3.62,
+        "end": 3.7
+      },
+      {
+        "label": "i\u02d0",
+        "start": 3.7,
+        "end": 3.79
+      },
+      {
+        "label": "c",
+        "start": 3.79,
+        "end": 3.88
+      },
+      {
+        "label": "\u026a",
+        "start": 3.88,
+        "end": 3.96
+      },
+      {
+        "label": "\u014b",
+        "start": 3.96,
+        "end": 4.02
+      },
+      {
+        "label": "t\u02b0",
+        "start": 4.02,
+        "end": 4.13
+      },
+      {
+        "label": "\u028a",
+        "start": 4.13,
+        "end": 4.15
+      },
+      {
+        "label": "\u0261",
+        "start": 4.15,
+        "end": 4.18
+      },
+      {
+        "label": "\u025b",
+        "start": 4.18,
+        "end": 4.27
+      },
+      {
+        "label": "\u00f0",
+        "start": 4.27,
+        "end": 4.3
+      },
+      {
+        "label": "\u025a",
+        "start": 4.3,
+        "end": 4.33
+      },
+      {
+        "label": "\u00e6",
+        "start": 4.33,
+        "end": 4.44
+      },
+      {
+        "label": "t",
+        "start": 4.44,
+        "end": 4.47
+      },
+      {
+        "label": "z",
+        "start": 4.47,
+        "end": 4.62
+      },
+      {
+        "label": "h",
+        "start": 5.39,
+        "end": 5.42
+      },
+      {
+        "label": "aw",
+        "start": 5.42,
+        "end": 5.66
+      },
+      {
+        "label": "d\u032a",
+        "start": 5.66,
+        "end": 5.76
+      },
+      {
+        "label": "\u026a",
+        "start": 5.76,
+        "end": 5.83
+      },
+      {
+        "label": "s",
+        "start": 5.83,
+        "end": 5.95
+      },
+      {
+        "label": "f\u02b2",
+        "start": 5.95,
+        "end": 6.01
+      },
+      {
+        "label": "i",
+        "start": 6.01,
+        "end": 6.04
+      },
+      {
+        "label": "\u026b",
+        "start": 6.04,
+        "end": 6.07
+      },
+      {
+        "label": "d",
+        "start": 6.07,
+        "end": 6.1
+      },
+      {
+        "label": "h",
+        "start": 6.1,
+        "end": 6.2
+      },
+      {
+        "label": "\u00e6",
+        "start": 6.2,
+        "end": 6.24
+      },
+      {
+        "label": "s",
+        "start": 6.24,
+        "end": 6.27
+      },
+      {
+        "label": "\u0251\u02d0",
+        "start": 6.27,
+        "end": 6.49
+      },
+      {
+        "label": "\u026b",
+        "start": 6.49,
+        "end": 6.56
+      },
+      {
+        "label": "w",
+        "start": 6.56,
+        "end": 6.59
+      },
+      {
+        "label": "ej",
+        "start": 6.59,
+        "end": 6.65
+      },
+      {
+        "label": "z",
+        "start": 6.65,
+        "end": 6.68
+      },
+      {
+        "label": "m",
+        "start": 7.03,
+        "end": 7.06
+      },
+      {
+        "label": "ej",
+        "start": 7.06,
+        "end": 7.09
+      },
+      {
+        "label": "d",
+        "start": 7.09,
+        "end": 7.19
+      },
+      {
+        "label": "p",
+        "start": 7.19,
+        "end": 7.22
+      },
+      {
+        "label": "\u0279",
+        "start": 7.22,
+        "end": 7.26
+      },
+      {
+        "label": "\u0259",
+        "start": 7.26,
+        "end": 7.34
+      },
+      {
+        "label": "\u025f",
+        "start": 7.34,
+        "end": 7.49
+      },
+      {
+        "label": "\u0279",
+        "start": 7.49,
+        "end": 7.52
+      },
+      {
+        "label": "\u025b",
+        "start": 7.52,
+        "end": 7.59
+      },
+      {
+        "label": "s",
+        "start": 7.59,
+        "end": 7.68
+      },
+      {
+        "label": "aj",
+        "start": 7.68,
+        "end": 8.27
+      },
+      {
+        "label": "h",
+        "start": 8.37,
+        "end": 8.4
+      },
+      {
+        "label": "ow",
+        "start": 8.4,
+        "end": 8.51
+      },
+      {
+        "label": "p",
+        "start": 8.51,
+        "end": 8.56
+      },
+      {
+        "label": "\u0259",
+        "start": 8.56,
+        "end": 8.68
+      },
+      {
+        "label": "s",
+        "start": 8.68,
+        "end": 8.78
+      },
+      {
+        "label": "i\u02d0",
+        "start": 8.78,
+        "end": 8.81
+      },
+      {
+        "label": "j",
+        "start": 9.55,
+        "end": 9.6
+      },
+      {
+        "label": "\u0259",
+        "start": 9.6,
+        "end": 10.09
+      },
+      {
+        "label": "\u026a",
+        "start": 10.4,
+        "end": 10.44
+      },
+      {
+        "label": "n",
+        "start": 10.44,
+        "end": 10.47
+      },
+      {
+        "label": "s",
+        "start": 10.47,
+        "end": 10.59
+      },
+      {
+        "label": "\u026a",
+        "start": 10.59,
+        "end": 10.88
+      },
+      {
+        "label": "d",
+        "start": 10.88,
+        "end": 11.02
+      },
+      {
+        "label": "\u0272",
+        "start": 11.02,
+        "end": 11.08
+      },
+      {
+        "label": "i",
+        "start": 11.08,
+        "end": 11.16
+      }
+    ]
+  },
+  "generated": {
+    "words": [
+      {
+        "label": "The",
+        "start": 0.48,
+        "end": 0.56
+      },
+      {
+        "label": "theme",
+        "start": 0.56,
+        "end": 0.88
+      },
+      {
+        "label": "of",
+        "start": 0.88,
+        "end": 0.96
+      },
+      {
+        "label": "Interspeech",
+        "start": 0.96,
+        "end": 1.6
+      },
+      {
+        "label": "two",
+        "start": 1.6,
+        "end": 1.76
+      },
+      {
+        "label": "thousand",
+        "start": 1.76,
+        "end": 2.16
+      },
+      {
+        "label": "twenty",
+        "start": 2.16,
+        "end": 2.48
+      },
+      {
+        "label": "six",
+        "start": 2.48,
+        "end": 2.96
+      },
+      {
+        "label": "is",
+        "start": 3.44,
+        "end": 3.6
+      },
+      {
+        "label": "Speaking",
+        "start": 3.6,
+        "end": 4.0
+      },
+      {
+        "label": "Together",
+        "start": 4.0,
+        "end": 4.48
+      },
+      {
+        "label": "That",
+        "start": 5.36,
+        "end": 5.6
+      },
+      {
+        "label": "is",
+        "start": 5.76,
+        "end": 6.0
+      },
+      {
+        "label": "how",
+        "start": 6.0,
+        "end": 6.64
+      },
+      {
+        "label": "this",
+        "start": 6.96,
+        "end": 7.12
+      },
+      {
+        "label": "field",
+        "start": 7.12,
+        "end": 7.52
+      },
+      {
+        "label": "has",
+        "start": 7.52,
+        "end": 7.68
+      },
+      {
+        "label": "always",
+        "start": 7.68,
+        "end": 8.0
+      },
+      {
+        "label": "made",
+        "start": 8.0,
+        "end": 8.16
+      },
+      {
+        "label": "progress",
+        "start": 8.16,
+        "end": 8.8
+      },
+      {
+        "label": "I",
+        "start": 9.6,
+        "end": 9.76
+      },
+      {
+        "label": "hope",
+        "start": 9.76,
+        "end": 10.0
+      },
+      {
+        "label": "to",
+        "start": 10.4,
+        "end": 10.48
+      },
+      {
+        "label": "see",
+        "start": 10.48,
+        "end": 10.64
+      },
+      {
+        "label": "you",
+        "start": 10.64,
+        "end": 10.96
+      },
+      {
+        "label": "in",
+        "start": 11.04,
+        "end": 11.2
+      },
+      {
+        "label": "Sydney",
+        "start": 11.2,
+        "end": 11.68
+      }
+    ],
+    "phonemes": [
+      {
+        "label": "d\u032a",
+        "start": 0.44,
+        "end": 0.49
+      },
+      {
+        "label": "\u0259",
+        "start": 0.49,
+        "end": 0.54
+      },
+      {
+        "label": "\u03b8",
+        "start": 0.54,
+        "end": 0.66
+      },
+      {
+        "label": "i\u02d0",
+        "start": 0.66,
+        "end": 0.79
+      },
+      {
+        "label": "m",
+        "start": 0.79,
+        "end": 0.86
+      },
+      {
+        "label": "\u0259",
+        "start": 0.86,
+        "end": 0.9
+      },
+      {
+        "label": "v",
+        "start": 0.9,
+        "end": 0.93
+      },
+      {
+        "label": "t\u02b0",
+        "start": 1.55,
+        "end": 1.67
+      },
+      {
+        "label": "\u0289\u02d0",
+        "start": 1.67,
+        "end": 1.75
+      },
+      {
+        "label": "\u03b8",
+        "start": 1.75,
+        "end": 1.83
+      },
+      {
+        "label": "aw",
+        "start": 1.83,
+        "end": 1.99
+      },
+      {
+        "label": "z",
+        "start": 1.99,
+        "end": 2.05
+      },
+      {
+        "label": "\u0259",
+        "start": 2.05,
+        "end": 2.09
+      },
+      {
+        "label": "n",
+        "start": 2.09,
+        "end": 2.13
+      },
+      {
+        "label": "t\u02b7",
+        "start": 2.13,
+        "end": 2.23
+      },
+      {
+        "label": "\u025b",
+        "start": 2.23,
+        "end": 2.29
+      },
+      {
+        "label": "n",
+        "start": 2.29,
+        "end": 2.33
+      },
+      {
+        "label": "t\u02b2",
+        "start": 2.33,
+        "end": 2.4
+      },
+      {
+        "label": "i",
+        "start": 2.4,
+        "end": 2.45
+      },
+      {
+        "label": "s",
+        "start": 2.45,
+        "end": 2.59
+      },
+      {
+        "label": "\u026a",
+        "start": 2.59,
+        "end": 2.73
+      },
+      {
+        "label": "k",
+        "start": 2.73,
+        "end": 2.81
+      },
+      {
+        "label": "s",
+        "start": 2.81,
+        "end": 3.0
+      },
+      {
+        "label": "\u026a",
+        "start": 3.46,
+        "end": 3.54
+      },
+      {
+        "label": "z",
+        "start": 3.54,
+        "end": 3.59
+      },
+      {
+        "label": "s",
+        "start": 3.59,
+        "end": 3.67
+      },
+      {
+        "label": "p\u02b2",
+        "start": 3.67,
+        "end": 3.74
+      },
+      {
+        "label": "i\u02d0",
+        "start": 3.74,
+        "end": 3.83
+      },
+      {
+        "label": "c",
+        "start": 3.83,
+        "end": 3.93
+      },
+      {
+        "label": "\u026a",
+        "start": 3.93,
+        "end": 3.96
+      },
+      {
+        "label": "\u014b",
+        "start": 3.96,
+        "end": 4.03
+      },
+      {
+        "label": "t\u02b0",
+        "start": 4.03,
+        "end": 4.09
+      },
+      {
+        "label": "\u028a",
+        "start": 4.09,
+        "end": 4.11
+      },
+      {
+        "label": "\u0261",
+        "start": 4.11,
+        "end": 4.18
+      },
+      {
+        "label": "\u025b",
+        "start": 4.18,
+        "end": 4.28
+      },
+      {
+        "label": "\u00f0",
+        "start": 4.28,
+        "end": 4.35
+      },
+      {
+        "label": "\u025a",
+        "start": 4.35,
+        "end": 4.51
+      },
+      {
+        "label": "d\u032a",
+        "start": 5.3,
+        "end": 5.4
+      },
+      {
+        "label": "\u00e6",
+        "start": 5.4,
+        "end": 5.53
+      },
+      {
+        "label": "t",
+        "start": 5.53,
+        "end": 5.61
+      },
+      {
+        "label": "\u026a",
+        "start": 5.76,
+        "end": 5.91
+      },
+      {
+        "label": "z",
+        "start": 5.91,
+        "end": 5.99
+      },
+      {
+        "label": "h",
+        "start": 5.99,
+        "end": 6.24
+      },
+      {
+        "label": "aw",
+        "start": 6.24,
+        "end": 6.67
+      },
+      {
+        "label": "d\u032a",
+        "start": 6.96,
+        "end": 7.0
+      },
+      {
+        "label": "\u026a",
+        "start": 7.0,
+        "end": 7.08
+      },
+      {
+        "label": "s",
+        "start": 7.08,
+        "end": 7.15
+      },
+      {
+        "label": "f\u02b2",
+        "start": 7.15,
+        "end": 7.27
+      },
+      {
+        "label": "i",
+        "start": 7.27,
+        "end": 7.38
+      },
+      {
+        "label": "\u026b",
+        "start": 7.38,
+        "end": 7.49
+      },
+      {
+        "label": "d",
+        "start": 7.49,
+        "end": 7.53
+      },
+      {
+        "label": "h",
+        "start": 7.53,
+        "end": 7.57
+      },
+      {
+        "label": "\u00e6",
+        "start": 7.57,
+        "end": 7.62
+      },
+      {
+        "label": "z",
+        "start": 7.62,
+        "end": 7.67
+      },
+      {
+        "label": "\u0252\u02d0",
+        "start": 7.67,
+        "end": 7.75
+      },
+      {
+        "label": "\u026b",
+        "start": 7.75,
+        "end": 7.8
+      },
+      {
+        "label": "w",
+        "start": 7.8,
+        "end": 7.86
+      },
+      {
+        "label": "ej",
+        "start": 7.86,
+        "end": 7.93
+      },
+      {
+        "label": "z",
+        "start": 7.93,
+        "end": 7.99
+      },
+      {
+        "label": "m",
+        "start": 7.99,
+        "end": 8.06
+      },
+      {
+        "label": "ej",
+        "start": 8.06,
+        "end": 8.15
+      },
+      {
+        "label": "d",
+        "start": 8.15,
+        "end": 8.2
+      },
+      {
+        "label": "p",
+        "start": 8.2,
+        "end": 8.29
+      },
+      {
+        "label": "\u0279",
+        "start": 8.29,
+        "end": 8.33
+      },
+      {
+        "label": "ow",
+        "start": 8.33,
+        "end": 8.43
+      },
+      {
+        "label": "\u025f",
+        "start": 8.43,
+        "end": 8.47
+      },
+      {
+        "label": "\u0279",
+        "start": 8.47,
+        "end": 8.53
+      },
+      {
+        "label": "\u025b",
+        "start": 8.53,
+        "end": 8.63
+      },
+      {
+        "label": "s",
+        "start": 8.63,
+        "end": 8.83
+      },
+      {
+        "label": "aj",
+        "start": 9.57,
+        "end": 9.72
+      },
+      {
+        "label": "h",
+        "start": 9.72,
+        "end": 9.82
+      },
+      {
+        "label": "ow",
+        "start": 9.82,
+        "end": 9.98
+      },
+      {
+        "label": "p",
+        "start": 9.98,
+        "end": 10.13
+      },
+      {
+        "label": "t",
+        "start": 10.34,
+        "end": 10.42
+      },
+      {
+        "label": "\u0259",
+        "start": 10.42,
+        "end": 10.45
+      },
+      {
+        "label": "s",
+        "start": 10.45,
+        "end": 10.6
+      },
+      {
+        "label": "i\u02d0",
+        "start": 10.6,
+        "end": 10.66
+      },
+      {
+        "label": "j",
+        "start": 10.66,
+        "end": 10.79
+      },
+      {
+        "label": "\u0289\u02d0",
+        "start": 10.79,
+        "end": 11.02
+      },
+      {
+        "label": "\u026a",
+        "start": 11.05,
+        "end": 11.1
+      },
+      {
+        "label": "n",
+        "start": 11.1,
+        "end": 11.17
+      },
+      {
+        "label": "s",
+        "start": 11.17,
+        "end": 11.31
+      },
+      {
+        "label": "\u026a",
+        "start": 11.31,
+        "end": 11.37
+      },
+      {
+        "label": "d",
+        "start": 11.37,
+        "end": 11.44
+      },
+      {
+        "label": "\u0272",
+        "start": 11.44,
+        "end": 11.5
+      },
+      {
+        "label": "i",
+        "start": 11.5,
+        "end": 11.67
+      }
+    ]
+  }
+}

@@ -1,0 +1,574 @@
+{
+  "source": {
+    "words": [
+      {
+        "label": "Very",
+        "start": 0.16,
+        "end": 0.64
+      },
+      {
+        "label": "difficult",
+        "start": 0.64,
+        "end": 1.28
+      },
+      {
+        "label": "for",
+        "start": 1.28,
+        "end": 1.36
+      },
+      {
+        "label": "me",
+        "start": 1.36,
+        "end": 2.08
+      },
+      {
+        "label": "I'm",
+        "start": 2.16,
+        "end": 2.64
+      },
+      {
+        "label": "pure",
+        "start": 3.04,
+        "end": 3.36
+      },
+      {
+        "label": "Korean",
+        "start": 3.36,
+        "end": 4.0
+      },
+      {
+        "label": "I",
+        "start": 4.32,
+        "end": 4.48
+      },
+      {
+        "label": "couldn't",
+        "start": 4.48,
+        "end": 5.36
+      },
+      {
+        "label": "speak",
+        "start": 5.36,
+        "end": 5.68
+      },
+      {
+        "label": "English",
+        "start": 5.68,
+        "end": 6.24
+      },
+      {
+        "label": "so",
+        "start": 6.24,
+        "end": 6.64
+      }
+    ],
+    "phonemes": [
+      {
+        "label": "v",
+        "start": 0.21,
+        "end": 0.34
+      },
+      {
+        "label": "\u025b",
+        "start": 0.34,
+        "end": 0.48
+      },
+      {
+        "label": "\u0279",
+        "start": 0.48,
+        "end": 0.51
+      },
+      {
+        "label": "i",
+        "start": 0.51,
+        "end": 0.6
+      },
+      {
+        "label": "d\u02b2",
+        "start": 0.6,
+        "end": 0.7
+      },
+      {
+        "label": "\u026a",
+        "start": 0.7,
+        "end": 0.76
+      },
+      {
+        "label": "f\u02b2",
+        "start": 0.76,
+        "end": 0.85
+      },
+      {
+        "label": "\u026a",
+        "start": 0.85,
+        "end": 0.9
+      },
+      {
+        "label": "k",
+        "start": 0.9,
+        "end": 1.03
+      },
+      {
+        "label": "\u0259",
+        "start": 1.03,
+        "end": 1.09
+      },
+      {
+        "label": "\u026b",
+        "start": 1.09,
+        "end": 1.13
+      },
+      {
+        "label": "t",
+        "start": 1.13,
+        "end": 1.16
+      },
+      {
+        "label": "f",
+        "start": 1.29,
+        "end": 1.32
+      },
+      {
+        "label": "\u0252",
+        "start": 1.32,
+        "end": 1.36
+      },
+      {
+        "label": "\u0279",
+        "start": 1.36,
+        "end": 1.39
+      },
+      {
+        "label": "m\u02b2",
+        "start": 1.39,
+        "end": 1.49
+      },
+      {
+        "label": "i",
+        "start": 1.49,
+        "end": 1.76
+      },
+      {
+        "label": "aj",
+        "start": 2.14,
+        "end": 2.31
+      },
+      {
+        "label": "m",
+        "start": 2.31,
+        "end": 2.63
+      },
+      {
+        "label": "p\u02b2",
+        "start": 3.03,
+        "end": 3.17
+      },
+      {
+        "label": "\u028a",
+        "start": 3.17,
+        "end": 3.32
+      },
+      {
+        "label": "\u0279",
+        "start": 3.32,
+        "end": 3.4
+      },
+      {
+        "label": "k\u02b0",
+        "start": 3.4,
+        "end": 3.5
+      },
+      {
+        "label": "\u0259",
+        "start": 3.5,
+        "end": 3.55
+      },
+      {
+        "label": "\u0279",
+        "start": 3.55,
+        "end": 3.59
+      },
+      {
+        "label": "\u026a",
+        "start": 3.59,
+        "end": 3.75
+      },
+      {
+        "label": "\u0259",
+        "start": 3.75,
+        "end": 3.85
+      },
+      {
+        "label": "n",
+        "start": 3.85,
+        "end": 4.04
+      },
+      {
+        "label": "aj",
+        "start": 4.36,
+        "end": 4.51
+      },
+      {
+        "label": "k\u02b0",
+        "start": 4.51,
+        "end": 5.1
+      },
+      {
+        "label": "\u028a",
+        "start": 5.1,
+        "end": 5.12
+      },
+      {
+        "label": "\u0259",
+        "start": 5.12,
+        "end": 5.27
+      },
+      {
+        "label": "n",
+        "start": 5.27,
+        "end": 5.31
+      },
+      {
+        "label": "s",
+        "start": 5.31,
+        "end": 5.43
+      },
+      {
+        "label": "p\u02b2",
+        "start": 5.43,
+        "end": 5.52
+      },
+      {
+        "label": "i",
+        "start": 5.52,
+        "end": 5.59
+      },
+      {
+        "label": "k",
+        "start": 5.59,
+        "end": 5.65
+      },
+      {
+        "label": "\u026a",
+        "start": 5.65,
+        "end": 5.76
+      },
+      {
+        "label": "\u0272",
+        "start": 5.76,
+        "end": 5.85
+      },
+      {
+        "label": "\u025f",
+        "start": 5.85,
+        "end": 5.88
+      },
+      {
+        "label": "\u028e",
+        "start": 5.88,
+        "end": 5.91
+      },
+      {
+        "label": "\u026a",
+        "start": 5.91,
+        "end": 6.07
+      },
+      {
+        "label": "\u0283",
+        "start": 6.07,
+        "end": 6.22
+      },
+      {
+        "label": "s",
+        "start": 6.36,
+        "end": 6.4
+      },
+      {
+        "label": "ow",
+        "start": 6.4,
+        "end": 6.63
+      }
+    ]
+  },
+  "generated": {
+    "words": [
+      {
+        "label": "Very",
+        "start": 0.24,
+        "end": 0.56
+      },
+      {
+        "label": "difficult",
+        "start": 0.56,
+        "end": 1.2
+      },
+      {
+        "label": "for",
+        "start": 1.2,
+        "end": 1.36
+      },
+      {
+        "label": "me",
+        "start": 1.36,
+        "end": 1.68
+      },
+      {
+        "label": "I'm",
+        "start": 2.08,
+        "end": 2.48
+      },
+      {
+        "label": "pure",
+        "start": 3.04,
+        "end": 3.36
+      },
+      {
+        "label": "Korean",
+        "start": 3.36,
+        "end": 3.92
+      },
+      {
+        "label": "I",
+        "start": 4.88,
+        "end": 4.96
+      },
+      {
+        "label": "couldn't",
+        "start": 4.96,
+        "end": 5.28
+      },
+      {
+        "label": "speak",
+        "start": 5.28,
+        "end": 5.6
+      },
+      {
+        "label": "English",
+        "start": 5.6,
+        "end": 6.16
+      },
+      {
+        "label": "so",
+        "start": 6.16,
+        "end": 6.56
+      }
+    ],
+    "phonemes": [
+      {
+        "label": "v",
+        "start": 0.25,
+        "end": 0.36
+      },
+      {
+        "label": "\u025b",
+        "start": 0.36,
+        "end": 0.42
+      },
+      {
+        "label": "\u0279",
+        "start": 0.42,
+        "end": 0.53
+      },
+      {
+        "label": "i",
+        "start": 0.53,
+        "end": 0.57
+      },
+      {
+        "label": "d\u02b2",
+        "start": 0.57,
+        "end": 0.68
+      },
+      {
+        "label": "\u026a",
+        "start": 0.68,
+        "end": 0.74
+      },
+      {
+        "label": "f\u02b2",
+        "start": 0.74,
+        "end": 0.84
+      },
+      {
+        "label": "\u026a",
+        "start": 0.84,
+        "end": 0.89
+      },
+      {
+        "label": "k",
+        "start": 0.89,
+        "end": 0.99
+      },
+      {
+        "label": "\u026b\u0329",
+        "start": 0.99,
+        "end": 1.15
+      },
+      {
+        "label": "t",
+        "start": 1.15,
+        "end": 1.21
+      },
+      {
+        "label": "f",
+        "start": 1.21,
+        "end": 1.31
+      },
+      {
+        "label": "\u025a",
+        "start": 1.31,
+        "end": 1.34
+      },
+      {
+        "label": "m\u02b2",
+        "start": 1.34,
+        "end": 1.43
+      },
+      {
+        "label": "i",
+        "start": 1.43,
+        "end": 1.7
+      },
+      {
+        "label": "aj",
+        "start": 2.09,
+        "end": 2.31
+      },
+      {
+        "label": "m",
+        "start": 2.31,
+        "end": 2.48
+      },
+      {
+        "label": "p\u02b2",
+        "start": 3.06,
+        "end": 3.17
+      },
+      {
+        "label": "\u028a",
+        "start": 3.17,
+        "end": 3.3
+      },
+      {
+        "label": "\u0279",
+        "start": 3.3,
+        "end": 3.34
+      },
+      {
+        "label": "k\u02b0",
+        "start": 3.34,
+        "end": 3.46
+      },
+      {
+        "label": "\u0259",
+        "start": 3.46,
+        "end": 3.5
+      },
+      {
+        "label": "\u0279",
+        "start": 3.5,
+        "end": 3.57
+      },
+      {
+        "label": "\u026a",
+        "start": 3.57,
+        "end": 3.71
+      },
+      {
+        "label": "\u0259",
+        "start": 3.71,
+        "end": 3.76
+      },
+      {
+        "label": "n",
+        "start": 3.76,
+        "end": 3.9
+      },
+      {
+        "label": "aj",
+        "start": 4.87,
+        "end": 4.99
+      },
+      {
+        "label": "k\u02b0",
+        "start": 4.99,
+        "end": 5.1
+      },
+      {
+        "label": "\u028a",
+        "start": 5.1,
+        "end": 5.12
+      },
+      {
+        "label": "\u0259",
+        "start": 5.12,
+        "end": 5.2
+      },
+      {
+        "label": "n",
+        "start": 5.2,
+        "end": 5.29
+      },
+      {
+        "label": "s",
+        "start": 5.29,
+        "end": 5.4
+      },
+      {
+        "label": "p\u02b2",
+        "start": 5.4,
+        "end": 5.46
+      },
+      {
+        "label": "i",
+        "start": 5.46,
+        "end": 5.55
+      },
+      {
+        "label": "k",
+        "start": 5.55,
+        "end": 5.65
+      },
+      {
+        "label": "\u026a",
+        "start": 5.65,
+        "end": 5.69
+      },
+      {
+        "label": "\u0272",
+        "start": 5.69,
+        "end": 5.78
+      },
+      {
+        "label": "\u025f",
+        "start": 5.78,
+        "end": 5.81
+      },
+      {
+        "label": "\u028e",
+        "start": 5.81,
+        "end": 5.86
+      },
+      {
+        "label": "\u026a",
+        "start": 5.86,
+        "end": 5.97
+      },
+      {
+        "label": "\u0283",
+        "start": 5.97,
+        "end": 6.15
+      },
+      {
+        "label": "s",
+        "start": 6.15,
+        "end": 6.28
+      },
+      {
+        "label": "ow",
+        "start": 6.28,
+        "end": 6.55
+      }
+    ]
+  }
+}

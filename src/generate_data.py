@@ -1,0 +1,125 @@
+#!/usr/bin/env python3
+"""Index local demo assets and generate small video posters. No Python packages needed."""
+
+import argparse
+from concurrent.futures import ThreadPoolExecutor
+import json
+from pathlib import Path
+import shutil
+import subprocess
+
+SRC = Path(__file__).resolve().parent
+ROOT = SRC.parent
+EXPERIMENT = ROOT / "data/experiment/20260917-091055-272786_seed-phase"
+NAMES = {
+    "ada-yonath-1": "Ada Yonath",
+    "bernard-scholkopf-4": "Bernhard Schölkopf",
+    "emmanuelle-chapentier-3": "Emmanuelle Charpentier",
+    "han-kang-1": "Han Kang",
+    "junichi-yamagishi-5": "Junichi Yamagishi",
+    "nusslein-vohard-2": "Christiane Nüsslein-Volhard",
+    "olga-tokaczuk-1": "Olga Tokarczuk",
+    "shing-tung-yau-1": "Shing-Tung Yau",
+    "yann-lecun-3": "Yann LeCun",
+    "yuh-jong-youn-5": "Yuh-Jung Youn",
+}
+METHODS = [
+    {"id": "source", "label": "Source", "kind": "Original"},
+    {"id": "tts", "label": "TTS", "kind": "Benchmark"},
+    {"id": "seed-vc", "label": "Seed-VC", "kind": "Benchmark"},
+    {"id": "vevo-voice", "label": "Vevo-Voice", "kind": "Benchmark"},
+    {"id": "rhythmic-noise", "label": "Rhythmic Noise", "kind": "Ours"},
+]
+
+
+def asset_url(path):
+    if not path.is_file():
+        raise FileNotFoundError(path)
+    return "../" + path.relative_to(ROOT).as_posix()
+
+
+def exactly_one(paths, description):
+    paths = sorted(paths)
+    if len(paths) != 1:
+        raise ValueError(f"Expected one {description}; found {len(paths)}: {paths}")
+    return paths[0]
+
+
+def media_info(path):
+    result = subprocess.run(
+        ["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "json", str(path)],
+        check=True, capture_output=True, text=True,
+    )
+    return round(float(json.loads(result.stdout)["format"]["duration"]), 3)
+
+
+def index_video(job):
+    sample_id, method_id, path, refresh = job
+    poster = SRC / "assets/posters" / f"{sample_id}-{method_id}.jpg"
+    if refresh or not poster.exists() or poster.stat().st_mtime < path.stat().st_mtime:
+        subprocess.run(
+            ["ffmpeg", "-hide_banner", "-loglevel", "error", "-y", "-ss", "0.1", "-i", str(path),
+             "-frames:v", "1", "-vf", "scale=640:-2", "-q:v", "4", str(poster)],
+            check=True,
+        )
+    return {"src": asset_url(path), "poster": poster.relative_to(SRC).as_posix(), "duration": media_info(path)}
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--refresh-posters", action="store_true")
+    args = parser.parse_args()
+    for binary in ("ffmpeg", "ffprobe"):
+        if not shutil.which(binary):
+            parser.error(f"{binary} is needed to refresh the gallery. The checked-in page works without it.")
+    (SRC / "assets/posters").mkdir(parents=True, exist_ok=True)
+    samples, jobs = [], []
+    for folder in sorted((ROOT / "data/videos").iterdir()):
+        if not folder.is_dir() or folder.name.startswith("."):
+            continue
+        ours = folder / "rhythmic-noise"
+        if not ours.is_dir():
+            ours = folder / "rhythimic-noise"  # Existing dataset spelling.
+        transcript = exactly_one(ours.rglob("transcript_used.txt"), f"transcript in {folder.name}")
+        sample = {
+            "id": folder.name,
+            "name": NAMES.get(folder.name, folder.name.replace("-", " ").title()),
+            "transcript": transcript.read_text(encoding="utf-8").strip(),
+            "videos": {},
+        }
+        for method in METHODS:
+            method_id = method["id"]
+            if method_id == "source":
+                video = exactly_one(folder.glob("*.mp4"), f"source video in {folder.name}")
+            else:
+                method_folder = ours if method_id == "rhythmic-noise" else folder / method_id
+                video = exactly_one(method_folder.rglob("converted.mp4"), f"{method_id} video in {folder.name}")
+            jobs.append((folder.name, method_id, video, args.refresh_posters))
+        samples.append(sample)
+
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        for job, info in zip(jobs, pool.map(index_video, jobs)):
+            sample = next(sample for sample in samples if sample["id"] == job[0])
+            sample["videos"][job[1]] = info
+
+    config = json.loads((EXPERIMENT / "config.json").read_text(encoding="utf-8"))
+    experiment = {"transcript": config["text"], "clips": []}
+    for stem, label in [("source", "Source audio"), ("seed_42", "Seed 42"), ("seed_1235", "Seed 1235")]:
+        experiment["clips"].append({
+            "id": stem, "label": label,
+            "image": asset_url(EXPERIMENT / f"{stem}.spectrogram.viridis.plain.png"),
+            "audio": asset_url(EXPERIMENT / f"{stem}.wav"),
+            "duration": media_info(EXPERIMENT / f"{stem}.wav"),
+        })
+
+    data = {"experiment": experiment, "methods": METHODS, "samples": samples}
+    (SRC / "data.js").write_text(
+        "// Generated by generate_data.py. Local paths are relative to src/index.html.\n"
+        + "window.DEMO_DATA = " + json.dumps(data, ensure_ascii=False, indent=2) + ";\n",
+        encoding="utf-8",
+    )
+    print(f"Indexed {len(samples)} samples, {len(jobs)} videos, and 3 experiment audio clips into src/data.js.")
+
+
+if __name__ == "__main__":
+    main()

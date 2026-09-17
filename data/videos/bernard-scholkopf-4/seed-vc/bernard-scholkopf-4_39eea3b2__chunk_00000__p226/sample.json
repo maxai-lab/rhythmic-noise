@@ -1,0 +1,13 @@
+{
+  "name": "bernard-scholkopf-4_39eea3b2__chunk_00000__p226",
+  "source_audio": "/home/moshe_mandel/prosodic-noise/data/processed/video-segments/phase_prior_prepared/inputs/bernard-scholkopf-4_39eea3b2/chunk_00000/source.wav",
+  "reference_audio": "/home/moshe_mandel/prosodic-noise/data/processed/speakers/p226.wav",
+  "text": "And then just by a strike of luck last September it turned out one of those planets made the news because others found out that this was the very first planet in the habitable zone around its star, meaning in the right distance such that water could be liquid.",
+  "prepared_transcript_file": "/home/moshe_mandel/prosodic-noise/data/processed/video-segments/phase_prior_prepared/inputs/bernard-scholkopf-4_39eea3b2/chunk_00000/transcript.txt",
+  "input_video": "/home/moshe_mandel/prosodic-noise/data/raw/video-segments/bernard-scholkopf-4.mp4",
+  "video_name": "bernard-scholkopf-4_39eea3b2",
+  "chunk_name": "chunk_00000",
+  "reference_speaker": "p226",
+  "start_seconds": 0.0,
+  "end_seconds": 16.12
+}

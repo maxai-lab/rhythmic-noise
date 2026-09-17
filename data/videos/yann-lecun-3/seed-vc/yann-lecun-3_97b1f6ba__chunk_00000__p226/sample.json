@@ -1,0 +1,13 @@
+{
+  "name": "yann-lecun-3_97b1f6ba__chunk_00000__p226",
+  "source_audio": "/home/moshe_mandel/prosodic-noise/data/processed/video-segments/phase_prior_prepared/inputs/yann-lecun-3_97b1f6ba/chunk_00000/source.wav",
+  "reference_audio": "/home/moshe_mandel/prosodic-noise/data/processed/speakers/p226.wav",
+  "text": "So, you know, it's not just around the corner. I mean, I've been hearing people for the last 12, 15 years claiming that, you know, AGI is just around the corner and being systematically wrong. And I knew they were wrong when they were saying it. I called their bullshit <laughter>.",
+  "prepared_transcript_file": "/home/moshe_mandel/prosodic-noise/data/processed/video-segments/phase_prior_prepared/inputs/yann-lecun-3_97b1f6ba/chunk_00000/transcript.txt",
+  "input_video": "/home/moshe_mandel/prosodic-noise/data/raw/video-segments/yann-lecun-3.mp4",
+  "video_name": "yann-lecun-3_97b1f6ba",
+  "chunk_name": "chunk_00000",
+  "reference_speaker": "p226",
+  "start_seconds": 0.0,
+  "end_seconds": 17.333333333333332
+}

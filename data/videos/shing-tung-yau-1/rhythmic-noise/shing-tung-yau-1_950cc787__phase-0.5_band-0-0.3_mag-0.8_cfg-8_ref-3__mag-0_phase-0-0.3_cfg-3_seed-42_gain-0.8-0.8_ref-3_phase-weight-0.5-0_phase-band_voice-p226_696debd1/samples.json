@@ -1,0 +1,15 @@
+{
+  "samples": [
+    {
+      "name": "chunk_00000",
+      "text": "As long as you come up with something I feel I can do better than you, I can find new idea or new direction or new method, I can be better than you.",
+      "source_audio": "/home/moshe_mandel/prosodic-noise/data/outputs-video/20260916-131652-490626_phase_prior_video/inputs/shing-tung-yau-1_950cc787/chunk_00000/source.wav",
+      "reference_audio": "/home/moshe_mandel/prosodic-noise/data/outputs-video/20260916-131652-490626_phase_prior_video/reference_voices/696debd16cf1cb0b/reference_external_first10.wav",
+      "start_sample": 0,
+      "end_sample": 317760,
+      "start_seconds": 0.0,
+      "end_seconds": 13.24,
+      "transcript_file": "/home/moshe_mandel/prosodic-noise/data/outputs-video/20260916-131652-490626_phase_prior_video/inputs/shing-tung-yau-1_950cc787/chunk_00000/transcript.txt"
+    }
+  ]
+}

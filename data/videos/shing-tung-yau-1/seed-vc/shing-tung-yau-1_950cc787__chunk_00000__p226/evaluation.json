@@ -1,0 +1,392 @@
+{
+  "clean_source_audio": null,
+  "source_audio": "/home/moshe_mandel/prosodic-noise/data/outputs-seed-vc/video-segments/shing-tung-yau-1_950cc787__chunk_00000__p226/source.wav",
+  "ref_audio": "/home/moshe_mandel/prosodic-noise/data/outputs-seed-vc/video-segments/shing-tung-yau-1_950cc787__chunk_00000__p226/reference.wav",
+  "generated_audio": "/home/moshe_mandel/prosodic-noise/data/outputs-seed-vc/video-segments/shing-tung-yau-1_950cc787__chunk_00000__p226/generated.wav",
+  "transcript": "As long as you come up with something I feel I can do better than you, I can find new idea or new direction or new method, I can be better than you.",
+  "transcript_file": null,
+  "evaluation": {
+    "status": "complete",
+    "metrics": {
+      "dnsmos_sig": 3.7508120749966736,
+      "speaker_similarity_ref": 0.989814281463623,
+      "speaker_similarity_source": 0.5542622804641724,
+      "accent_similarity_source": 0.39145487546920776,
+      "accent_accuracy_source": 1,
+      "accent_similarity_ref": 0.7990322113037109,
+      "accent_accuracy_ref": 1,
+      "emotion_similarity": 0.9624645709991455,
+      "emotion_accuracy": 0,
+      "f0_correlation": 0.8621719171319251,
+      "wer": 0.18181818181818182,
+      "cer": 0.17699115044247787,
+      "stress_precision": 0.0,
+      "stress_recall": 0.0,
+      "stress_f1": 0.0,
+      "word_timing": {
+        "num_words": 33,
+        "first_word_onset_delta_seconds": 0.0,
+        "relative_word_onset_mae_seconds": 0.18666666666666673,
+        "relative_word_offset_mae_seconds": 0.1818181818181818,
+        "word_duration_mae_seconds": 0.07272727272727282,
+        "inter_word_gap_mae_seconds": 0.04000000000000005,
+        "speech_span_ratio": 1.0126582278481011,
+        "mean_word_timing_iou": 0.3869973544973545,
+        "num_word_timing_iou_pairs": 30,
+        "num_excluded_word_timing_iou_pairs": 3
+      },
+      "phoneme_timing": {
+        "num_phonemes": 83,
+        "first_phoneme_onset_delta_seconds": 0.010000000000000009,
+        "relative_phoneme_onset_mae_seconds": 0.180722891566265,
+        "relative_phoneme_offset_mae_seconds": 0.18409638554216867,
+        "phoneme_duration_mae_seconds": 0.03493975903614464,
+        "inter_phoneme_gap_mae_seconds": 0.013658536585365831,
+        "speech_span_ratio": 1.0165289256198349,
+        "mean_phoneme_timing_iou": 0.15199598461386873,
+        "source_num_phonemes": 90,
+        "generated_num_phonemes": 91,
+        "matched_source_phoneme_fraction": 0.9222222222222223
+      }
+    },
+    "source_metrics": {
+      "dnsmos_sig": 3.668753337077178,
+      "wer": 0.0,
+      "cer": 0.0
+    },
+    "details": {
+      "language_context": {
+        "prompt_language": null,
+        "source_language": null,
+        "cross_language": false
+      },
+      "dnsmos": {
+        "SIG": 3.7508120749966736,
+        "BAK": 4.219073509862802,
+        "OVRL": 3.5539861255987986,
+        "SIG_raw": 4.399791717529297,
+        "BAK_raw": 4.597876071929932,
+        "OVRL_raw": 4.230889320373535,
+        "num_hops": 4,
+        "len_in_sec": 13.3863125
+      },
+      "source_dnsmos": {
+        "SIG": 3.668753337077178,
+        "BAK": 3.801820860921621,
+        "OVRL": 3.252913755033112,
+        "SIG_raw": 4.23388147354126,
+        "BAK_raw": 3.7748184204101562,
+        "OVRL_raw": 3.7097339630126953,
+        "num_hops": 4,
+        "len_in_sec": 13.24
+      },
+      "accent": {
+        "source_label": "england",
+        "ref_label": "england",
+        "generated_label": "england"
+      },
+      "emotion": {
+        "source_label": "\u5f00\u5fc3/happy",
+        "generated_label": "\u4e2d\u7acb/neutral"
+      },
+      "asr": {
+        "transcription": "As Zamas, you come up something I feel I can do better than you. I can find new idea or new dialectic or new method I can add than you.",
+        "word_edits": 6,
+        "reference_words": 33,
+        "character_edits": 20,
+        "reference_characters": 113
+      },
+      "source_asr": {
+        "transcription": "As long as you come up with something I feel I can do better than you, I can find new idea or new direction or new method, I can be better than you.",
+        "word_edits": 0,
+        "reference_words": 33,
+        "character_edits": 0,
+        "reference_characters": 113
+      },
+      "stress": {
+        "reference_labels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "predicted_labels": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "reference_sequence": [
+          {
+            "word": "As",
+            "label": 0
+          },
+          {
+            "word": "long",
+            "label": 0
+          },
+          {
+            "word": "as",
+            "label": 0
+          },
+          {
+            "word": "you",
+            "label": 0
+          },
+          {
+            "word": "come",
+            "label": 0
+          },
+          {
+            "word": "up",
+            "label": 0
+          },
+          {
+            "word": "with",
+            "label": 0
+          },
+          {
+            "word": "something",
+            "label": 0
+          },
+          {
+            "word": "I",
+            "label": 0
+          },
+          {
+            "word": "feel",
+            "label": 0
+          },
+          {
+            "word": "I",
+            "label": 0
+          },
+          {
+            "word": "can",
+            "label": 0
+          },
+          {
+            "word": "do",
+            "label": 0
+          },
+          {
+            "word": "better",
+            "label": 0
+          },
+          {
+            "word": "than",
+            "label": 0
+          },
+          {
+            "word": "you,",
+            "label": 0
+          },
+          {
+            "word": "I",
+            "label": 0
+          },
+          {
+            "word": "can",
+            "label": 0
+          },
+          {
+            "word": "find",
+            "label": 0
+          },
+          {
+            "word": "new",
+            "label": 1
+          },
+          {
+            "word": "idea",
+            "label": 0
+          },
+          {
+            "word": "or",
+            "label": 0
+          },
+          {
+            "word": "new",
+            "label": 0
+          },
+          {
+            "word": "direction",
+            "label": 0
+          },
+          {
+            "word": "or",
+            "label": 0
+          },
+          {
+            "word": "new",
+            "label": 0
+          }
+        ],
+        "predicted_sequence": [
+          {
+            "word": "As",
+            "label": 0
+          },
+          {
+            "word": "long",
+            "label": 0
+          },
+          {
+            "word": "as",
+            "label": 0
+          },
+          {
+            "word": "you",
+            "label": 0
+          },
+          {
+            "word": "come",
+            "label": 0
+          },
+          {
+            "word": "up",
+            "label": 0
+          },
+          {
+            "word": "with",
+            "label": 0
+          },
+          {
+            "word": "something",
+            "label": 0
+          },
+          {
+            "word": "I",
+            "label": 0
+          },
+          {
+            "word": "feel",
+            "label": 0
+          },
+          {
+            "word": "I",
+            "label": 0
+          },
+          {
+            "word": "can",
+            "label": 0
+          },
+          {
+            "word": "do",
+            "label": 0
+          },
+          {
+            "word": "better",
+            "label": 0
+          },
+          {
+            "word": "than",
+            "label": 0
+          },
+          {
+            "word": "you,",
+            "label": 0
+          },
+          {
+            "word": "I",
+            "label": 0
+          },
+          {
+            "word": "can",
+            "label": 0
+          },
+          {
+            "word": "find",
+            "label": 0
+          },
+          {
+            "word": "new",
+            "label": 0
+          },
+          {
+            "word": "idea",
+            "label": 0
+          },
+          {
+            "word": "or",
+            "label": 0
+          },
+          {
+            "word": "new",
+            "label": 0
+          },
+          {
+            "word": "direction",
+            "label": 0
+          },
+          {
+            "word": "or",
+            "label": 0
+          },
+          {
+            "word": "new",
+            "label": 0
+          }
+        ]
+      },
+      "metric_versions": {
+        "word_timing": "positive-duration-pairs-v2",
+        "phoneme_timing": "l2arctic-source-textgrid-v1"
+      }
+    },
+    "errors": {},
+    "skipped": {},
+    "models": {
+      "speaker": "microsoft/wavlm-base-plus-sv",
+      "accent": "Jzuluaga/accent-id-commonaccent_ecapa",
+      "emotion": "iic/emotion2vec_plus_large",
+      "asr": "openai/whisper-large-v3",
+      "word_aligner": "Qwen/Qwen3-ForcedAligner-0.6B",
+      "phoneme_aligner": "MFA 3"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "samples": [
+    {
+      "name": "chunk_00000",
+      "text": "And then when you, when you start to understand the biological world, and specifically when you start to understand the microbial world, you also understand that the microbes work quite much as, you know, you find a lot of sociological aspects in the microbial world that are quite similar to our world.",
+      "source_audio": "/home/moshe_mandel/prosodic-noise/data/outputs-video/20260917-151807-119561_phase_prior_video/inputs/emmanuelle-charpentier-3_61e36d74/chunk_00000/source.wav",
+      "reference_audio": "/home/moshe_mandel/prosodic-noise/data/outputs-video/20260917-151807-119561_phase_prior_video/reference_voices/0a067b03fb992d11/reference_external_first10.wav",
+      "start_sample": 0,
+      "end_sample": 546240,
+      "start_seconds": 0.0,
+      "end_seconds": 22.76,
+      "transcript_file": "/home/moshe_mandel/prosodic-noise/data/outputs-video/20260917-151807-119561_phase_prior_video/inputs/emmanuelle-charpentier-3_61e36d74/chunk_00000/transcript.txt"
+    }
+  ]
+}
