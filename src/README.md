@@ -10,11 +10,19 @@ From the `demo-page` directory:
 python3 src/serve.py
 ```
 
-Open **http://localhost:8000/src/**. You can also open `src/index.html` directly in a browser.
+Open **http://localhost:8000/**. You can also open the repository-root `index.html` directly in a browser. The existing `/src/` entry point still works.
 
 The preview script serves static files with HTTP byte-range support so audio and video seeking work in Chrome. Python's basic `http.server` does not support this. Use `--port 8080` if port 8000 is already occupied.
 
-The page references the original images, audio, and videos in `../data/`. Keep `src/` and `data/` together when hosting; serve their parent directory and link to `/src/`. For deployment under a subdirectory, the same relative layout works. Use a static host that supports your video file sizes and byte-range requests for efficient seeking.
+## GitHub Pages
+
+Commit the root `index.html`, `.nojekyll`, `src/`, and `data/`. In the repository's **Settings → Pages**, select **Deploy from a branch**, choose the branch containing those files, and select **/ (root)** as the publishing folder.
+
+The root HTML file redirects to `src/index.html`, and `.nojekyll` disables Jekyll processing. CSS, JavaScript, images, audio, and videos are served as static files. No Python server or build command runs on GitHub Pages. JavaScript renders the gallery in the browser.
+
+Asset URLs work at both `https://username.github.io/` and `https://username.github.io/repository-name/`. Keep `index.html`, `src/`, and `data/` in their current relative layout; publishing only `src/` would omit the media.
+
+See [GitHub's Pages setup instructions](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site).
 
 ## Contents
 

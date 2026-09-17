@@ -2,6 +2,9 @@
   "use strict";
 
   const data = window.DEMO_DATA;
+  // Resolve dataset and poster URLs from this script, whether the page is
+  // opened at the repository root, under /src/, or under a Pages project path.
+  const assetBase = new URL(".", document.currentScript.src);
   const allPlayers = [];
   const icons = {
     play: '<path d="m5 3 11 7-11 7V3Z" fill="currentColor"/>',
@@ -158,18 +161,18 @@
     const caption = element("figcaption", "spectrogram-caption");
     caption.append(element("span", "", clip.label), element("span", "clip-kind", clip.id === "source" ? "INPUT" : "OUTPUT"));
     const link = element("a", "spectrogram-visual");
-    link.href = clip.image;
+    link.href = new URL(clip.image, assetBase).href;
     link.target = "_blank";
     link.rel = "noopener";
     link.setAttribute("aria-label", `View full-size spectrogram: ${clip.label}`);
     const image = element("img");
-    image.src = clip.image;
+    image.src = new URL(clip.image, assetBase).href;
     image.alt = `${clip.label} spectrogram, showing frequency content over time`;
     image.width = 1920;
     image.height = 912;
     link.append(image);
     const audio = element("audio");
-    audio.src = clip.audio;
+    audio.src = new URL(clip.audio, assetBase).href;
     audio.preload = "none";
     audio.controls = true;
     audio.setAttribute("aria-label", clip.label);
@@ -185,8 +188,8 @@
     caption.append(element("span", "", method.label), element("span", "method-kind", method.kind));
     const visual = element("div", "video-visual");
     const video = element("video");
-    video.src = asset.src;
-    video.poster = asset.poster;
+    video.src = new URL(asset.src, assetBase).href;
+    video.poster = new URL(asset.poster, assetBase).href;
     video.controls = true;
     video.playsInline = true;
     video.preload = "none";

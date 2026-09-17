@@ -79,7 +79,7 @@ def main():
     root = Path(__file__).resolve().parent.parent
     handler = partial(MediaHandler, directory=str(root))
     with ThreadingHTTPServer((args.bind, args.port), handler) as server:
-        print(f"Demo preview: http://{args.bind}:{args.port}/src/", flush=True)
+        print(f"Demo preview: http://{args.bind}:{args.port}/", flush=True)
         try:
             server.serve_forever()
         except KeyboardInterrupt:
